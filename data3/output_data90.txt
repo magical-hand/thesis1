@@ -1,0 +1,1192 @@
+He said further scientific study was required and if it was found that action was needed it should be taken by the European Union .|||O O O O O O O O O O O O O O O O O O O O O O B-ORG I-ORG O
+" What we have to be extremely careful of is how other countries are going to take Germany 's lead , " Welsh National Farmers ' Union ( NFU ) chairman John Lloyd Jones said on BBC radio .|||O O O O O O O O O O O O O O O O O B-LOC O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O B-ORG O O B-PER I-PER I-PER O O B-ORG I-ORG O
+Rare Hendrix song draft sells for almost $ 17,000 .|||O B-PER O O O O O O O O
+A rare early handwritten draft of a song by U.S. guitar legend Jimi Hendrix was sold for almost $ 17,000 on Thursday at an auction of some of the late musician 's favourite possessions .|||O O O O O O O O O B-LOC O O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O
+-DOCSTART-|||O
+China says time right for Taiwan talks .|||B-LOC O O O O B-LOC O O
+The figures represent a 13.6 percent increase for passenger cars and a 2.2 percent decline for trucks from July 1995 .|||O O O O O O O O O O O O O O O O O O O O O
+GREEK SOCIALISTS GIVE GREEN LIGHT TO PM FOR ELECTIONS .|||B-MISC O O O O O O O O O
+ATHENS 1996-08-22|||B-LOC O
+" It appears to me the Syrian priority is still to negotiate .|||O O O O O O B-MISC O O O O O O
+Tension has mounted since Israeli Prime Minister Benjamin Netanyahu took office in June vowing to retain the Golan Heights Israel captured from Syria in the 1967 Middle East war .|||O O O O B-MISC O O B-PER I-PER O O O O O O O O B-LOC I-LOC B-LOC O O B-LOC O O O B-LOC I-LOC O O
+" We expect from Syria , if its face is to peace , that it will answer Israel 's message to enter peace negotiations because that is our goal , " he said . "|||O O O O B-LOC O O O O O O O O O O O O B-LOC O O O O O O O O O O O O O O O O O
+No one benefits from wars . "|||O O O O O O O
+It said about 100 Iraqi Kurds were killed or wounded in the attack .|||O O O O B-MISC I-MISC O O O O O O O O
+The spot riyal was put at 3.7504 / 06 to the dollar .|||O O O O O O O O O O O O O
+" Our ambassador is in touch with the UAE foreign ministry .|||O O O O O O O O B-LOC O O O
+The Russians , working for the Aerostan firm in the Russian republic of Tatarstan , were taken hostage after a Taleban MiG-19 fighter forced their cargo plane to land in August 1995 .|||O B-MISC O O O O B-ORG O O O B-MISC O O B-LOC O O O O O O B-MISC B-MISC O O O O O O O O O O O
+The Russians , who said they overpowered the guards -- two armed with Kalashnikov automatic rifles -- while doing regular maintenance work on their Ilyushin 76 cargo plane last Friday , left the UAE capital Abu Dhabi for home on Sunday .|||O B-MISC O O O O O O O O O O O B-MISC O O O O O O O O O O B-MISC I-MISC O O O O O O O B-LOC O B-LOC I-LOC O O O O O
+They said Zhirinovsky told Saddam before he left Baghdad on Wednesday that his Liberal Democratic party and the Russian Duma ( parliament ) " are calling for an immediate lifting of the embargo " imposed on Iraq after its 1990 invasion of Kuwait .|||O O B-PER O B-PER O O O B-LOC O O O O B-ORG I-ORG I-ORG O O B-MISC B-ORG O O O O O O O O O O O O O O O O B-LOC O O O O O B-LOC O
+IRAQ|||B-LOC
+- A shipload of 12 tonnes of rice arrives in Umm Qasr port in the Gulf .|||O O O O O O O O O O B-LOC I-LOC O O O B-LOC O
+AL-ANWAR|||B-ORG
+- Continued criticism of law violation incidents -- which occurred in the Mount Lebanon elections last Sunday .|||O O O O O O O O O O O O B-LOC I-LOC O O O O
+KinderCare Learning Centers Inc said on Thursday that a debt buyback would mean an extraordinary loss of $ 1.2 million in its fiscal 1997 first quarter .|||B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O O O
+-DOCSTART-|||O
+-DOCSTART-|||O
+Services Revenue 1,154 692 624 465|||O O O O O O
+Net Income 821 512 565 301|||O O O O O O
+PRESS DIGEST - France - Le Monde Aug 22 .|||O O O B-LOC O B-ORG I-ORG O O O
+-DOCSTART-|||O
+( players U.S. unless stated ) :|||O O B-LOC O O O O
+Scorers :|||O O
+Sir Mark Prescott landed his first group one victory in 25 years as a trainer when his top sprinter Pivotal , a 100-30 chance , won the Nunthorpe Stakes on Thursday .|||O B-PER I-PER O O O O O O O O O O O O O O O O B-PER O O O O O O O B-MISC I-MISC O O O
+8 - Nathalie Tauziat ( France ) beat Shi-Ting Wang ( Taiwan ) 6-4|||O O B-PER I-PER O B-LOC O O B-PER I-PER O B-LOC O O
+Firsy day|||O O
+third and final test between England and Pakistan at The Oval on|||O O O O O B-LOC O B-LOC O B-LOC I-LOC O
+Glasgow Rangers striker Ally McCoist , another man in form after two hat-tricks in four days , was also named for the August 31 World Cup qualifier against Austria in Vienna .|||B-ORG I-ORG O B-PER I-PER O O O O O O O O O O O O O O O O O O O B-MISC I-MISC O O B-LOC O B-LOC O
+Ally McCoist is also in great scoring form at the moment . "|||B-PER I-PER O O O O O O O O O O O
+-DOCSTART-|||O
+Results from the Canadian Open|||O O O B-MISC I-MISC
+3 - Wayne Ferreira ( South Africa ) beat Jiri Novak ( Czech|||O O B-PER I-PER O B-LOC I-LOC O O B-PER I-PER O B-LOC
+9 - Cedric Pioline ( France ) beat Gregory Carraz ( France ) 7-6|||O O B-PER I-PER O B-LOC O O B-PER I-PER O B-LOC O O
+In Larnaca : AEK Larnaca ( Cyprus ) 5 Kotaik Abovyan ( Armenia )|||O B-LOC O B-ORG I-ORG O B-LOC O O B-ORG I-ORG O B-LOC O
+In Vinnytsya :|||O B-LOC O
+Aggregate 1-1 .|||O O O
+Vaduz - Daniele Polverino ( 90th )|||B-LOC O B-PER I-PER O O O
+( Croatia ) 3 ( 0-0 )|||O B-LOC O O O O O
+Scorers :|||O O
+Red Star win on away goals rule .|||B-ORG I-ORG O O O O O O
+Gothenburg go through 4-1 on aggregate .|||B-LOC O O O O O O
+RIO DE JANEIRO 1996-08-22|||B-LOC I-LOC I-LOC O
+" We are ready to fight to our last breath -- Australia must play at its absolute best to win , " said Newcombe , who described the tie as the toughest he has faced as captain .|||O O O O O O O O O O O B-LOC O O O O O O O O O O O B-PER O O O O O O O O O O O O O O
+Open badminton tournament on Thursday ( prefix number denotes|||B-MISC O O O O O O O O
+15-7|||O
+Fernando Meligeni ( Brazil ) vs. 7 - Yevgeny Kafelnikov ( Russia )|||B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O
+Andrei Medvedev ( Ukraine ) vs. Jean-Philippe Fleurian ( France )|||B-PER I-PER O B-LOC O O B-PER I-PER O B-LOC O
+Qualifier vs. Petr Korda ( Czech Republic )|||O O B-PER I-PER O B-LOC I-LOC O
+Stefan Edberg ( Sweden ) vs. 5 - Richard Krajicek ( Netherlands )|||B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O
+Qualifier vs. Michael Stich ( Germany )|||O O B-PER I-PER O B-LOC O
+-DOCSTART-|||O
+CENTRAL DIVISION|||B-MISC I-MISC
+TEXAS 73 54 .575 -|||B-ORG O O O O
+DETROIT AT KANSAS CITY|||B-ORG O B-LOC I-LOC
+THURSDAY , AUGUST 22 SCHEDULE|||O O O O O
+DETROIT 7 Chicago 4|||B-ORG O B-ORG O
+Toronto 6 KANSAS CITY 2|||B-ORG O B-ORG I-ORG O
+The Mariners scored four runs in the top of the fifth to tie the game 5-5 but Ripken led off the bottom of the inning with his 21st homer off starter Sterling Hitchcock ( 12-6 ) .|||O B-ORG O O O O O O O O O O O O O O O B-PER O O O O O O O O O O O O O B-PER I-PER O O O O
+Baltimore has won seven of nine and 16 of its last 22 and cut the Yankees ' lead in the A.L. East to five games .|||B-LOC O O O O O O O O O O O O O O B-ORG O O O O B-MISC I-MISC O O O O
+Alex Rodriguez had two homers and four RBI for the Mariners , who have dropped three in a row and 11 of 15 .|||B-PER I-PER O O O O O B-MISC O O B-ORG O O O O O O O O O O O O O
+In Boston , Mike Stanley 's bases-loaded two-run single snapped an eighth-inning tie and gave the Red Sox their third straight win , 6-4 over the Oakland Athletics .|||O B-LOC O B-PER I-PER O O O O O O O O O O O B-ORG I-ORG O O O O O O O O B-ORG I-ORG O
+Stanley owns a .367 career batting average with the bases loaded ( 33-for-90 ) .|||B-PER O O O O O O O O O O O O O O
+Summary of Thursday 's only|||O O O O O
+Halftime 1-2 .|||O O O
+GENEVA 1996-08-22|||B-LOC O
+67 Jeff Hawksworth , Padraig Harrington ( Ireland ) , Michael|||O B-PER I-PER O B-PER I-PER O B-LOC O O B-PER
+6. Estonia 8.52|||O B-LOC O
+21. Switzerland 8.15|||O B-LOC O
+30. Lithuania 8.06|||O B-LOC O
+35. Hungary 7.98|||O B-LOC O
+Australia , batting first in Thursday 's the warm-up match , scored 251 for seven from their 50 overs .|||B-LOC O O O O O O O O O O O O O O O O O O O
+The youth side replied with 246 for seven .|||O O O O O O O O O
+-DOCSTART-|||O
+-- Sofia Newsroom , 359-2-84561|||O B-ORG I-ORG O O
+In Home Health Inc said on Thursday it will appeal to the U.S. Federal District Court in Minneapolis a decision by the Health Care Financing Administration ( HCFA ) that denied reimbursement of certain costs under Medicaid .|||B-ORG I-ORG I-ORG I-ORG O O O O O O O O B-ORG I-ORG I-ORG I-ORG O B-LOC O O O O B-ORG I-ORG I-ORG I-ORG O B-ORG O O O O O O O O B-MISC O
+" Bankruptcy is always possible , particularly when you lose what we are going to lose in the first half of this year , " Levy said . "|||O O O O O O O O O O O O O O O O O O O O O O O O O B-PER O O O
+The company announced in March that it was closing seven stores and backing out of nine new lease agreements .|||O O O O O O O O O O O O O O O O O O O O
+Four of the mothers had measles while pregnant .|||O O O O O O O O O
+The survey was conducted between July 23 and August 14 and involved 1,305 companies , representing 50 industries , accounting for around half of the UK 's manufactured exports and some two million employees .|||O O O O O O O O O O O O O O O O O O O O O O O O O B-LOC O O O O O O O O O
+LONDON 1996-08-22|||B-LOC O
+There will be no repeat of last year 's men 's final with eighth-ranked Andre Agassi landing in Sampras 's half of the draw .|||O O O O O O O O O O O O O O B-PER I-PER O O B-PER O O O O O O
+Sanchez Vicario , runner-up to Graf at the French Open and Wimbledon , begins play against a qualifier in a quarter of the draw that includes young talent Martina Hingis , the 16th seed , before a probable quarter-final clash with seventh-seeded veteran Jana Novotna .|||B-PER I-PER O O O B-PER O O B-MISC I-MISC O B-MISC O O O O O O O O O O O O O O O O B-PER I-PER O O O O O O O O O O O O O B-PER I-PER O
+The tournament also lost its second seed on the third day of play when second-seeded Goran Ivanisevic of Croatia was beaten 6-7(3-7 ) 6-4 6-4 by unseeded Mikael Tillstrom of Sweden .|||O O O O O O O O O O O O O O O B-PER I-PER O B-LOC O O O O O O O O B-PER I-PER O B-LOC O
+The 19-year-old Philippoussis , who beat Sampras in the third round of this year 's Australian Open , stayed calm in a nervy third-set tie break against Rosset .|||O O B-PER O O O B-PER O O O O O O O O B-MISC I-MISC O O O O O O O O O O B-PER O
+Chonnam 0 1 1 5 6 1|||B-ORG O O O O O O
+Chonbuk 0 0 0 0 0 0|||B-ORG O O O O O O
+But Carlo Hoffmann , an 11-year-old jailer 's son who found the bottle on the beach at Robben Island off Cape Town after winter storms , will send his letter back by ordinary mail on Thursday , the post office said .|||O B-PER I-PER O O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O
+The dog attacked Louis Booy in the front garden of his grandparents ' house in Vanderbijlpark near Johannesburg on Tuesday .|||O O O B-PER I-PER O O O O O O O O O O B-LOC O B-LOC O O O
+Government bond yields : ( 2-yr 1998 / J ) 25.49,(3-yr 1999 / c ) 24.44|||O O O O O O O O O O O O O O O O
+" The 13-year-old girl tried to extract 60 and 70 zlotys ( $ 22 and $ 26 ) from two residents of Sierakowice by threatening to take their lives , " a police spokesman said in the nearby northern city of Gdansk on Thursday .|||O O O O O O O O O O O O O O O O O O O O O O B-LOC O O O O O O O O O O O O O O O O O O B-LOC O O O
+The CNB-120 index , a broad daily measure of Czech equities , rose 1.2 points on Thursday to 869.3 , the Czech National Bank ( CNB ) said .|||O B-MISC O O O O O O O B-MISC O O O O O O O O O O O B-ORG I-ORG I-ORG O B-ORG O O O
+NOVYE ATAGI , Russia 1996-08-22|||B-LOC I-LOC O B-LOC O
+He said a document would be completed in an hour 's time for signature by the two sides , who were working on a " day-by-day schedule to stop the war in Chechnya . "|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-LOC O O
+MOSCOW 1996-08-22|||B-LOC O
+SARAJEVO 1996-08-22|||B-LOC O
+Argentine raw steel output was 355,900 tonnes in July , 14.8 percent higher than in July 1995 and up 1.9 percent from June , Steel Industry Center said Thursday .|||B-MISC O O O O O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG O O O
+Primary iron output was 297,700 tonnes , 14.5 percent more than last July and 0.1 percent more than in June .|||O O O O O O O O O O O O O O O O O O O O O
+Hot laminate production was 349,000 tonnes , 3.2 percent up from July 1995 and 0.8 percent up from June .|||O O O O O O O O O O O O O O O O O O O O
+Pinas said Brunswijk then ordered his bodyguards to beat him up .|||B-PER O B-PER O O O O O O O O O
+Noisy saw leads Thai police to heroin hideaway .|||O O O B-MISC O O O O O
+Officials are now hunting for the suspect 's collaborators , police said .|||O O O O O O O O O O O O O
+Australia foreign minister arrives in China .|||B-LOC O O O O B-LOC O
+Palestinians accuse PA of banning books .|||B-MISC O B-ORG O O O O
+" This may explain some mistakes against some journalists and writers , " he said .|||O O O O O O O O O O O O O O O O
+-DOCSTART-|||O
+Gains so far this week have totalled 2.92 percent .|||O O O O O O O O O O
+We have n't talked about it because it has n't been an issue , " he said .|||O O O O O O O O O O O O O O O O O O
+On Tuesday night , Kevorkian attended the death of Louise Siebens , a 76-year-old Texas woman with amyotrophic lateral sclerosis , or Lou Gehrig 's disease .|||O O O O B-PER O O O O B-PER I-PER O O O B-LOC O O O O O O O B-PER I-PER O O O
+-- U.S. Municipal Desk , 212-859-1650|||O B-ORG I-ORG I-ORG O O
+" The struggle will go on , " the 43-year-old shouted in German before being escorted out by security guards .|||O O O O O O O O O O O O B-MISC O O O O O O O O
+Bremen 1,453 up 13.1|||B-LOC O O O
+Koeln ( Cologne ) 182,887 up 11.8|||B-LOC O B-LOC O O O O
+Paribas repeats buy on Aegon after results .|||B-ORG O O O B-ORG O O O
+Aegon 83.40 Paribas|||B-ORG O B-ORG
+Estimates ( Dfl ) : EPS P / E Dividend|||O O B-MISC O O O O O O O
+Bonn says Moscow has promised to observe ceasefire .|||B-LOC O B-LOC O O O O O O
+" I do not visualise its straining our bilateral relations with any country .|||O O O O O O O O O O O O O O
+" The British government wants a thorough investigation and a just outcome , " he said .|||O O B-MISC O O O O O O O O O O O O O O
+Bangladesh 's Criminal Investigation Department has charged two immigration officials in connection with Mia 's killing .|||B-LOC O B-ORG I-ORG I-ORG O O O O O O O O B-PER O O O
+" Over the medium term , yes , " he told Reuters after addressing industrialists in the capital .|||O O O O O O O O O O O B-ORG O O O O O O O
+-DOCSTART-|||O
+Two pct India current account deficit viable - RBI .|||O O B-LOC O O O O O B-ORG O
+While the world heaps honours on her and even regards her as a living saint , the nun of Albanian descent maintains she is merely doing God 's work .|||O O O O O O O O O O O O O O O O O O O B-MISC O O O O O O B-PER O O O
+At the age of 18 she became a Loretto nun , hoping to work at the Order 's Calcutta mission .|||O O O O O O O O B-MISC O O O O O O O O O B-LOC O O
+The message was quite clear , " she told one interviewer . "|||O O O O O O O O O O O O O
+The bullish comments for the coming year soothed analysts and most shareholders , who were disappointed by the lower than expected profit for 1995/96 .|||O O O O O O O O O O O O O O O O O O O O O O O O O
+News said dramatically lower earnings from the British arm of its Harper-Collins publishing division more than offset healthy results from its U.S. operation .|||B-ORG O O O O O O B-MISC O O O B-ORG O O O O O O O O O B-LOC O O
+" More generally , the long-term effects of fiscal consolidation are clearly positive , with higher saving tending to promote economic growth by raising investment and lowering long-term real interest rates , " the RBA said .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-ORG O O
+The rates are :|||O O O O
+-DOCSTART-|||O
+Net 250 million 84 million|||O O O O O
+HONG KONG 1996-08-22|||B-LOC I-LOC O
+-- Hong Kong Newsroom ( 852 ) 2847 4039|||O B-ORG I-ORG I-ORG O O O O O
+( midday ) ( May 22 ) ( Jan 10 )|||O O O O O O O O O O O
+SYDNEY 2,292.9 +18.3 2,326.00 2,096.10|||B-LOC O O O O
+1.4871 ( 1.4935 )|||O O O O
+Ukraine 's declaration of independence in 1991 , backed nine-to-one by a referendum in December of that year , effectively dealt a death blow to the Soviet empire and ended more than three centuries of rule from Moscow .|||B-LOC O O O O O O O O O O O O O O O O O O O O O O O O O B-MISC O O O O O O O O O O B-LOC O
+Gazeta Shqiptare said the " Book of Mass ' , by Gjon Buzuku , dating from 1555 and discovered in 1740 in a religious seminary in Rome , was the first major document published in the Albanian language .|||B-ORG I-ORG O O O B-MISC I-MISC I-MISC O O O B-PER I-PER O O O O O O O O O O O O O B-LOC O O O O O O O O O B-MISC O O
+Tirana 's national library has three copies of the " Book of Mass ' . "|||B-LOC O O O O O O O O O B-MISC I-MISC I-MISC O O O
+MOSCOW 1996-08-23|||B-LOC O
+Volkova said last year goods had been exported under many Russian barter deals , with nothing imported in return .|||B-PER O O O O O O O O O B-MISC O O O O O O O O O
+A few days ago Russian President Boris Yeltsin issued a decree on state regulation of foreign barter deals , and Volkova said this " could substantially improve the situation " .|||O O O O B-MISC O B-PER I-PER O O O O O O O O O O O O B-PER O O O O O O O O O O
+" If traders are late , they will have to pay fines worth the cost of their exported goods , " Volkova said .|||O O O O O O O O O O O O O O O O O O O O O B-PER O O
+" Now many Russian banks are strong and can make various sorts of money tranfers , while incompetent traders are being ousted by more experienced ones .|||O O O B-MISC O O O O O O O O O O O O O O O O O O O O O O O
+52 ; A. Cowan 5-68 ) .|||O O B-PER I-PER O O O
+52 not out ) v Glamorgan .|||O O O O O B-ORG O
+the third and final test between England and Pakistan at The|||O O O O O O B-LOC O B-LOC O B-LOC
+N. Hussain c Saeed Anwar b Waqar Younis 12|||B-PER I-PER O B-PER I-PER O B-PER I-PER O
+It was mostly short points . "|||O O O O O O O
+Mulder missed the first test in Durban with back spasms and failed a fitness check on Thursday .|||B-PER O O O O O B-LOC O O O O O O O O O O O
+KUALA LUMPUR 1996-08-23|||B-LOC I-LOC O
+9/16 - Chen Gang ( China ) beat 9/16 - Hermawan Susanto ( Indonesia )|||O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O
+EASTERN DIVISION|||B-MISC I-MISC
+CHICAGO 69 60 .535 8|||B-ORG O O O O
+SEATTLE 65 61 .516 8|||B-ORG O O O O
+FRIDAY , AUGUST 23 SCHEDULE|||O O O O O
+FLORIDA 58 69 .457 21 1/2|||B-ORG O O O O O
+ST LOUIS 67 60 .528 1/2|||B-ORG I-ORG O O O O
+LOS ANGELES 67 60 .528 2|||B-ORG I-ORG O O O O
+CINCINNATI AT FLORIDA ( doubleheader )|||B-ORG O B-LOC O O O
+Seattle 10 BALTIMORE 3|||B-ORG O B-ORG O
+LOS ANGELES 8 Philadelphia 5|||B-ORG I-ORG O B-ORG O
+We won the game , " said Moyer .|||O O O O O O O B-PER O
+Boston 's Roger Clemens ( 7-11 ) was one out away from his second straight shutout when pinch-hitter Matt Stairs tripled over the head of centre fielder Lee Tinsley on an 0-2 pitch and pinch-hitter Terry Steinbach dunked a broken-bat single into right to lift Oakland into a 1-1 tie .|||B-ORG O B-PER I-PER O O O O O O O O O O O O O O B-PER I-PER O O O O O O O B-PER I-PER O O O O O O B-PER I-PER O O O O O O O O B-ORG O O O O O
+Hanson ( 11-15 ) allowed three hits , walked three and struck out four to snap a personal three-game losing streak .|||B-PER O O O O O O O O O O O O O O O O O O O O O
+Fernandez ( 12-8 ) scattered six hits .|||B-PER O O O O O O O
+SOCCER - PORTUGUESE FIRST DIVISION RESULT .|||O O B-MISC O O O O
+ATHLETICS - SALAH HISSOU BREAKS 10,000 METRES WORLD RECORD .|||O O B-PER I-PER O O O O O O
+The previous mark of 26:43.53 was set by Ethiopia 's Haile Gebreselassie in the Dutch town of Hengelo in June last year .|||O O O O O O O O B-LOC O B-PER I-PER O O B-MISC O O B-LOC O O O O O
+-DOCSTART-|||O
+-DOCSTART-|||O
+Masterkova clearly enjoyed it .|||B-PER O O O O
+metres world record ( tabulated under time , name / nationality ,|||O O O O O O O O O O O O
+BRUSSELS 1996-08-23|||B-LOC O
+The time was officially adjusted to 2:28.98 .|||O O O O O O O O
+131 Carl Suneson 65 66 , Stephen Field 66 65|||O B-PER I-PER O O O B-PER I-PER O O
+( Denmark ) 66 68 , Pedro Linhart ( Spain ) 67 67 , Michael|||O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER
+Johnson ran the same time at the U.S. Olympic trials in Atlanta in June to become the second equal fastest hurdler of all time with American Roger Kingdom .|||B-PER O O O O O O B-LOC B-MISC O O B-LOC O O O O O O O O O O O O O B-MISC B-PER I-PER O
+8. Irina Yatchenko ( Belarus ) 58.92|||O B-PER I-PER O B-LOC O O
+1. Derrick Adkins ( U.S. ) 47.93 seconds|||O B-PER I-PER O B-LOC O O O
+1. Gail Devers ( U.S. ) 10.84 seconds|||O B-PER I-PER O B-LOC O O O
+3. Merlene Ottey ( Jamaica ) 11.04|||O B-PER I-PER O B-LOC O O
+3. Carla Sacramento ( Portugal ) 4:02.67|||O B-PER I-PER O B-LOC O O
+7. Samson Kitur ( Kenya ) 45.34|||O B-PER I-PER O B-LOC O O
+Women 's 1,000 metres|||O O O O
+4. Natalia Voronova ( Russia ) 22.73|||O B-PER I-PER O B-LOC O O
+5. Marina Trandenkova ( Russia ) 22.84|||O B-PER I-PER O B-LOC O O
+2. Marie-Jose Perec ( France ) 49.72|||O B-PER I-PER O B-LOC O O
+2. Paul Tergat ( Kenya ) 26:54.41|||O B-PER I-PER O B-LOC O O
+x-Olympiakos v Ferencvaros ( Hungary )|||B-ORG O B-ORG O B-LOC O
+" I believe relations between the two teams will be excellent , " Batterby said .|||O O O O O O O O O O O O O B-PER O O
+These are the leading stories in the Angolan press on Friday .|||O O O O O O O B-MISC O O O O
+Reuters has not verified these stories and does not vouch for their accuracy .|||B-ORG O O O O O O O O O O O O O
+MON Gencor YR DIV 25.75 25.0-27.0 20.0|||O B-ORG O O O O O
+( All data above 000s except per share numbers )|||O O O O O O O O O O
+Nigerian terms jeopardize Commonwealth trip-Canada .|||B-MISC O O B-ORG B-MISC O
+Commonwealth ministers concerned about human rights in Nigeria may cancel a planned trip there because of government restrictions on their mission , Canadian Foreign Minister Lloyd Axworthy said on Friday .|||B-ORG O O O O O O B-LOC O O O O O O O O O O O O O O B-MISC O O B-PER I-PER O O O O
+Buffett raises Property Capital stake .|||B-PER O B-ORG I-ORG O O
+The United States also will be able to designate one new all-cargo carrier for service between the two nations after two years .|||O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O
+- WESTERN HEMISPHERE|||O B-LOC I-LOC
+- MIDDAY FIXTURES|||O O O
+Northsea Chaser 55 12/09 Mideast / Japan W167.5 Jomo .|||B-ORG I-ORG O O B-LOC O B-LOC O B-ORG O
+- MED / BLACK SEA|||O B-LOC O B-LOC I-LOC
+Ijaz Ahmed not out 58|||B-PER I-PER O O O
+World number one golfer Greg Norman has sacked his coach Butch Harmon after a disappointing season .|||O O O O B-PER I-PER O O O O B-PER I-PER O O O O O
+The blonde Australian opened with a level par round of 70 in Akron , leaving him four shots adrift of the leaders , Americans Billy Mayfair and Paul Goydos and Japan 's Hidemichi Tanaki .|||O O B-MISC O O O O O O O O O B-LOC O O O O O O O O O O B-MISC B-PER I-PER O B-PER I-PER O B-LOC O B-PER I-PER O
+The club , founded in 1961 , has a loyal following in Taibe , an Arab town of 28,000 in the heart of Israel .|||O O O O O O O O O O O O B-LOC O O B-MISC O O O O O O O B-LOC O
+Two weeks ago Taibe , coached by Pole Wojtek Lazarek , met Betar , a club closely associated with the right-wing Likud party , for the first time in a Cup match in Jerusalem .|||O O O B-ORG O O O B-MISC B-PER I-PER O O B-ORG O O O O O O O O B-ORG O O O O O O O O B-MISC O O B-LOC O
+Nigeria police kill six robbery suspects .|||B-LOC O O O O O O
+Saboteurs blew up a Serb orthodox church in southern Croatia on Friday with a blast which also damaged four nearby homes , the state news agency Hina reported .|||O O O O B-MISC O O O O B-LOC O O O O O O O O O O O O O O O O B-ORG O O
+BUDAPEST 1996-08-23|||B-LOC O
+FIGURES IN $ MILLION June 1996 May 1996|||O O O O O O O O
+Net foreign debt of the|||O O O O O
+Yugoslavia and Croatia were poised on Friday to sign a landmark normalisation treaty ending five years of tensions and paving way for stabilisation in the Balkans .|||B-LOC O B-LOC O O O O O O O O O O O O O O O O O O O O O O B-LOC O
+Hong Kong Financial Secretary Donald Tsang will visit Indonesia and New Zealand from August 25 to 31 , the government said on Friday .|||B-LOC I-LOC O O B-PER I-PER O O B-LOC O B-LOC I-LOC O O O O O O O O O O O O
+In Karak , where two days of riots flared last Friday , a few hundred young men lingered outside Omari mosque on leaving , shouting slogans for about 15 minutes .|||O B-LOC O O O O O O O O O O O O O O O O O B-LOC O O O O O O O O O O O
+governor has trouble winning home support .|||O O O O O O O
+He also said Franny Weld 's best friend , Tracy Roosevelt , might have something to do with her politics .|||O O O B-PER I-PER O O O O B-PER I-PER O O O O O O O O O O
+Lufthanseat .|||B-ORG O
+-DOCSTART-|||O
+The 50-year old monarch was accompanied by Queen Aishwarya on a flight to the Tibetan capital of Lhasa .|||O O O O O O O O B-PER O O O O O B-MISC O O B-LOC O
+" I feared he would flee from work or steal my belongings , " the Kathmandu Post newspaper quoted Munakarmi as saying after his arrest .|||O O O O O O O O O O O O O O O B-ORG I-ORG O O B-PER O O O O O O
+A trader at a Japanese bank said Euromark volatility now stood at 14.00 for September contract , 16.75 for December , 19.50 for March and 21.25 for June .|||O O O O B-MISC O O B-MISC O O O O O O O O O O O O O O O O O O O O O
+ISSUE PRICE 2.42 DEM GEARING 10.29 X|||O O O B-MISC O O O
+SPOT REFERENCE 24.90 DEM|||O O O B-MISC
+AMMAN 1996-08-23|||B-LOC O
+Jordan has asked an Iraqi diplomat to leave the kingdom for carrying out duties incompatible with diplomatic norms , an official source said on Friday .|||B-LOC O O O B-MISC O O O O O O O O O O O O O O O O O O O O O
+Erbakan has encouraged Nacar 's bid but has ruled out direct talks with the rebels .|||B-PER O O B-PER O O O O O O O O O O O O
+More than 20,000 people have died in 12 years of fighting between the guerrillas and Turkish forces .|||O O O O O O O O O O O O O O O B-MISC O O
+Zenith also said it planned to build a new $ 100 million plant in Woodridge , Ill .|||B-ORG O O O O O O O O O O O O O B-LOC O B-LOC O
+" We 'll build a lot of these devices into television sets , for digital television , " he said . "|||O O O O O O O O O O O O O O O O O O O O O O
+" People who were expecting major coat-tails were somewhat disappointed , " said Scott Winkler , an analyst with Gartner Group .|||O O O O O O O O O O O O O B-PER I-PER O O O O B-ORG I-ORG O
+Symantec Corp. , which had been among the most bullish of software companies at the time of the Windows 95 launch , ended up posting disappointing financial results when retail sales of the operating system fell short of its projections .|||B-ORG I-ORG O O O O O O O O O O O O O O O O B-MISC I-MISC O O O O O O O O O O O O O O O O O O O O O
+Many people began to believe that Windows 95 was being downplayed . "|||O O O O O O B-MISC I-MISC O O O O O
+WASHINGTON 1996-08-22|||B-LOC O
+The most recent hijacking , last Friday , involved three hijackers and the pilot of a small aircraft .|||O O O O O O O O O O O O O O O O O O O
+Wis .|||B-LOC O
+The nation 's new welfare reform law limits eligibility , gives states more power and ends direct federal aid for poor children .|||O O O O O O O O O O O O O O O O O O O O O O O
+The next thing you know , the boxcar is coupled up and loaded up to a barge and headed north . "|||O O O O O O O O O O O O O O O O O O O O O O
+-- EVEREN Securities Inc said Friday it initiated coverage of Royal Oak Mines Inc with an outperform rating .|||O B-ORG I-ORG I-ORG O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O
+Dutch post and telecoms group Koninklijke PTT Nederland NV 's ( Dutch PTT ) first half results came marginally below most analysts ' forecasts , giving scant grounds to adjust full year estimates , analysts said on Friday .|||B-MISC O O O O B-ORG I-ORG I-ORG I-ORG O O B-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O O O O O O
+PTT earlier announced an 8.5 percent rise in net profit for the first six months of 1996 to 1.209 billion guilders , a hair 's breadth below the 1.210-1.236 billion forecast range .|||B-ORG O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+Boskalis reported 1996 first-half net profit fell to 27.5 million guilders from a year-earlier 41.4 million .|||B-ORG O O O O O O O O O O O O O O O O
+-DOCSTART-|||O
+The sea lions -- 17-year-old Beaver and nine-year-old Sake -- have undergone six years of training for their mission .|||O O O O O B-PER O O B-PER O O O O O O O O O O O
+-DOCSTART-|||O
+Geology prefessors were quoted as saying that their collection of 10,000 rocks , gathered from across the nation and abroad , were irreplaceable .|||O O O O O O O O O O O O O O O O O O O O O O O O
+The central bank 's insistent intervention just above the 820 level convinced players that it is serious about supporting the won .|||O O O O O O O O O O O O O O O O O O O O O O
+Just who owns the copper is a question that has kept traders and industry analysts guessing since the metal was channelled into Shanghai by the China National Nonferrous Metals Import and Export Corp ( CNIEC ) in June and July .|||O O O O O O O O O O O O O O O O O O O O O O B-LOC O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O B-ORG O O O O O O
+( in million HK$ unless stated )|||O O O B-MISC O O O
+Net 56.06|||O O
+Turnover 115.259 vs 123.157|||O O O O
+Promodes set to sell German assets - paper .|||B-ORG O O O B-MISC O O O O
+IRISH INDEPENDENT|||B-ORG I-ORG
+TENNIS - RESULTS AT TOSHIBA CLASSIC .|||O O O O B-MISC I-MISC O
+-DOCSTART-|||O
+A second Belgian was also seriously injured but the hospital spokesman said his life was not in danger .|||O O B-MISC O O O O O O O O O O O O O O O O
+Martin Damm ( Czech Republic ) beat Michael Joyce ( U.S. ) 5-7|||B-PER I-PER O B-LOC I-LOC O O B-PER I-PER O B-LOC O O
+- 4 Hidemichi Tanaka ( Japan ) through 3|||O O B-PER I-PER O B-LOC O O O
+- 3 Steve Stricker through 3|||O O B-PER I-PER O O
++3 Tom Lehman through 11|||O B-PER I-PER O O
++5 Loren Roberts through 9|||O B-PER I-PER O O
+LONDON 1996-08-24|||B-LOC O
+Fourth-placed Leicestershire had Hampshire on the ropes at Leicester before rain intervened .|||O B-ORG O B-ORG O O O O B-LOC O O O O
+Yorkshire rekindled their title hopes after three successive defeats by taking the upper hand against arch-rivals Lancashire at Old Trafford .|||B-ORG O O O O O O O O O O O O O O O B-ORG O B-LOC I-LOC O
+At Colchester : Gloucestershire 280 and 27-4 .|||O B-LOC O B-ORG O O O O
+Cowdenbeath 1 Monstrose 0|||B-ORG O B-ORG O
+SOCCER - OUT-OF-SORTS NEWCASTLE CRASH 2-1 AT HOME .|||O O O B-ORG O O O O O
+SOCCER - ENGLISH LEAGUE RESULTS .|||O O B-MISC O O O
+Bolton 3 Norwich 1|||B-ORG O B-ORG O
+Swindon 1 Port Vale 1|||B-ORG O B-ORG I-ORG O
+Played Friday :|||O O O
+Playing Sunday :|||O O O
+Stockport 0 Notts County 0|||B-ORG O B-ORG I-ORG O
+Quarterfinals|||O
+( Sweden ) 7-5 6-2|||O B-LOC O O O
+Two tries from wing Jeff Wilson in the first quarter gave New Zealand a 24-11 lead before tries from flanker Ruben Kruger and scrum-half Joost van der Westhuizen in the space of two minutes narrowed the gap to a single point at 23-24 .|||O O O O B-PER I-PER O O O O O B-LOC I-LOC O O O O O O O B-PER I-PER O O B-PER I-PER I-PER I-PER O O O O O O O O O O O O O O O O
+Scorers :|||O O
+Conversion : Stranksy .|||O O B-PER O
+Sutjeska 3 Sloboda 2|||B-ORG O B-ORG O
+WARSAW 1996-08-24|||B-LOC O
+Haitai 5 Hanwha 4|||B-ORG O B-ORG O
+OB 4 Lotte 2|||B-ORG O B-ORG O
+EASTERN DIVISION|||B-MISC I-MISC
+TORONTO AT CHICAGO|||B-ORG O B-LOC
+CINCINNATI AT FLORIDA|||B-ORG O B-LOC
+SOCCER - PORTUGUESE FIRST DIVISION RESULT .|||O O B-MISC O O O O
+Summaries of French first division|||O O B-MISC O O
+0-0 .|||O O
+10,000 .|||O O
+SOCCER - FRENCH LEAGUE STANDINGS .|||O O B-MISC O O O
+drawn , lost , goals for , goals against , points ) :|||O O O O O O O O O O O O O
+Lille 3 Rennes 1|||B-ORG O B-ORG O
+-DOCSTART-|||O
+Graafschap Doetinchem 3 RKC Waalwijk 2|||B-ORG I-ORG O B-ORG I-ORG O
+Twente Enschede 1 1 0 0 3 1 3|||B-ORG I-ORG O O O O O O O
+22,500|||O
+Freiburg 1 Cologne 3|||B-ORG O B-ORG O
+Played on Saturday :|||O O O O
+Bundesliga standings after Saturday 's games ( tabulate under|||B-MISC O O O O O O O O
+Bayer Leverkusen 3 2 0 1 7 4 6|||B-ORG I-ORG O O O O O O O
+Sturm Graz 6 2 3 1 8 5 9|||B-ORG I-ORG O O O O O O O
+FC Linz 6 0 2 4 1 9 2|||B-ORG I-ORG O O O O O O O
+Penrose had been working for the charity which provides food to civilians for only a few weeks before he was captured .|||B-PER O O O O O O O O O O O O O O O O O O O O O
+-DOCSTART-|||O
+BLANTYRE 1996-08-24|||B-LOC O
+Malawi 's frail former president , Kamuzu Banda , said on Saturday in a rare public interview that he was feeling well despite his advanced years .|||B-LOC O O O O O B-PER I-PER O O O O O O O O O O O O O O O O O O O
+KIGALI 1996-08-24|||B-LOC O
+" After a meeting between the governor of north Kivu and the prefect of Gisenyi , 28 prisoners ( refugees ) were handed over to Rwandan authorities on Friday , " Gatera said . "|||O O O O O O O O O B-LOC O O O O B-LOC O O O O O O O O O O B-MISC O O O O O B-PER O O O
+-DOCSTART-|||O
+Chamorro has complained of lower back pain since her trip to Taiwan in May , when the pain forced her to go to Taipei University Hospital for an examination .|||B-PER O O O O O O O O O O B-LOC O O O O O O O O O O O B-LOC I-LOC I-LOC O O O O
+Iran hangs two men for drug trafficking .|||B-LOC O O O O O O O
+Succeeding him as head of the movement , Moada , an Arab nationalist , ousted liberals led by MDS secretary-general Mustapha Ben Jaafar in 1993 .|||O O O O O O O O B-PER O O B-MISC O O O O O O B-ORG O B-PER I-PER I-PER O O O
+BAGHDAD 1996-08-24|||B-LOC O
+MIAMI 1996-08-24|||B-LOC O
+Orvieto mayor Stefano Cimicchi said the comics , including popular actor Roberto Benigni , would declare Orvieto " capital of Etruria " on September 15 -- the day Bossi plans a march across the north in favour of independence from Rome .|||B-LOC O B-PER I-PER O O O O O O O B-PER I-PER O O O B-LOC O O O B-LOC O O O O O O O B-PER O O O O O O O O O O O B-LOC O
+VERONA , Italy 1996-08-24|||B-LOC O B-LOC O
+Dutroux was charged a week ago after police rescued two young girls from a concrete dungeon in the basement of one of the six houses he owns in and around Charleroi .|||B-PER O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-LOC O
+Newspapers quoted witnesses as saying they had seen bodies floating in the streets .|||O O O O O O O O O O O O O O
+-DOCSTART-|||O
+Just last week , Sun Microsystems and the Silicon Valley venture capital giant Kleiner Perkins Caufield & Byers said they had completed financing of a $ 100 million fund managed by Kleiner Perkins to fund startups developing Java technologies .|||O O O O B-ORG I-ORG O O B-LOC I-LOC O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O B-ORG I-ORG O O O O B-MISC O O
+AKRON , Ohio 1996-08-25|||B-LOC O B-LOC O
+" It was very hard to sleep last night because there was so much I could accomplish with this win , " said Mickelson , who had a three-stroke lead entering the third round . "|||O O O O O O O O O O O O O O O O O O O O O O O B-PER O O O O O O O O O O O O
+Scores after the final|||O O O O
+Billy Mayfair 66 71 70 70|||B-PER I-PER O O O O
+282 Corey Pavin 73 70 70 69|||O B-PER I-PER O O O O
+seedings :|||O O
+5 - Andrei Medvedev ( Ukraine ) beat Martin Damm ( Czech|||O O B-PER I-PER O B-LOC O O B-PER I-PER O B-LOC
+round of the world championship :|||O O O O O O
+eight minutes one second|||O O O O
+5. Kenneth Eriksson ( Sweden ) Subaru Impreza 2:39|||O B-PER I-PER O B-LOC O B-MISC I-MISC O
+6. Carlos Sainz ( Spain ) Ford Escort 3:03|||O B-PER I-PER O B-LOC O B-MISC I-MISC O
+Leading results in the|||O O O O
+1. Shayne King ( New Zealand ) KTM|||O B-PER I-PER O B-LOC I-LOC O B-ORG
+3. Theybers|||O B-PER
+2. Bob Moore ( U.S. ) Yamaha|||O B-PER I-PER O B-LOC O B-ORG
+Overall on day :|||O O O O
+-DOCSTART-|||O
+International Endurance GT championship :|||B-MISC I-MISC I-MISC I-MISC O
+7. Jean-Marc Gounon ( France ) / Eric Bernard ( France ) / Paul|||O B-PER I-PER O B-LOC O O B-PER I-PER O B-LOC O O B-PER
+9. Stephane Ortelli ( France ) / Bob Wollek ( France ) / Franz Konrad|||O B-PER I-PER O B-LOC O O B-PER I-PER O B-LOC O O B-PER I-PER
+Fastest lap : Gounon , 2 minutes 03.684 seconds ( 170.680 kph )|||O O O B-PER O O O O O O O O O
+SHEFFIELD , England 1996-08-25|||B-LOC O B-LOC O
+2. Pat Manson ( U.S. ) 5.60|||O B-PER I-PER O B-LOC O O
+2. Steve Backley ( Britain ) 82.20|||O B-PER I-PER O B-LOC O O
+2. Kim Graham ( U.S. ) 52.17|||O B-PER I-PER O B-LOC O O
+2. Tim Forsyth ( Australia ) 2.30|||O B-PER I-PER O B-LOC O O
+3. Vincent Malakwen ( Kenya ) 1:46.18|||O B-PER I-PER O B-LOC O O
+2. Ian Mackie ( Britain ) 10.17|||O B-PER I-PER O B-LOC O O
+Johnny Herbert ( Britain ) Sauber|||B-PER I-PER O B-LOC O B-ORG
+Britain 's Damon Hill fifth in a Williams and Gerhard Berger of|||B-LOC O B-PER I-PER O O O B-ORG O B-PER I-PER O
+1. Damon Hill ( Britain ) 81 points|||O B-PER I-PER O B-LOC O O O
+13. Johnny Herbert ( Britain ) 4|||O B-PER I-PER O B-LOC O O
+1. Williams 149 points|||O B-ORG O O
+6. Thomas Radstrom ( Sweden ) Toyota Celica 2:23|||O B-PER I-PER O B-LOC O B-MISC I-MISC O
+-DOCSTART-|||O
+8. Takeishi 38:34.999|||O B-PER O
+8. Anthony Gobert ( Australia ) Kawasaki 117|||O B-PER I-PER O B-LOC O B-ORG O
+3. Slight 38:32.149|||O B-PER O
+4. Fogarty 238|||O B-PER O
+10. Neil Hodgson ( Britain ) Ducati 82|||O B-PER I-PER O B-LOC O B-ORG O
+Aoki , the elder brother of reigning 125cc world champion Haruchika , had a race-long duel with John Kocinski of the United States on a Ducati before taking the chequered flag .|||B-PER O O O O O O O O O B-PER O O O O O O B-PER I-PER O O B-LOC I-LOC O O B-ORG O O O O O O
+Halifax 64 Leeds 24|||B-ORG O B-ORG O
+Paris 22 3 1 18 398 795 7|||B-ORG O O O O O O O
+LONDON 1996-08-25|||B-LOC O
+Blackburn 3 0 1 2 2 5 1|||B-ORG O O O O O O O
+Queens Park Rangers 2 2 0 0 4 2 6|||B-ORG I-ORG I-ORG O O O O O O O
+Port Vale 2 0 2 0 2 2 2|||B-ORG I-ORG O O O O O O O
+47-10-116-2 , Cork 23-5-71-1 , Salisbury 29-3-116-1|||O O B-PER O O B-PER O
+Kilmarnock 3 1 0 2 5 7 3|||B-ORG O O O O O O O
+Dunfermline 2 0 1 1 2 5 1|||B-ORG O O O O O O O
+CRICKET - RUN-OUT GIVES LEWIS AND ENGLAND SLIM SATISFACTION .|||O O O O B-PER O B-LOC O O O
+There seemed scant danger until the Surrey player swooped on to the ball and returned off balance to county team mate Alec Stewart who whipped off the bails .|||O O O O O O B-ORG O O O O O O O O O O O O O O B-PER I-PER O O O O O O
+Togo beat Congo 1-0 ( halftime 0-0 )|||B-LOC O B-LOC O O O O O
+Division B|||O O
+SOCCER - ROMANIAN FIRST DIVISION RESULTS / STANDINGS .|||O O B-MISC O O O O O O
+Dinamo Bucharest 4 3 0 1 6 2 9|||B-ORG I-ORG O O O O O O O
+Widzew Lodz 7 4 2 1 13 3 14|||B-ORG I-ORG O O O O O O O
+Odra Wodzislaw 7 3 1 3 13 10 10|||B-ORG I-ORG O O O O O O O
+Zaglebie Lubin 7 1 3 3 10 12 6|||B-ORG I-ORG O O O O O O O
+MELBOURNE 1996-08-25|||B-LOC O
+St Kilda 9 .|||B-ORG I-ORG O O
+North Sydney 21 14 2 5 560 317 30|||B-ORG I-ORG O O O O O O O
+Sydney Bulldogs 21 10 0 11 325 356 20|||B-ORG I-ORG O O O O O O O
+KUALA LUMPUR 1996-08-25|||B-LOC I-LOC O
+Women 's doubles|||O O O
+1 - Yap Kim Hock / Cheah Soon Kit ( Malaysia ) beat Lee Wan Wah / Chong|||O O B-PER I-PER I-PER O B-PER I-PER I-PER O B-LOC O O B-PER I-PER I-PER O B-PER
+BASEBALL - RESULTS OF S. KOREAN PRO-BASEBALL GAMES .|||O O O O B-MISC I-MISC O O O
+Baseball games played on Sunday ( home team in CAPS ) :|||O O O O O O O O O O O O
+California 13 BALTIMORE 0|||B-ORG O B-ORG O
+CHICAGO 10 Toronto 9 ( 10 )|||B-ORG O B-ORG O O O O
+-DOCSTART-|||O
+NEW YORK 1996-08-25|||B-LOC I-LOC O
+CLEVELAND 76 53 .589 -|||B-ORG O O O O
+MINNESOTA 65 64 .504 11|||B-ORG O O O O
+MILWAUKEE 62 68 .477 14 1/2|||B-ORG O O O O O
+TORONTO AT CHICAGO|||B-ORG O B-LOC
+MONTREAL 70 58 .547 11|||B-ORG O O O O
+CENTRAL DIVISION|||B-MISC I-MISC
+CHICAGO AT ATLANTA|||B-ORG O B-LOC
+MONTREAL AT SAN FRANCISCO|||B-ORG O B-LOC I-LOC
+BASEBALL - BRAVES RALLY TO BEAT CUBS .|||O O B-ORG O O O B-ORG O
+ATLANTA 1996-08-25|||B-LOC O
+Fred McGriff went 5-for-5 and homered twice , including a three-run blast with two out in the bottom of the ninth inning that lifted the Atlanta Braves to a 6-5 victory over the Chicago Cubs on Saturday .|||B-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O B-ORG I-ORG O O O O O O B-ORG I-ORG O O O
+Results of Major League|||O O B-MISC I-MISC
+NEW YORK 5 Oakland 4|||B-ORG I-ORG O B-ORG O
+SOCCER - FIORENTINA WIN WITH BATISTUTA DOUBLE .|||O O B-ORG O O B-PER O O
+Batistuta gave Fiorentina the lead in the 11th minute .|||B-PER O B-ORG O O O O O O O
+Skeid 19 10 2 7 29 30 32|||B-ORG O O O O O O O
+Tromso 20 8 5 7 34 33 29|||B-ORG O O O O O O O
+Moss 20 4 6 10 23 40 18|||B-ORG O O O O O O O
+BONN 1996-08-25|||B-LOC O
+played , won , drawn , lost , goals for , goals against , points ) :|||O O O O O O O O O O O O O O O O O
+Hamburg 3 2 0 1 7 3 6|||B-ORG O O O O O O O
+1860 Munich 3 1 0 2 3 5 3|||B-ORG I-ORG O O O O O O O
+Borussia Moenchengladbach 3 0 2 1 1 3 2|||B-ORG I-ORG O O O O O O O
+Werder Bremen 3 0 1 2 4 6 1|||B-ORG I-ORG O O O O O O O
+Grasshopper 2 Lucerne 2|||B-ORG O B-ORG O
+Standings ( tabulated under played , won , drawn , lost , goals|||O O O O O O O O O O O O O
+12. Paul McGinley ( Ireland ) 208,978|||O B-PER I-PER O B-LOC O O
+ZURICH 1996-08-25|||B-LOC O
+6. Alessandro Baronti ( Italy )|||O B-PER I-PER O B-LOC O
+7. Frank Vandenbroucke ( Belgium ) all same time|||O B-PER I-PER O B-LOC O O O O
+10. Max Sciandri ( Britain ) 55|||O B-PER I-PER O B-LOC O O
+Briton Ian Woosnam won|||B-MISC B-PER I-PER O
+the German Open golf championship on Sunday after the final|||O B-MISC I-MISC O O O O O O O
+( Spain ) 67 67 69 , Jonathan Lomas 67 67 69 , Paul Eales|||O B-LOC O O O O O B-PER I-PER O O O O B-PER I-PER
+Ghent 4 3 1 0 9 5 10|||B-ORG O O O O O O O
+AMSTERDAM 1996-08-25|||B-LOC O
+SOCCER - DUTCH FIRST DIVISION RESULTS / TABLE .|||O O B-MISC O O O O O O
+AMSTERDAM 1996-08-25|||B-LOC O
+NEC Nijmegen 0 AZ Alkmaar 0|||B-ORG I-ORG O B-ORG I-ORG O
+Twente Enschede 1 Roda JC 1|||B-ORG I-ORG O B-ORG I-ORG O
+Graafschap Doetinchem 3 RKC Waalwijk 2|||B-ORG I-ORG O B-ORG I-ORG O
+Ajax Amsterdam 2 1 0 1 1 2 3|||B-ORG I-ORG O O O O O O O
+The Ajax defender , who led the Netherlands into the quarter-finals at June 's European championship finals in England , had decided to devote his attention to playing for his Amsterdam club , Endt said .|||O B-ORG O O O O O B-LOC O O O O O O B-MISC O O O B-LOC O O O O O O O O O O O B-LOC O O B-PER O O
+Blind , who played in the 1990 World Cup and the 1992 European championship , was capped 42 times for the Netherlands .|||B-PER O O O O O B-MISC I-MISC I-MISC O O B-MISC I-MISC I-MISC O O O O O O O B-LOC O
+Indian opener Navjot Singh Sidhu was on Sunday given a 50-day ban from international cricket for quitting this year 's tour of England , the Press Trust of India said .|||B-MISC O B-PER I-PER I-PER O O O O O O O O O O O O O O O O O B-LOC O O B-ORG I-ORG I-ORG I-ORG O O
+Brisbane 21 16 0 5 569 257 32|||B-ORG O O O O O O O
+-- Sydney Newsroom 61-2 9373-1800|||O B-ORG I-ORG O O
+Zinzan Brooke , the only No 8 in test rugby to have scored a dropped goal when he kicked a three-pointer against England during last year 's World Cup , added a second to his name yesterday .|||B-PER I-PER O O O O O O O O O O O O O O O O O O O O B-LOC O O O O B-MISC I-MISC O O O O O O O O O
+It was just like the World Cup , the ball came and the chance was there . '|||O O O O O B-MISC I-MISC O O O O O O O O O O O
+Adelaide 14.12 ( 96 ) Collingwood 24 .|||B-ORG O O O O B-ORG O O
+9 ( 153 )|||O O O O
+8 ( 80 )|||O O O O
+Played Friday :|||O O O
+West Coast 21 15 0 6 2151 1673 128.6 60|||B-ORG I-ORG O O O O O O O O
+-- Sydney Newsroom 61-2 9373-1800|||O B-ORG I-ORG O O
+-DOCSTART-|||O
+Canberra 30 Auckland 6|||B-ORG O B-ORG O
+That was not the amnesty committee where perpetrators are expected to open their hearts and souls and to tell it all . "|||O O O O O O O O O O O O O O O O O O O O O O O
+He cited Coetzee , who was charged with murder after confessing in media interviews to dirty tricks .|||O O B-PER O O O O O O O O O O O O O O O
+Last week 's submissions to the commission by the ANC , de Klerk 's National Party and the right-wing Freedom Front of General Constand Viljoen left many South Africans unsatisfied .|||O O O O O O O O O B-ORG O B-PER I-PER O B-ORG I-ORG O O O B-ORG I-ORG O O B-PER I-PER O O B-MISC I-MISC O O
+To loud applause , he added : " We will enter Doboj , untie the Doboj knot and ensure free movement for all .|||O O O O O O O O O O O B-LOC O O O B-LOC O O O O O O O O
+NATO-led peace troops beefed up their presence in the Doboj area on Sunday to deter any sudden emotional attempt by the refugees to cross the Inter-Entity Boundary Line into Doboj .|||B-MISC O O O O O O O O B-LOC O O O O O O O O O O O O O O O B-LOC I-LOC I-LOC O B-LOC O
+-DOCSTART-|||O
+Russian troops start pullout , but not in Grozny .|||B-MISC O O O O O O O B-LOC O
+Reuters cameraman Liutauras Stremaitis said a column of around 40 vehicles , including tanks , armoured personnel carriers , artillery cannons and lorries , escorted by Chechen rebels , pulled out of the village of Shatoi towards the border , around 50 km ( 31 miles ) to the north .|||B-ORG O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O O B-MISC O O O O O O O O B-LOC O O O O O O O O O O O O O O O
+He said later that the rebels had handed them over .|||O O O O O O O O O O O
+They said the ERP , whose fighters first appeared wearing military fatigues and brandishing assault rifles in the southwestern state of Guerrero on June 28 , had a 23,000-strong membership , but this could not be confirmed independently .|||O O O B-ORG O O O O O O O O O O O O O O O O O B-LOC O O O O O O O O O O O O O O O O O
+Ten people gunned down in northwest Colombia .|||O O O O O O B-LOC O
+( million NZ$ unless stated )|||O O B-MISC O O O
+" Airport officials declared an emergency situation at the highest level and the fire brigade put out the flames while the plane was landing , " he said .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+AMMAN 1996-08-25|||B-LOC O
+No going back on democracy ; attempts to tamper with security and stability will not be tolerated .|||O O O O O O O O O O O O O O O O O O
+Information Minister Marwan Muasher says there is evidence that " some official parties in Iraq " were behind the disturbances in the south .|||O O B-PER I-PER O O O O O O O O O O B-LOC O O O O O O O O O
+Israeli President Ezer Weizman , weighing a possible meeting with Yasser Arafat , consulted on Sunday with Prime Minister Benjamin Netanyahu , a spokesman said .|||B-MISC O B-PER I-PER O O O O O O B-PER I-PER O O O O O O O B-PER I-PER O O O O O
+Shumer said his current position was that the peace process must continue .|||B-PER O O O O O O O O O O O O
+It said Netanyahu had yet to give Weizman an answer .|||O O B-PER O O O O B-PER O O O
+Corporate America is planning major changes in employee compensation in the next few years , according to a recent study .|||O B-LOC O O O O O O O O O O O O O O O O O O O
+" The bad news is , if you 're not skilled and ca n't contribute to a team , to customer service and the organisation 's goals , you 'll be paid less . "|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+" The key to success at high-performance companies is engaging employees in a business partnership .|||O O O O O O O O O O O O O O O O
+He was promoted to chief detective earlier this year .|||O O O O O O O O O O
+The other was insurer Thierry Dehaan .|||O O O O B-PER I-PER O
+Two other girls have been rescued and police are hunting for at least two more who Dutroux has admitted kidnapping a year ago .|||O O O O O O O O O O O O O O O O B-PER O O O O O O O
+-DOCSTART-|||O
+North Afghan highway opening put off , radio says .|||B-MISC I-MISC O O O O O O O O
+The strike , called by the main opposition Bangladesh Nationalist Party ( BNP ) , to denounce the deaths of four students killed by police over the last few days , coincided with a visit to the area by Hasina .|||O O O O O O O O B-ORG I-ORG I-ORG O B-ORG O O O O O O O O O O O O O O O O O O O O O O O O O O B-PER O
+Hasina told a cross section of people at the Bogra police headquarters on Sunday that the government had already suspended three police officers and ordered a judicial probe into the violent incidents .|||B-PER O O O O O O O O B-LOC O O O O O O O O O O O O O O O O O O O O O O O
+The prime minister offered financial grants to the families of those killed , ordered the best possible medical care for the injured and urged Bogra residents to call off the strike .|||O O O O O O O O O O O O O O O O O O O O O O O O B-LOC O O O O O O O
+Hundreds of police raided the Dhaka university on Sunday , arresting nearly 30 outsiders who had been living in student dormitories and seizing weapons , university officials said .|||O O O O O B-LOC O O O O O O O O O O O O O O O O O O O O O O O
+The swoop followed the resignation of the university 's Vice-Chancellor Dr. Emajuddin Ahmed on Saturday over the deteriorating law and order situation on the campus .|||O O O O O O O O O O O B-PER I-PER O O O O O O O O O O O O O
+16 die as bus crashes in Pakistani Kashmir .|||O O O O O O B-LOC I-LOC O
+At least 16 people were killed and several injured on Sunday when a bus fell from a mountain road into a ravine on a river bank in Pakistan-ruled Azad ( free ) Kashmir , police said .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O B-MISC B-LOC I-LOC I-LOC I-LOC I-LOC O O O O
+The country 's grain harvest this year is forecast to fall by more than 23 percent to only 28 million tonnes and two harsh factors are to blame .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+And the farming sector , making the painful transition from Soviet central planning to a market economy simply has no money .|||O O O O O O O O O O B-MISC O O O O O O O O O O O
+Borsuk said the farm sector has two options : " We can sit down and cry , or we can do something . "|||B-PER O O O O O O O O O O O O O O O O O O O O O O O
+Collective farms will last for the next few years , because most private farms now only produce enough to feed themselves with maybe a little extra to sell , said one private farmer : " In the future , maybe , but it 's better not to hurry .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+Nor was Implats the only operation to fail output targets .|||O O B-ORG O O O O O O O O
+Looking ahead to the current financial year , he said that Gencor would boost earnings further .|||O O O O O O O O O O O B-ORG O O O O O
+Referring to Gencor 's increased 41.5 percent stake in Ingwe , Gilbertson said the group would wait for coal shares to be cheaper before considering snapping up more .|||O O B-ORG O O O O O O B-ORG O B-PER O O O O O O O O O O O O O O O O O
+-- Johannesburg newsroom +27 11 482-1003|||O B-LOC O O O O
+The merger will add to both companies ' historical leadership in infusion therapy and technology-based drug delivery devices , they said .|||O O O O O O O O O O O O O O O O O O O O O O
+IMED had profits of $ 1.7 million , or 6 cents per fully diluted common share , on $ 53.9 million in revenues in the first half of 1996 .|||B-ORG O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+The Dow Jones industrial average opened slightly higher on Monday , boosted by Philip Morris , which gained four to 92 .|||O B-MISC I-MISC O O O O O O O O O O B-ORG I-ORG O O O O O O O
+St Helens 's triumph marked the end of Wigan 's seven-year reign as British champions .|||B-ORG I-ORG O O O O O O B-ORG O O O O B-MISC O O
+13 seconds|||O O
+Tommi Makinen took a significant step towards becoming world rally champion with a brilliant victory in the 1000 Lakes Rally on Monday .|||B-PER I-PER O O O O O O O O O O O O O O O B-MISC I-MISC I-MISC O O O
+Maakinen 's and Mitsubishi 's positions were strengthened by the late retirement of Spain 's Carlos Sainz when his Ford gearbox failed .|||B-PER O O B-ORG O O O O O O O O O B-LOC O B-PER I-PER O O B-ORG O O O
+Makinen , with 95 points , now leads his nearest championship rival , Sainz , by 32 points .|||B-PER O O O O O O O O O O O O B-PER O O O O O
+-DOCSTART-|||O
+-DOCSTART-|||O
+SOCCER - ENGLISH PREMIER LEAGUE RESULT / STANDINGS .|||O O B-MISC O O O O O O
+Leeds 1 Wimbledon 0|||B-ORG O B-ORG O
+Wasim Akram 's three-wicket haul|||B-PER I-PER O O O
+bowlers and the second Pakistani , after Imran Khan , to achieve|||O O O O B-MISC O O B-PER I-PER O O O
+Richard Hadlee ( New Zealand ) 431 , 86|||B-PER I-PER O B-LOC I-LOC O O O O
+Malcolm Marshall ( West Indies ) 376 , 81|||B-PER I-PER O B-LOC I-LOC O O O O
+Fred Trueman ( England ) 307 , 67|||B-PER I-PER O B-LOC O O O O
+cricket standings after Monday 's matches ( tabulated under|||O O O O O O O O O
+Sussex 13 5 6 2 27 43 156|||B-ORG O O O O O O O
+Worcestershire 13 3 3 7 33 48 150|||B-ORG O O O O O O O
+Northamptonshire 13 2 6 5 30 43 120|||B-ORG O O O O O O O
+Yorkshire 529-8 declared|||B-ORG O O
+Salim Malik 100 not out , Ijaz Ahmed 61 )|||B-PER I-PER O O O O B-PER I-PER O O
+G. Thorpe c Wasim Akram b Mushtaq Ahmed 9|||B-PER I-PER O B-PER I-PER O B-PER I-PER O
+Pakistan second innings|||B-LOC O O
+Ijaz Ahmed not out 13|||B-PER I-PER O O O
+Bowling : Cork 3-0-15-0 , Mullally 3-0-24-1 , Croft 0.4-0-9-0|||O O B-PER O O B-PER O O B-PER O
+First test : Lord 's - Pakistan won by 164 runs|||O O O B-LOC I-LOC O B-LOC O O O O
+St Helens 22 20 0 2 950 455 40 - champions|||B-ORG I-ORG O O O O O O O O O
+Workington 22 2 1 19 325 1021 5|||B-ORG O O O O O O O
+Saturday , August 31 :|||O O O O O
+Ipswich , Port Vale v Oxford , Reading v Stoke , Southend v|||B-ORG O B-ORG I-ORG O B-ORG O B-ORG O B-ORG O B-ORG O
+Airdrieonians , Stirling v Dundee .|||B-ORG O B-ORG O B-ORG O
+Costa Rica and Chile|||B-LOC I-LOC O B-LOC
+SOCCER - AFRICAN NATIONS CUP COLLATED RESULTS .|||O O B-MISC I-MISC I-MISC O O O
+2-2 on aggregate .|||O O O O
+Winners progress to qualifying groups to start in October .|||O O O O O O O O O O
+Dnipro Dnipropetrovsk 2 CSKA Kiev 1|||B-ORG I-ORG O B-ORG I-ORG O
+Nyva Vinnytsya 5 0 2 3 1 7 2|||B-ORG I-ORG O O O O O O O
+MSK Zilina 0 FC Kosice 2|||B-ORG I-ORG O B-ORG I-ORG O
+FC Rimavska Sobota 4 2 0 2 4 5 6|||B-ORG I-ORG I-ORG O O O O O O O
+ZTE 1 Debrecen 5|||B-ORG O B-ORG O
+17. Siofok 3 - - 3 2 7 0|||O B-ORG O O O O O O O
+SOCCER - CZECH FIRST DIVISION RESULTS / STANDINGS .|||O O B-MISC O O O O O O
+Playing Monday : Viktoria Plzen v AC Sparta Praha|||O O O B-ORG I-ORG O B-ORG I-ORG I-ORG
+goals for , against , points ) :|||O O O O O O O O
+SK Ceske Budejovice 3 1 1 1 3 5 4|||B-ORG I-ORG I-ORG O O O O O O O
+Pachuca 3 Toluca 0|||B-ORG O B-ORG O
+UAG 1 Neza 2|||B-ORG O B-ORG O
+Results of matches on the|||O O O O O
+Note : the Apertura is the first of two championships played|||O O O B-MISC O O O O O O O
+-DOCSTART-|||O
+TEGUCIGALPA 1996-08-26|||B-LOC O
+Results of Brazilian|||O O B-MISC
+Gremio 2 Vitoria 2|||B-ORG O B-ORG O
+Portuguesa 4 3 0 1 8 3 9|||B-ORG O O O O O O O
+Gremio 3 2 1 0 11 4 7|||B-ORG O O O O O O O
+Internacional 4 1 2 1 4 3 5|||B-ORG O O O O O O O
+Hanwha 3 Haitai 2|||B-ORG O B-ORG O
+-DOCSTART-|||O
+When the tournament began on Monday it was the fans ' turn to be offended .|||O O O O O O O O O O O O O O O O
+" I was n't happy when I saw the draw .|||O O O O O O O O O O O
+" There will be tough matches but I hope I can get there , " she said . "|||O O O O O O O O O O O O O O O O O O O
+In a break from tradition , the Open did not seed in strict accordance with ATP rankings , instead taking into account other factors that raised objections of favourtism toward U.S. players .|||O O O O O O O B-MISC O O O O O O O B-ORG O O O O O O O O O O O O O O B-LOC O O
+" He ( Agassi ) should be seeded the way he is playing tennis right now , " said Stich about the unfairness of moving up Agassi , who made early exits from the French Open and Wimbledon .|||O O O B-PER O O O O O O O O O O O O O O O B-PER O O O O O O B-PER O O O O O O O B-MISC I-MISC O B-MISC O
+-DOCSTART-|||O
+Henrietta Nagyova ( Slovakia ) beat Gala Leon Garcia ( Spain ) 6-1 4-6 6-3|||B-PER I-PER O B-LOC O O B-PER I-PER I-PER O B-LOC O O O O
+Barbara Schett ( Austria ) beat Sabine Appelmans ( Belgium ) 1-6 6-4 6-4|||B-PER I-PER O B-LOC O O B-PER I-PER O B-LOC O O O O
+Women 's singles|||O O O
+Anna Kournikova ( Russia ) beat Ludmila Richterova ( Czech Republic ) 7-6 ( 7-4 ) 6-3|||B-PER I-PER O B-LOC O O B-PER I-PER O B-LOC I-LOC O O O O O O
+Alex O'Brien ( U.S. ) beat Nicolas Lapentti ( Ecuador ) 6-4 1-6 6-4 6-3|||B-PER I-PER O B-LOC O O B-PER I-PER O B-LOC O O O O O
+Men 's singles|||O O O
+ATLANTA 1996-08-25|||B-LOC O
+The Braves scored four runs in the ninth for a 6-5 victory on Saturday .|||O B-ORG O O O O O O O O O O O O O
+Fernandez ( 6-13 ) allowed two runs , walked one and struck out eight for his second career complete game , both against Montreal .|||B-PER O O O O O O O O O O O O O O O O O O O O O O B-ORG O
+Wall ( 8-4 ) allowed three hits , walked two and struck out seven as the Astros moved 1-1/2 games ahead of the Cardinals for the lead in the National League Central .|||B-PER O O O O O O O O O O O O O O O B-ORG O O O O O O B-ORG O O O O O B-MISC I-MISC I-MISC O
+AMERICAN LEAGUE|||B-MISC I-MISC
+TORONTO 61 70 .466 14|||B-ORG O O O O
+WESTERN DIVISION|||B-MISC I-MISC
+OAKLAND AT BALTIMORE|||B-ORG O B-LOC
+MINNESOTA AT TORONTO|||B-ORG O B-LOC
+ATLANTA 81 48 .628 -|||B-ORG O O O O
+Dutch coach Guus Hiddink on Monday recalled midfielder Wim Jonk after a 14-month absence for a friendly against World Cup holders Brazil in Amsterdam on Sunday .|||B-MISC O B-PER I-PER O O O O B-PER I-PER O O O O O O O O B-MISC I-MISC O B-LOC O B-LOC O O O
+BARCELONA 1996-08-26|||B-LOC O
+S. Law b Streak 20|||B-PER I-PER O B-PER O
+Zimbabwe|||B-LOC
+9-2-26-1 ( 1nb , 3w ) , M. Waugh 5-1-24-3|||O O O O O O O B-PER I-PER O
+COLOMBO 1996-08-26|||B-LOC O
+The reorganization plan calls for all secured claims to be paid in full .|||O O O O O O O O O O O O O O
+Kurt Schork|||B-PER I-PER
+The Dayton peace agreement gave the OSCE a mandate to organise Bosnian elections .|||O B-LOC O O O O B-ORG O O O O B-MISC O O
+Diplomats explain the purpose of this electoral engineering is to secure Serb control over pivotal towns inside the 49 per cent of Bosnia known as the Serb republic , consolidating through the ballot box what was initially taken in war .|||O O O O O O O O O O O B-MISC O O O O O O O O O O B-LOC O O O B-MISC O O O O O O O O O O O O O O
+He returned at the weekend , pledging to conclude a political settlement that would make this truce work where all others have failed .|||O O O O O O O O O O O O O O O O O O O O O O O O
+Speculation mounted last week that Lebed was operating out on a limb in Chechnya as Yeltsin , hardly seen since his reelection last month , kept out of sight and then gave an interview criticising his envoy just as he clinched a truce .|||O O O O O B-PER O O O O O O O B-LOC O B-PER O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+" ( Yeltsin ) controls internal and international policies , daily receives a big packet of documents from Moscow , which demand his intervention ...|||O O B-PER O O O O O O O O O O O O O O O B-LOC O O O O O O
+Federal Yugoslav elections are due on November 3 .|||O B-MISC O O O O O O O
+Croatian lending rate falls to 8.0 vs 9.1 pct .|||B-MISC O O O O O O O O O
+Supply stood at a high 180 million kuna .|||O O O O O O O O O
+Valkov said he could not curb the summer charter flights of national carrier Balkan Airlines , which carries thousands of foreign tourists to the Bulgarian Black Sea resorts .|||B-PER O O O O O O O O O O O O B-ORG I-ORG O O O O O O O O O B-MISC B-LOC I-LOC O O
+MOSCOW 1996-08-26|||B-LOC O
+MEXICO CITY 1996-08-26|||B-LOC I-LOC O
+It bumped up its average interest rate projection in 1997 to 25.8 percent from 23 percent .|||O O O O O O O O O O O O O O O O O
+BOGOTA 1996-08-26|||B-LOC O
+" ( Chamorro ) is in good health and , according to her doctors , will be able to return to Nicaragua next week , " it said .|||O O B-PER O O O O O O O O O O O O O O O O O O B-LOC O O O O O O O
+She suffers from osteoporosis , a disease that weakens the bones , and has repeatedly flown to Washington for treatment .|||O O O O O O O O O O O O O O O O O B-LOC O O O
+-DOCSTART-|||O
+- Mexico City newsroom 525 728-9559|||O B-LOC I-LOC O O O
+Dutch couple kidnapped in Costa Rica .|||B-MISC O O O B-LOC I-LOC O
+AUCKLAND 1996-08-27|||B-LOC O
+A shot was fired , but onlookers managed to disarm the man .|||O O O O O O O O O O O O O
+SINGAPORE 1996-08-26|||B-LOC O
+JAKARTA 1996-08-26|||B-LOC O
+Another dealer said operators were reluctant to unload rupiah despite ample conditions due to the month-end factor .|||O O O O O O O O O O O O O O O O O O
+Megawati 's lawyers said they were still discussing a possible out of court settlement but they was not optimistic an agreement could be reached .|||B-PER O O O O O O O O O O O O O O O O O O O O O O O O
+Kurds clash again in Iraq , dozens reported dead .|||B-MISC O O O B-LOC O O O O O
+ANKARA 1996-08-26|||B-LOC O
+The fighting has threatened a U.S.-led peace plan to unite the mountainous Kurdish region in northern Iraq against President Saddam Hussein .|||O O O O O B-MISC O O O O O O B-MISC O O O B-LOC O O B-PER I-PER O
+CAIRO 1996-08-26|||B-LOC O
+" Egypt will contact the British government to find out the truth of the matter and to discuss the possible consequences of such an unfortunate step , " he added .|||O B-LOC O O O B-MISC O O O O O O O O O O O O O O O O O O O O O O O O O
+Egyptian government newspapers have criticised Britain for allowing Islamists , whom they brand as " terrorists " , to hold their conference , saying the meeting will be a chance for dangerous Moslem militants to plot against their countries of origin .|||B-MISC O O O O B-LOC O O B-MISC O O O O O O O O O O O O O O O O O O O O O O O B-MISC O O O O O O O O O
+It is not clear when the conference will be held .|||O O O O O O O O O O O
+Israeli security forces ransacked a Bedouin encampment in the West Bank on Monday to expel them from an area which Palestinians say had been earmarked for Jewish settlement expansion , residents said .|||B-MISC O O O O B-MISC O O O B-LOC I-LOC O O O O O O O O O B-MISC O O O O O B-MISC O O O O O O
+Russian grade A7E 3.25-3.75 cents / pound|||B-MISC O O O O O O
+Mixed low-copper clips 48 to 49 cents / pound|||O O O O O O O O O
+--|||O
+Noranda aluminum , U.S. Midwest ( effective date:August 1 , 1996 )|||B-ORG O O B-LOC I-LOC O O O O O O O
+extrusion billet 85 cents / pound|||O O O O O O
+premium over LME cash 7.5 cents / pound|||O O B-ORG O O O O O
+The boy was last seen alive Sunday night when he joined his two younger brothers and father in a bedtime prayer .|||O O O O O O O O O O O O O O O O O O O O O O
+Traders said the U.S. cash market remains well above the benchmark Thai price which limited gains .|||O O O B-LOC O O O O O O O B-MISC O O O O O
+Rice futures volume was estimated at 450 contracts , up from 202 Friday .|||O O O O O O O O O O O O O O
+-DOCSTART-|||O
+Gore presents new image of lead attack dog .|||B-PER O O O O O O O O
+No more mild-mannered and meek Al Gore , the vice president and likely heir apparent to President Bill Clinton , emerged on Monday as the new Democratic attack dog leading a front-line assault on Bob Dole and House Speaker Newt Gingrich .|||O O O O O B-PER I-PER O O O O O O O O O O B-PER I-PER O O O O O O O B-MISC O O O O O O O B-PER I-PER O B-ORG O B-PER I-PER O
+Dole 's tax cut plans were called " deja-voodoo economics .... It 's a warmed-over plan that failed and drove our economy into a ditch .|||B-PER O O O O O O O O O O O O O O O O O O O O O O O O O
+Actor Reeve highlights Democrats ' first night .|||O B-PER O B-MISC O O O O
+As head of Handgun Control Inc. , Sarah Brady , 54 , campaigned nonstop for tough gun control in the years following the shooting of her husband and then President Reagan in 1981 .|||O O O B-ORG I-ORG I-ORG O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O B-PER O O O
+Reeve , an accomplished rider who owned several horses , suffered multiple injuries including two shattered neck vertebrae when he was thrown from his horse at an equestrian event in Culpepper , Virginia , on May 27 , 1995 .|||B-PER O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-LOC O B-LOC O O O O O O O
+That allowed him to be moved to a semi-upright position .|||O O O O O O O O O O O
+Concern that he might be steamrollered by the vastly more experienced Republican leader Bob Dole was dispelled when he showed a tough edge , outmaneuvering Dole in a wrangle over scrapping a gas tax and raising the federal minimum wage .|||O O O O O O O O O O O B-MISC O B-PER I-PER O O O O O O O O O O B-PER O O O O O O O O O O O O O O O
+Daschle was a key player in President Bill Clinton 's failed attempt at sweeping healthcare changes but when he became minority leader he declared he would be no water-carrier for the White House .|||B-PER O O O O O O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O
+DALLAS 1996-08-26|||B-LOC O
+A police spokesman said the boy was being questioned . "|||O O O O O O O O O O O
+Asian traders had earlier expected an IOC tender for around 400,000 tonnes .|||B-MISC O O O O O B-ORG O O O O O O
+North Battleford , Sask .|||B-LOC I-LOC O B-LOC O
+-- Gilbert Le Gras 204 947 3548|||O B-PER I-PER I-PER O O O
+CLEVELAND 1996-08-26|||B-LOC O
+The company is " vigorously defending " the remaining four suits filed by former and current Brush Wellman employees , he said .|||O O O O O O O O O O O O O O O O B-ORG I-ORG O O O O O
+-DOCSTART-|||O
+Salomon cuts refiner Q3 EPS view on margin concern .|||B-ORG O O O O O O O O O
+-- Total Petroleum ( North America ) Ltd to $ 0.15 from $ 0.46 versus the consensus $ 0.33|||O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O
+1ST CPN : 05/01/97|||O O O O
+CONFIRMED CONFIRMED|||O O
+6,045,000.00|||O
+She even worked ropelines , shaking hands with excited fans .|||O O O O O O O O O O O
+She has to go back to school . "|||O O O O O O O O O
+The president 's daughter is going into her senior year of high school at Sidwell Friends School , a private school in Washington .|||O O O O O O O O O O O O O O B-ORG I-ORG I-ORG O O O O O B-LOC O
+IHC Caland reported first half results well under forecasts on Monday and the shares suffered as a result .|||B-ORG I-ORG O O O O O O O O O O O O O O O O O
+He plays a power-hungry lawyer in the movie described as " a tender and cruel comedy " by Lelouche , who is making his 35th film .|||O O O O O O O O O O O O O O O O O O B-PER O O O O O O O O
+That is why I will no longer be deputy by the time the film opens . "|||O O O O O O O O O O O O O O O O O
+-DOCSTART-|||O
+Maybe it will be in single-digits , " Wijffels told Reuters .|||O O O O O O O O B-PER O B-ORG O
+PARIS 1996-08-26|||B-LOC O
+Schumacher won the race in 1 hour 28 minutes 15.125 seconds at an average speed of 208.442 km / hour ( 130 m.p.h. ) .|||B-PER O O O O O O O O O O O O O O O O O O O O O O O O
+-DOCSTART-|||O
+The last no-confidence debate against Banharn 's coalition in May was won by the government .|||O O O O O B-PER O O O O O O O O O O
+International Philippine coconut oil prices as reported by the United Coconut Associations of the Philippines ( dollars per tonne cif Europe ) .|||B-ORG I-ORG O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O B-LOC O O
+SepOct 733.75 743.50 unq unq|||O O O O O
+These are the leading stories in the Beirut press on Monday .|||O O O O O O O B-LOC O O O O
+- The surprise ...|||O O O O
+L-ORIZZONT|||B-LOC
+Leonard Santorelli|||B-PER I-PER
+But it 's when it gets to the ( employee ) families -- that it goes across the line . "|||O O O O O O O O O O O O O O O O O O O O O
+Other larger activist groups include Earth First , The Land is Ours , Alarm UK and Road Alert .|||O O O O O B-ORG I-ORG O B-ORG I-ORG I-ORG I-ORG O B-ORG I-ORG O B-ORG I-ORG O
+The groups have targeted specific projects like the Newbury bypass and the M3 motorway through Twyford Down in the southern county of Hampshire .|||O O O O O O O O B-LOC O O O B-LOC O O B-LOC I-LOC O O O O O B-LOC O
+*|||O
+-DOCSTART-|||O
+JAKARTA 1996-08-27|||B-LOC O
+Tuesday .|||O O
+-DOCSTART-|||O
+Scorers :|||O O
+Stoke 2 2 0 0 4 2 6|||B-ORG O O O O O O O
+Bradford 2 1 0 1 3 2 3|||B-ORG O O O O O O O
+Stockport 3 0 1 2 0 2 1|||B-ORG O O O O O O O
+Doncaster 3 0 1 2 1 3 1|||B-ORG O O O O O O O
+-DOCSTART-|||O
+matches on Tuesday :|||O O O O
+Tranmere 2 Port Vale 0|||B-ORG O B-ORG I-ORG O
+Postponed : Peterborough v Notts County , Wrexham v Bristol|||O O B-ORG O B-ORG I-ORG O B-ORG O B-ORG
+England and Pakistan Test averages|||B-LOC O B-LOC O O
+Mike Atherton 3 5 0 162 64 32.40|||B-PER I-PER O O O O O O
+Cork 131 23 434 12 36.16|||B-PER O O O O O
+Mullally 150.3 36 377 10 37.70|||B-PER O O O O O
+Wasim Akram 3 5 1 98 40 24.50|||B-PER I-PER O O O O O O
+Waqar Younis 3 3 1 11 7 5.50|||B-PER I-PER O O O O O O
+-DOCSTART-|||O
+The Romanian Soccer Federation has banned first division club Jiul Petrosani 's president Miron Cozma for two years for headbutting a visiting team player , a federation statement said .|||O B-ORG I-ORG I-ORG O O O O O B-ORG I-ORG O O B-PER I-PER O O O O O O O O O O O O O O O
+Cozma is awaiting trial for assault and criminal damage in a bar in his home town of Petrosan , 300 kms west of Bucharest .|||B-PER O O O O O O O O O O O O O O O O B-LOC O O O O O B-LOC O
+15-14 15-9|||O O
+" It 's a win that I can be proud of , " said the 30-year-old Swede , winner of two U.S. Opens and six Grand Slam titles in all . "|||O O O O O O O O O O O O O O O O B-MISC O O O O B-LOC O O O B-MISC I-MISC O O O O O
+Elena Wagner ( Germany ) beat Gigi Fernandez ( U.S. ) 6-1 6-4|||B-PER I-PER O B-LOC O O B-PER I-PER O B-LOC O O O
+Women 's singles|||O O O
+6 6-2 6-4|||O O O
+Women 's singles|||O O O
+Roberto Carretero ( Spain ) beat Jordi Burillo ( Spain ) 6-3 4-6 6-|||B-PER I-PER O B-LOC O O B-PER I-PER O B-LOC O O O O
+0 1-0 Retired ( ankle injury )|||O O O O O O O
+Jared Palmer ( U.S. ) beat 15 - Marc Rosset ( Switzerland ) 6-7 ( 7-9 )|||B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O O
+TORONTO 62 70 .470 13|||B-ORG O O O O
+PHILADELPHIA AT SAN FRANCISCO|||B-ORG O B-LOC I-LOC
+LOS ANGELES AT MONTREAL|||B-ORG I-ORG O B-LOC
+" We 've been working all year on my follow-through , and I really concentrated on that , " VanLandingham said . "|||O O O O O O O O O O O O O O O O O O O B-PER O O O
+NEW YORK 1996-08-26|||B-LOC I-LOC O
+Maybe it was a combination of the heat and something I ate . "|||O O O O O O O O O O O O O O
+Germany 's Michael Stich , the 1991 Wimbledon champion , and two-time French Open winner Sergi Bruguera of Spain will face each other next after beating German Tommy Haas 6-3 1-6 6-1 7-5 , and Belgian Kris Goossens 6-2 6-0 7-6 ( 7-1 ) , respectively .|||B-LOC O B-PER I-PER O O O B-MISC O O O O B-MISC I-MISC O B-PER I-PER O B-LOC O O O O O O O B-MISC B-PER I-PER O O O O O O B-MISC B-PER I-PER O O O O O O O O O
+The most deflating double fault came when Oncins was serving to force a fifth set , leading 6-4 in the tiebreaker .|||O O O O O O O B-PER O O O O O O O O O O O O O O
+-DOCSTART-|||O
+2-0 .|||O O
+BONN 1996-08-27|||B-LOC O
+Bayer Leverkusen 3 2 0 1 7 4 6|||B-ORG I-ORG O O O O O O O
+SOCCER - DUTCH FIRST DIVISION SUMMARY .|||O O B-MISC O O O O
+( 23rd ) , Christian Ruuttu ( 45th )|||O O O O B-PER I-PER O O O
+CYCLING - BUGNO CLEARED OF DOPING .|||O O B-PER O O O O
+CYCLING - COLONNA WINS FIRST STAGE OF TOUR OF NETHERLANDS .|||O O B-PER O O O O B-MISC I-MISC I-MISC O
+Leading results and overall standings after the 161 kilometre first stage of the Tour of the Netherlands between Gouda and Haarlem on Tuesday .|||O O O O O O O O O O O O O B-MISC I-MISC I-MISC I-MISC O B-LOC O B-LOC O O O
+7. Johan Capiot ( Belgium ) Collstrop|||O B-PER I-PER O B-LOC O B-ORG
+3. Koerts 0:06|||O B-PER O
+4. Gianluca Corini ( Italy ) Aki 0:07|||O B-PER I-PER O B-LOC O B-ORG O
+9. John Talen ( Neths ) Foreldorado same time|||O B-PER I-PER O B-LOC O B-ORG O O
+Price Max .|||O O O
+BARUM HOLDING 171.00 171.00 14432 2467.872|||B-ORG I-ORG O O O O
+METROSTAV 3024.95 3024.95 3000 9074.850|||B-ORG O O O O
+On Monday , the company said it had agreed to be acquired by WorldCom Inc in a deal valued at $ 14 billion .|||O O O O O O O O O O O O O B-ORG I-ORG O O O O O O O O O
+Kadian was approved for sale in the United States last month , Faulding said .|||B-MISC O O O O O O B-LOC I-LOC O O O B-ORG O O
+-DOCSTART-|||O
+We are still trying to establish contact with the local commander . "|||O O O O O O O O O O O O O
+But the church learned in a recent meeting with the local commander that no instructions to release the prisoners were received and they would be held until investigations were completed .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+-DOCSTART-|||O
+" I have made a chairman 's decision that it is not feasible to hold municipal elections on September 14 , " said Frowick .|||O O O O O O O O O O O O O O O O O O O O O O O B-PER O
+The response of the Bosnian Serbs to the OSCE 's announcement was not immediately clear .|||O O O O B-MISC I-MISC O O B-ORG O O O O O O O
+The Bosnian Serb cabinet , in a letter to the OSCE , said on Monday that any delay of local elections would be " a direct and flagrant violation fo the Dayton agreement " .|||O B-MISC I-MISC O O O O O O O B-ORG O O O O O O O O O O O O O O O O O O O O B-LOC O O O
+New talks in Chechnya as Lebed waits for Yeltsin .|||O O O B-LOC O B-PER O O B-PER O
+Tass said the weapons and the practical implementation of the ceasefire signed by Lebed and Maskhadov last Thursday would be on the agenda of today 's talks .|||B-ORG O O O O O O O O O O O O B-PER O B-PER O O O O O O O O O O O O
+RIA news agency quoted an army source accusing rebel fighters of failing to turn up for joint Russian-Chechen police patrols in some districts of the capital Grozny on Tuesday .|||B-ORG O O O O O O O O O O O O O O O O B-MISC O O O O O O O O B-LOC O O O
+" If they ( the PUNR ) are so vexed , they could leave the government ...|||O O O O O B-ORG O O O O O O O O O O O
+His appeal to the opposition to back his attempt to oust Iliescu was unlikely to succeed , analysts said .|||O O O O O O O O O O O B-PER O O O O O O O O
+Iliescu has invited political leaders to a meeting on Thursday to discuss the final form of the pact which both Romanian and Hungarian nationalists oppose for different reasons .|||B-PER O O O O O O O O O O O O O O O O O O O B-MISC O B-MISC O O O O O O
+" The votes are a strong message to Meri that he is not favoured by some politicians any more , " Reform Party head Heiki Kranich told Reuters .|||O O O O O O O O B-PER O O O O O O O O O O O O B-ORG I-ORG O B-PER I-PER O B-ORG O
+Support for Ruutel , 68 , remained constant at 34 votes .|||O O B-PER O O O O O O O O O
+Parliamentary organisers said the exact timetable remained unclear but it would probably take about a month to organise an electoral college which could also hold several rounds of voting before a clear winner emerges .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+Meri won 49 in a second vote earlier on Tuesday and 45 in the first on Monday .|||B-PER O O O O O O O O O O O O O O O O O
+The election will now go before an electoral college involving MPs and local government representatives that will be convened by the parliamentary Speaker in the next day or so .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+The age of consent for heterosexual and homosexual sex in Albania is 14 .|||O O O O O O O O O O B-LOC O O O
+-DOCSTART-|||O
+Although Gajdos spoke of " girls " his deputy , Eva Boudova , said the case involved about 10 young women in their early 20s .|||O B-PER O O O O O O O O B-PER I-PER O O O O O O O O O O O O O O
+Belgian police said an officer had visited Bratislava to talk with Slovak detectives about An and Eefje and other disappearances , and he planned to go also to Prague .|||B-MISC O O O O O O B-LOC O O O B-MISC O O B-PER O B-PER O O O O O O O O O O O B-LOC O
+In the latest attack , the killer raped and stabbed a young woman in a lift , leaving her body on a landing .|||O O O O O O O O O O O O O O O O O O O O O O O O
+-DOCSTART-|||O
+Anton Schutte , an official with the embassy for Belgium , the Netherlands and Luxembourg , said the Dutch government had ruled out paying any money in ransom . "|||B-PER I-PER O O O O O O O B-LOC O O B-LOC O B-LOC O O O B-MISC O O O O O O O O O O O
+A Central Bank spokesman said he could not confirm or deny the report .|||O B-ORG I-ORG O O O O O O O O O O O
+O Globo also said another delicate case to be solved involves private bank Bamerindus .|||B-ORG I-ORG O O O O O O O O O O O B-ORG O
+Czech Republic 's Havel to tour Brazil in September .|||B-LOC I-LOC O B-PER O O B-LOC O O O
+The former dictator , who ruled from 1971 to 1973 , was best known for allowing Juan Domingo Peron , Argentina 's famed populist leader , to return to Argentina after 17 years of forced exile .|||O O O O O O O O O O O O O O O O B-PER I-PER I-PER O B-LOC O O O O O O O O B-LOC O O O O O O O
+It said the liner was heading to Dalian from the northern port of Tianjin , it said .|||O O O O O O O B-LOC O O O O O B-LOC O O O O
+BEIJING 1996-08-27|||B-LOC O
+A U.S. diplomat in charge of elections in Bosnia announced earlier that municipal polls due on September 14 with other Bosnian elections would be put off because of irregularities by the Serbs in registering voters .|||O B-LOC O O O O O O B-LOC O O O O O O O O O O O B-MISC O O O O O O O O O O B-MISC O O O O
+Trade was quiet , with no sales slaughter steers or heifers confirmed .|||O O O O O O O O O O O O O
+Anti-abortion speaker praises Democrat tolerance .|||O O O B-MISC O O
+Georgia Rep .|||B-LOC B-MISC O
+Duluth 5.06 up .02 --- --- -- --|||B-LOC O O O O O O O
+NORTH DAKOTA|||B-LOC I-LOC
+Pendleton OR --- --- --- --- 4.7300 up .01|||B-LOC B-LOC O O O O O O O
+-- U.S. Municipal Desk , 212-859-1650|||O B-ORG I-ORG I-ORG O O
+The commander of Russian troops in Chechnya , Vyacheslav Tikhomirov , and Chechen rebel chief-of-staff Aslan Mashadov signed the deal under which the troop withdrawal is to resume on Wednesday .|||O O O B-MISC O O B-LOC O B-PER I-PER O O B-MISC O O B-PER I-PER O O O O O O O O O O O O O O
+Akron , Ohio , $ 6 mln bonds rated single-A - Moody 's .|||B-LOC O B-LOC O O O O O O O O B-ORG I-ORG O
+Sale Amount : 6,310,000|||O O O O
+An ABC News poll released on Tuesday showed President Bill Clinton 's lead over Republican challenger Bob Dole stretching to 15 points in advance of the Nov. 5 election .|||O B-ORG I-ORG O O O O O O B-PER I-PER O O O B-MISC O B-PER I-PER O O O O O O O O O O O O
+U.S. bulk millfeeds - Immediate supply tight .|||B-LOC O O O O O O O
+High-priced corn and increased demand for livestock feed continued to support millfeed prices in nearly all sectors .|||O O O O O O O O O O O O O O O O O O
+Eau Claire , Wisc .|||B-ORG I-ORG O B-LOC I-LOC
+revs won by Robert W. Baird .|||O O O B-ORG I-ORG I-ORG O
+, Inc. , said it won $ 1 million of Eau Claire , Wisc .|||B-ORG I-ORG O O O O O O O O B-ORG I-ORG O B-LOC I-LOC
+In July , the average rate on a 30-year fixed rate mortgage was 8.25 percent , below June 's 8.32 percent but still higher than February 's 7.03 percent , the report noted .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+-- Boston bureau , 617-367-4106|||O B-LOC O O O
+Amtrak train derails , three injured - officials .|||B-ORG O O O O O O O O
+" If you had been struck ...|||O O O O O O O
+Anxieties over the budget niggled the currency markets where the franc lost around half a centime from Monday 's late European levels to 3.4211 per mark .|||O O O O O O O O O O O O O O O O O O O O B-MISC O O O O O O
+-DOCSTART-|||O
+Bomb blast in TELO office in Trincomalee kills one , wounds six .|||O O O B-ORG O O B-LOC O O O O O O
+-DOCSTART-|||O
+CALCUTTA 1996-08-27|||B-LOC O
+Pope John Paul II and Israeli Foreign Minister David Levy sent her get-well messages , the Press Trust of India said .|||B-PER I-PER I-PER O O B-MISC O O B-PER I-PER O O O O O O B-ORG I-ORG I-ORG I-ORG O O
+The Statesman newspaper quoted 40-year-old Mangala Das , paralysed from her waist down and a resident of the Prem Dan ( Gift of Love ) home for the destitute , as saying she and her friends had been praying incessantly for Mother Teresa 's recovery .|||B-ORG I-ORG O O O B-PER I-PER O O O O O O O O O O O B-ORG I-ORG O B-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O B-PER I-PER O O O
+Rohrabacher flew into Bagram military airbase north of Kabul in a Red Cross plane on Tuesday after meeting northern opposition militia leader General Abdul Rashid Dostum .|||B-PER O O B-LOC O O O O B-LOC O O B-ORG I-ORG O O O O O O O O O O B-PER I-PER I-PER O
+Export demand was good but availability was limited .|||O O O O O O O O O
+---------------------|||O
+FOR Bedi Bunder 9,800 8,800|||O B-MISC I-MISC O O
+M2 money supply ( bln taka ) 456.8 439.9 422.1|||O O O O O O O O O O
+1-mth Helibor 3.27 pct 3.29 pct|||O B-MISC O O O O
+3-mth Helibor 3.40 pct 3.40 pct|||O B-MISC O O O O
+Barrick 's offer of C$ 30 a share or part cash , part share offer was Barrick 's second attempt to swallow the small Vancouver-based gold prospector .|||B-ORG O O O B-MISC O O O O O O O O O O O B-ORG O O O O O O O B-MISC O O O
+-DOCSTART-|||O
+AOL Europe forms online advertising agency .|||B-ORG I-ORG O O O O O
+Airport spokeswoman Rona Young confirmed that all the passengers had left the aircraft .|||O O B-PER I-PER O O O O O O O O O O
+EXERCISE PERIOD 02.SEP.96-06.MAR.97 PAYDATE 30.AUG.96|||O O O O O
+CALL C 98.00 PCT 0.47 DEM 3.30 PCT 202.90 X|||O O O O O B-MISC O O O O
+Turkey 's Kurd rebels kill two , take three hostage .|||B-LOC O B-MISC O O O O O O O O
+Egypt confiscates paper for " mad rulers " article .|||B-LOC O O O O O O O O O
+Nasdaq Stock symbol TKTX|||B-MISC O O O
+Shrs offered by company 2.5 million|||O O O O O O
+1996-08-27|||O
+Sarah Brady , whose Republican husband was severely disabled in an assassination attempt on President Ronald Reagan , took centre stage at the Democratic National convention on Monday night to praise President Bill Clinton 's gun control efforts .|||B-PER I-PER O O B-MISC O O O O O O O O O O B-PER I-PER O O O O O O B-MISC I-MISC I-MISC O O O O O O B-PER I-PER O O O O O
+With her husband James sitting in a wheelchair to the side of the podium , Mrs. Brady called the handgun control bill that a Democratic Congress passed and Clinton signed in 1994 a major step in controlling firearm violence in the United States .|||O O O B-PER O O O O O O O O O O O O B-PER O O O O O O O B-MISC B-ORG O O B-PER O O O O O O O O O O O O B-LOC I-LOC O
+This is n't San Diego ( site of the Republican convention ) , " Mrs. Brady joked to her husband , who was serving as Reagan 's press secretary when he was shot .|||O O O B-LOC I-LOC O O O O B-MISC O O O O O B-PER O O O O O O O O O B-PER O O O O O O O O
+Brady|||B-PER
+Elect Res May 25 43.0 32.0 6.0 12.0 4.0|||B-ORG I-ORG O O O O O O O
+Mentmore Abbey , the UK stationery and housewares business formerly known as Platignum , said it was making the statement in response to recent newspaper articles linking the two groups .|||B-ORG I-ORG O O B-LOC O O O O O O O B-ORG O O O O O O O O O O O O O O O O O O
+-- London Newsroom +44 171 542 4017|||O B-ORG I-ORG O O O O
+Hijacked Sudan plane lands at a London airport .|||O B-LOC O O O O B-LOC O O
+STANSTED , England 1996-08-27|||B-LOC O B-LOC O
+-DOCSTART-|||O
+It had called for similar precautions at other overseas missions , including those in Canada and Bangladesh where leftist groups have staged protests over the crackdown .|||O O O O O O O O O O O O O O B-LOC O B-LOC O O O O O O O O O O
+-DOCSTART-|||O
+New Delhi 's stance , which was seen as effectively thwarting 2-1/2 years of negotiations at the Conference on Disarmament , drew widespread but generally muted foreign criticism .|||B-LOC I-LOC O O O O O O O O O O O O O O O B-MISC I-MISC I-MISC O O O O O O O O O
+The government said on Tuesday that the threat from a mysterious killer germ , while still requiring vigilance , appears to be receding in the western Japan city of Sakai , where the epidemic hit the hardest .|||O O O O O O O O O O O O O O O O O O O O O O O O O O B-LOC O O B-LOC O O O O O O O O
+Japan aluminium shipments surge 8.9 pct in July .|||B-LOC O O O O O O O O
+The surge reflected strong demand from the beverage can and housing construction sectors , federation officials said .|||O O O O O O O O O O O O O O O O O O
+The director of the SEC 's division of market regulation , Richard Lindsey , said Wall Street firms will probably need to spend about $ 7 million to carry out the improvements called for by the new rules .|||O O O O B-ORG O O O O O O B-PER I-PER O O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O O O
+The SEC 's limit order display rule will mean a major change for Nasdaq , where such orders have never been displayed .|||O B-ORG O O O O O O O O O O O B-MISC O O O O O O O O O
+The Italian cabinet on Wednesday granted a reprieve for media mogul Silvio Berlusconi 's Mediaset television empire with a decree extending the current legal framework for television stations until January 31 , 1997 .|||O B-MISC O O O O O O O O O B-PER I-PER O B-ORG O O O O O O O O O O O O O O O O O O O
+A passenger train collided with a locomotive at a main railway station in Linz on Wednesday and police said around 10 people were injured .|||O O O O O O O O O O O O O B-LOC O O O O O O O O O O O
+Doctors and medical staff from a hospital across the road from the station were at the scene of the accident within minutes and were able to treat the injured quickly , he added .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+" Saskatchewan is well positioned to take advantage of growing world markets for pork , " Saskatchewan Wheat Pool chief executive Don Loewen said in a company statement .|||O B-LOC O O O O O O O O O O O O O O B-ORG I-ORG I-ORG O O B-PER I-PER O O O O O O
+SWP said it was analyzing potential partnerships with hog farmers and expected the first deal to be in place in 1997 .|||B-ORG O O O O O O O O O O O O O O O O O O O O O
+Analysts said livestock production would likely shift to the eastern Prairie rather than feed grains being shipped to the western Prairie .|||O O O O O O O O O O O O O O O O O O O O O O
+Men 's 100 metres :|||O O O O O
+1. Davis Kamoga ( Uganda ) 45.15 seconds|||O B-PER I-PER O B-LOC O O O
+3. Kennedy Ochieng ( Kenya ) 46.21|||O B-PER I-PER O B-LOC O O
+Women 's javelin :|||O O O O
+NORTHAMPTON , England 1996-08-28|||B-LOC O B-LOC O
+first-round scores in the rain-affected British Masters golf|||O O O O O B-MISC I-MISC O
+( Sweden ) , Roger Chapman , Mark Davis , Pierre Fulke ( Sweden ) ,|||O B-LOC O O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-LOC O O
+9. Robbie McEwen ( Australia ) Rabobank|||O B-PER I-PER O B-LOC O B-ORG
+9. Lance Armstrong ( U.S. ) Motorola 9|||O B-PER I-PER O B-LOC O B-ORG O
+10. George Hincapie ( U.S. ) Motorola same time .|||O B-PER I-PER O B-LOC O B-ORG O O O
+Selected result from first round|||O O O O O
+10. Christophe Capelle - Jean-Michel Monin ( France ) 2|||O B-PER I-PER O B-PER I-PER O B-LOC O O
+Martin Ayres|||B-PER I-PER
+He adopted the " superman " riding position with arms at full stretch perfected by fellow Briton Graeme Obree , the 1995 world champion , and taken up in Atlanta by Collinelli .|||O O O O O O O O O O O O O O O O B-MISC B-PER I-PER O O O O O O O O O O B-LOC O B-PER O
+-DOCSTART-|||O
+soccer matches on Wednesday :|||O O O O O
+Grimsby 3 0 1 2 4 7 1|||B-ORG O O O O O O O
+Close of play scores on the first|||O O O O O O O
+L. Botham 5-67 ) .|||B-PER I-PER O O O
+LONDON 1996-08-28|||B-LOC O
+Leading rider Jason Weaver received a 21-day ban from the disciplinary committee of the Jockey Club on Wednesday .|||O O B-PER I-PER O O O O O O O O O O B-ORG I-ORG O O O
+Botham dashed back to Portsmouth and took the field as the thrid over began .|||B-PER O O O B-LOC O O O O O O O O O O
+The quartet , who possess 244 international caps between them , were also omitted from a summer training camp but will still be in contention when the northern international season starts later this year .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+-DOCSTART-|||O
+In New York , Steve Finley 's three-run homer capped a four-run eighth inning and gave the San Diego Padres a 4-3 victory over New York , spoiling Bobby Valentine 's debut as Mets ' manager .|||O B-LOC I-LOC O B-PER I-PER O O O O O O O O O O O B-ORG I-ORG I-ORG O O O O B-LOC I-LOC O O B-PER I-PER O O O B-ORG O O O
+They increased their bulge to 4-0 in the third when Barry Larkin drew a one-out walk , Kevin Mitchell singled and Davis launched his 22nd homer over the right-field wall .|||O O O O O O O O O O B-PER I-PER O O O O O B-PER I-PER O O B-PER O O O O O O O O O
+RUGBY UNION - NEW ZEALAND RECALL MEHRTENS FOR FINAL TEST .|||B-ORG I-ORG O B-LOC I-LOC O B-PER O O O O
+JOHANNESBURG 1996-08-28|||B-LOC O
+BELGRADE 1996-08-28|||B-LOC O
+Kong Open on Wednesday ( prefix denotes seeding ) :|||B-MISC I-MISC O O O O O O O O
+2 - Rodney Eyles ( Australia ) beat Zarak Jahan Khan ( Pakistan )|||O O B-PER I-PER O B-LOC O O B-PER I-PER I-PER O B-LOC O
+15-10 15-10 15-10|||O O O
+Hapoel Tel Aviv 1 Maccabi Haifa 3|||B-ORG I-ORG I-ORG O B-ORG I-ORG O
+Hapoel Beersheva 2 Maccabi Herzliya 0|||B-ORG I-ORG O B-ORG I-ORG O
+Seles , the 1991 and 1992 champion who dropped just one game in her opening match , was scheduled to play Laurence Courtois of Belgium Wednesay night .|||B-PER O O O O O O O O O O O O O O O O O O O O B-PER I-PER O B-LOC O O O
+It 's a part of the penalty that I have to accept . "|||O O O O O O O O O O O O O O
+I think it 's destined that it turned out for me . "|||O O O O O O O O O O O O O
+TENNIS - WEDNESDAY 'S RESULTS FROM THE U.S. OPEN .|||O O O O O O O B-MISC I-MISC O
+15 - Gabriela Sabatini ( Argentina ) beat Ann Grossman ( U.S. ) 6-2 6 - 3|||O O B-PER I-PER O B-LOC O O B-PER I-PER O B-LOC O O O O O
+Women 's singles , second round|||O O O O O O
+Linda Wild ( U.S. ) beat Kristie Boogert ( Netherlands ) 5-7 6-3 6-3|||B-PER I-PER O B-LOC O O B-PER I-PER O B-LOC O O O O
+2 - Monica Seles ( U.S. ) beat Laurence Courtois ( Belgium ) by walkover ( knee injury )|||O O B-PER I-PER O B-LOC O O B-PER I-PER O B-LOC O O O O O O O
+Paul Haarhuis ( Netherlands ) beat Michael Joyce ( U.S ) 6-7|||B-PER I-PER O B-LOC O O B-PER I-PER O B-LOC O O
+( 5-7 ) 7-6 ( 8-6 ) 1-6 6-2 6-2|||O O O O O O O O O O
+Women 's singles , second round|||O O O O O O
+NEW YORK 1996-08-28|||B-LOC I-LOC O
+W L PCT GB|||O O O O
+CLEVELAND 79 53 .598 -|||B-ORG O O O O
+WESTERN DIVISION|||B-MISC I-MISC
+BOSTON AT CALIFORNIA|||B-ORG O B-LOC
+NEW YORK AT SEATTLE|||B-ORG I-ORG O B-LOC
+SAN DIEGO 73 60 .549 -|||B-ORG I-ORG O O O O
+When it came down to the important points , I felt more confident . "|||O O O O O O O O O O O O O O O
+CHICAGO 1996-08-27|||B-LOC O
+Ajax were missing six first-team players but Frank de Boer shot home the winner from a 20-metre free kick in the 30th minute of a dull game .|||B-ORG O O O O O O B-PER I-PER I-PER O O O O O O O O O O O O O O O O O O
+The Brazilian found the mark again two minutes after halftime and again in the 56th minute before midfielder Pascal Jongsma scored a consolation goal for Volendam five minutes from time .|||O B-MISC O O O O O O O O O O O O O O O O B-PER I-PER O O O O O B-ORG O O O O O
+-DOCSTART-|||O
+SOCCER - SUMMARY OF SPANISH SUPER CUP .|||O O O O B-MISC B-MISC I-MISC O
+-DOCSTART-|||O
+-DOCSTART-|||O
+3 - Anton Drobnjak ( Bastia ) , Vladimir Smicer ( Lens ) , Miladin|||O O B-PER I-PER O B-ORG O O B-PER I-PER O B-ORG O O B-PER
+Along with Smicer , Robert Pires was the star of the night in France , scoring the first hat-trick of the league season in Metz 's 3-1 home victory over neighbouring Strasbourg .|||O O B-PER O B-PER I-PER O O O O O O O B-LOC O O O O O O O O O O B-ORG O O O O O O B-ORG O
+Pires , one of the most promising strikers in the country , was called up for the first time this week by French manager Aime Jacquet for a friendly against Mexico on Saturday at the Parc des Princes .|||B-PER O O O O O O O O O O O O O O O O O O O O O B-MISC O B-PER I-PER O O O O B-LOC O O O O B-LOC I-LOC I-LOC O
+Pires scored first with a powerful shot in the 35th minute before striking again from close range just before the break .|||B-PER O O O O O O O O O O O O O O O O O O O O O
+A solitary raid allowed him to score his third in the 74th .|||O O O O O O O O O O O O O
+SOCCER - DUTCH FIRST DIVISION SUMMARIES .|||O O B-MISC O O O O
+soccer played on Wednesday :|||O O O O O
+Attendance 10,000 .|||O O O
+Attendance 6,000 .|||O O O
+Werder Bremen 4 1 1 2 5 6 4|||B-ORG I-ORG O O O O O O O
+Munich 1860 4 1 1 2 3 5 4|||B-ORG I-ORG O O O O O O O
+30,000 .|||O O
+1-0 .|||O O
+Standings in the French first|||O O O B-MISC O
+division after Wednesday 's matches ( tabulate under played , won ,|||O O O O O O O O O O O O
+Lyon 4 2 1 1 6 4 7|||B-ORG O O O O O O O
+PARIS 1996-08-28|||B-LOC O
+Sachin Tendulkar marked his debut as Indian captain with a patient 110 on Wednesday , but was upstaged by dashing Sri Lankan opener Sanath Jayasuriya whose 120 steered the world champions to a nine-wicket Singer Cup win .|||B-PER I-PER O O O O B-MISC O O O O O O O O O O O O O B-MISC I-MISC O B-PER I-PER O O O O O O O O O B-MISC I-MISC O O
+Sri Lanka beat India by nine wickets in the second match of the Singer World Series one-day ( 50 overs ) cricket tournament on Monday .|||B-LOC I-LOC O B-LOC O O O O O O O O O B-MISC I-MISC I-MISC O O O O O O O O O O
+Extras ( b-1 lb-3 w-9 nb-3 ) 16|||O O O O O O O O
+R. Kaluwitharana b Tendulkar 53|||B-PER I-PER O B-PER O
+Total ( for one wicket - 44.2 overs ) 230|||O O O O O O O O O O
+8-0-33-0 , Tendulkar 6-0-29-1 , Kapoor 10-2-51-0 , Jadeja|||O O B-PER O O B-PER O O B-PER
+CRICKET - INDIA WIN TOSS AND BAT AGAINST SRI LANKA .|||O O B-LOC O O O O O B-LOC I-LOC O
+COLOMBO 1996-08-28|||B-LOC O
+Sri Lanka - Arjuna Ranatunga ( captain ) , Sanath Jayasuriya , Romesh Kaluwitharana , Asanka Gurusinha , Aravinda de Silva , Hashan Tillekeratne , Roshan Mahanama , Kumara Dharmasena , Chaminda Vaas , Muthiah Muralitharan , Ravindra Pushpakumara .|||B-LOC I-LOC O B-PER I-PER O O O O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O
+Hopes that reformed perpetrators would come forward voluntarily have faded but the commission has the legal power to force them to appear .|||O O O O O O O O O O O O O O O O O O O O O O O
+In March a Turkish Cypriot airliner hijacked while on a flight from northern Cyprus to Istanbul landed in Sofia airport to refuel before landing in Munich , where the hijacker was arrested .|||O O O B-MISC I-MISC O O O O O O O O B-LOC O B-LOC O O B-LOC O O O O O O B-LOC O O O O O O O
+Arch Alberta well tests 1,100 bbl / day .|||B-ORG B-LOC O O O O O O O
+The Trax well is one of the prospects developed by Arch through its early 1996 purchase of Trax Petroleums Ltd , the company said .|||O B-LOC O O O O O O O O B-ORG O O O O O O B-ORG I-ORG I-ORG O O O O O
+It said another , the Cometra et al Morinville 11-13 , has logged 128 feet of productive Leduc Reef at 5,400 feet and is flowing water free at the rate of 590 barrels of oil per day on a 15 / 64ths-inch choke .|||O O O O O B-MISC I-MISC I-MISC I-MISC I-MISC O O O O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O O O O O O
+A third well drilled in this area , the Trax et al Morinville 2-25 , encountered the Leduc Reef but tested wet .|||O O O O O O O O O B-MISC I-MISC I-MISC I-MISC I-MISC O O O B-LOC I-LOC O O O O
+Chiron makes Betaseron ; Berlex markets it , he said .|||B-ORG O B-MISC O B-ORG O O O O O O
+COMEX copper ended higher after a late , modest recovery dragged the market from the lows , but traders shrugged-off an imminent strike at Codelco 's Salvador mine in Chile .|||B-ORG O O O O O O O O O O O O O O O O O O O O O O O B-ORG O B-LOC O O B-LOC O
+NEW YORK 1996-08-28|||B-LOC I-LOC O
+1870 - In France , the Second Empire was ended and Napoleon III was deposed after his surrender two days earlier in the Franco-Prussian war .|||O O O B-LOC O O B-MISC I-MISC O O O B-PER I-PER O O O O O O O O O O B-MISC O O
+1906 - German-born U.S. biologist Max Delbruck born .|||O O O B-LOC O B-PER I-PER O O
+1948 - Wilhelmina , Queen of the Netherlands from 1890 and throughout World Wars One and Two abdicated in favour of her daughter Juliana .|||O O B-PER O O O O B-LOC O O O O B-MISC I-MISC I-MISC O B-MISC O O O O O O B-PER O
+1989 - Georges Simenon , writer of 84 books based on the detective character Inspector Maigret , died .|||O O B-PER I-PER O O O O O O O O O O B-PER I-PER O O O
+No further details were immediately available .|||O O O O O O O
+-DOCSTART-|||O
+Raphael Lapke , publication director of Ivorian newspaper Le Populaire , was taken in for questioning on Monday over an article about the public prosecutor and has been detained since then .|||B-PER I-PER O O O O B-MISC O B-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O O
+The United States embassy in Abidjan and international press organisations denounced the sentences as excessive .|||O B-LOC I-LOC O O B-LOC O O O O O O O O O O
+Sewa said the rebels overran Foindu despite the presence of government troops in the village on the highway between Mano Junction and the diamond town of Tongo Field .|||B-PER O O O O B-LOC O O O O O O O O O O O O O B-LOC I-LOC O O O O O B-LOC I-LOC O
+-DOCSTART-|||O
+Guinea launched a drive on Wednesday to rid the civil service payroll of fictitious workers as part of new prime minister Sidia Toure 's campaign to cut government spending .|||B-LOC O O O O O O O O O O O O O O O O O O O O B-PER I-PER O O O O O O O
+New Liberia Council chief to be installed Tuesday .|||O B-ORG I-ORG O O O O O O
+LAGOS 1996-08-28|||B-LOC O
+A Nigerian human rights group said on Wednesday that four members of a recently banned university union had been arrested .|||O B-MISC O O O O O O O O O O O O O O O O O O O
+Slovak police , Interpol , and Belgian police have been following leads on Dutroux 's activities in Slovakia and the neighbouring Czech Republic where he is known to have made frequent visits .|||B-MISC O O B-ORG O O B-MISC O O O O O O B-PER O O O B-LOC O O O B-LOC I-LOC O O O O O O O O O O
+She had been due to fly on a TWA airliner which exploded near New York last month , but had cancelled her booking , the newspaper said .|||O O O O O O O O B-ORG O O O O B-LOC I-LOC O O O O O O O O O O O O O
+" The market was extremely quiet today , some profit-taking locally , no Western orders , " said Nick Mokhoff , director of sales and trade at Alliance-Menatep . "|||O O O O O O O O O O O O O B-MISC O O O O B-PER I-PER O O O O O O O B-ORG O O
+" The Foreign Ministry is trying to find out from the Greek embassy why Albanian refugees have been deported from Greece , " Shehu told Reuters .|||O O B-ORG I-ORG O O O O O O O B-MISC O O B-MISC O O O O O B-LOC O O B-PER O B-ORG O
+German chancellor to meet Yeltsin Sept 7 - Interfax .|||B-MISC O O O B-PER O O O B-ORG O
+Germany has been one of the loudest critics of Russia 's military intervention in Chechnya , a 20-month-old conflict in which tens of thousands of people have been killed .|||B-LOC O O O O O O O O B-LOC O O O O B-LOC O O O O O O O O O O O O O O O
+But Adem Hodzic , one of the refugees who signed the letter of complaint , told Reuters :|||O B-PER I-PER O O O O O O O O O O O O O B-ORG O
+TALLINN 1996-08-28|||B-LOC O
+Both Meri , 67 , and Ruutel , 68 will automatically be listed as candidates but the election will also be open to new nominations with the backing of any 21 members of the college .|||O B-PER O O O O B-PER O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+Lebed likely to fail on Chechnya - Polish minister .|||B-PER O O O O B-LOC O B-MISC O O
+He also reportedly criticised Russian Foreign Minister Yevgeny Primakov , saying his style of work resembled that of the Soviet-era 1970s and 1980s .|||O O O O B-MISC O O B-PER I-PER O O O O O O O O O O B-MISC O O O O
+Romania 's government is expected to revise the 1996 budget on Wednesday to bring it into line with higher inflation , new wage and pension indexations and costs of energy imports that have pushed up the state deficit .|||B-LOC O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+The Costa Rican government said on Wednesday that a Dutch couple abducted over the weekend from a tree farm in northern Costa Rica was kidnapped by former Nicaraguan guerrillas .|||O B-MISC I-MISC O O O O O O B-MISC O O O O O O O O O O O B-LOC I-LOC O O O O B-MISC O O
+Operating profit 9.75 vs 5.79|||O O O O O
+Shr ( cents ) 8.63 vs 7.23|||O O O O O O O
+Reg date Nov 11|||O O O O
+Interest 2.78 vs 2.69|||O O O O
+Briton held in Thailand over 4.4 kg heroin find .|||B-MISC O O B-LOC O O O O O O
+BANGKOK 1996-08-28|||B-LOC O
+-DOCSTART-|||O
+A resolution released by the council called for " halting contacts with the Israeli side and leaving the mechanism to carry out this to Palestinian President Yasser Arafat " .|||O O O O O O O O O O O O O B-MISC O O O O O O O O O O B-MISC O B-PER I-PER O O
+An Iraqi Kurdish group on Wednesday said Iraq was massing troops near Kurdish regions in the north , where a U.S.-led allied air force protects the local population against attacks from Baghdad .|||O B-MISC I-MISC O O O O B-LOC O O O O B-MISC O O O O O O O B-MISC O O O O O O O O O O B-LOC O
+Judith Crosson|||B-PER I-PER
+He also commented briefly on published reports that the administration was planning to announce a plan to lower capital gains taxes for home sales . "|||O O O O O O O O O O O O O O O O O O O O O O O O O O
+In Dole 's address to a group that was largely white , the presidential nominee likened the stream of illegal drugs into the United States to missiles aimed at American children and promised to appoint federal judges who would be tough on illegal drug use .|||O B-PER O O O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O O O O B-MISC O O O O O O O O O O O O O O O O
+I was talking about drugs .|||O O O O O O
+Come on , you know better than that . "|||O O O O O O O O O O
+On Sunday near Chicago he accused President Bill Clinton of " raising the white flag " in the war on drugs .|||O O O B-LOC O O O B-PER I-PER O O O O O O O O O O O O O
+We need to get the kind of help we used to get when Ronald Reagan and George Bush were in the White House , " Wilson said .|||O O O O O O O O O O O O O B-PER I-PER O B-PER I-PER O O O B-LOC I-LOC O O B-PER O O
+1996B|||O
+2002 - 895M 600M|||O O O O
+2009 65M - -|||O O O O
+Above-normal summer rainfall in the U.S. High Plains has produced near-ideal conditions for planting the 1997 hard red winter wheat crop , analysts said Wednesday .|||O O O O O B-LOC B-LOC I-LOC O O O O O O O O O O O O O O O O O O
+According to figures released by the Oklahoma Climatological Survey , an average of 20.19 inches fell across the state between March 1 and August 26 , 1996 .|||O O O O O O B-MISC I-MISC I-MISC O O O O O O O O O O O O O O O O O O O
+" We 've been asked ( by Yemen ) not to comment ( on the talks ) , " said Amoco spokesman Dan Dietsch . "|||O O O O O O O B-LOC O O O O O O O O O O O O B-ORG O B-PER I-PER O O
+We can neither confirm nor deny that report , " he said .|||O O O O O O O O O O O O O
+S-1 in the former South Yemen , which united with North Yemen in 1990 .|||B-MISC O O O B-LOC I-LOC O O O O B-LOC I-LOC O O O
+In a lengthy debate on Burundi before the U.N. Security Council , Ambassador Nsanze Terence said the new military government took over to stabilise the country and wanted negotiations under former Tanzanian President Julius Nyrere .|||O O O O O B-LOC O O B-ORG I-ORG I-ORG O O B-PER I-PER O O O O O O O O O O O O O O O O B-MISC O B-PER I-PER O
+Terence , a Tutsi , said any arms embargo would leave the army unable to defend itself against Hutu guerrillas and leave the population exposed to " armed terroritsts . "|||B-PER O O B-MISC O O O O O O O O O O O O O O B-MISC O O O O O O O O O O O O
+Ambassador Karl Inderfurth said the new government should have " unconditional " negotiations with all parties inside and outside of the country .|||O B-PER I-PER O O O O O O O O O O O O O O O O O O O O
+It did not identify the man .|||O O O O O O O
+- BOLSWESSANEN 4,420 705 6.17|||O B-ORG O O O
+The government has denied the charge and blames the MQM for much of the violence that killed 2,000 people in the city last year .|||O O O O O O O O O B-ORG O O O O O O O O O O O O O O O
+The fishermen went on strike last week to protest the government 's cancellation of three trawlers ' fishing licenses after the boats were caught carrying Tamil refugees .|||O O O O O O O O O O O O O O O O O O O O O O O O O B-MISC O O
+-DOCSTART-|||O
+The group reported a 1996 first-half group net profit of 282 million marks .|||O O O O O O O O O O O O O O
+-DOCSTART-|||O
+Better-than-expected British trade figures had little impact on equities .|||O B-MISC O O O O O O O O
+These remarks gave the yen some backbone and the dollar failed to progress further .|||O O O O O O O O O O O O O O O
+" What happened concerning continuous violations and crimes from this new Israeli leadership means they are declaring a state of war against the Palestinian people , " Arafat told the Palestinian legislature .|||O O O O O O O O O O O B-MISC O O O O O O O O O O O B-MISC O O O B-PER O O B-MISC O O
+Israeli travel restrictions , imposed after bombings by Moslem militants in February and March , ban most of the two million Arabs in the West Bank and Gaza from entering Jerusalem .|||B-MISC O O O O O O O B-MISC O O O O O O O O O O O O B-MISC O O B-LOC I-LOC O B-LOC O O B-LOC O
+" No , they have good intentions , " Arafat quoted Ross as saying .|||O O O O O O O O O B-PER O B-PER O O O
+The Israeli government is studying redeployment plans submitted by Defence Minister Yitzhak Mordechai which are likely to demand a wider than agreed army presence in Hebron .|||O B-MISC O O O O O O O O O B-PER I-PER O O O O O O O O O O O O B-LOC O
+" Both countries ' governments were formed recently .|||O O O O O O O O O
+The Italian prime minister , in office since May 18 , will be the first Western leader to meet Islamist Prime Minister Necmettin Erbakan since he came to power on June 28 .|||O B-MISC O O O O O O O O O O O O O B-MISC O O O B-MISC O O B-PER I-PER O O O O O O O O O
+Prodi will also meet President Suleyman Demirel and Foreign Minister Tansu Ciller , Akbel said .|||B-PER O O O O B-PER I-PER O O O B-PER I-PER O B-PER O O
+NEW YORK 1996-08-28|||B-LOC I-LOC O
+Benevolent Assoc .|||B-ORG I-ORG I-ORG
+Richard Lamm has decided not to endorse Ross Perot as the presidential candidate of the Reform Party , CNN reported late Tuesday .|||B-PER I-PER O O O O O B-PER I-PER O O O O O O B-ORG I-ORG O B-ORG O O O O
+Perot won his party 's official nomination as its presidential candidate in a secret ballot earlier this month .|||B-PER O O O O O O O O O O O O O O O O O O
+-DOCSTART-|||O
+-DOCSTART-|||O
+Under the reorganisation plan , Lloyd 's plans to reinsure its massive liabilities into a new company called Equitas .|||O O O O O B-ORG I-ORG O O O O O O O O O O O B-ORG O
+The man has been charged with dangerous driving , coercion and threatening behaviour .|||O O O O O O O O O O O O O O
+-DOCSTART-|||O
+Stephanie of Monaco 's husband snapped cavorting .|||B-PER O B-LOC O O O O O
+" We have seen the photos but for the moment the palace has no comment , " a spokeswoman for Prince Rainier told Reuters .|||O O O O O O O O O O O O O O O O O O O O B-PER I-PER O B-ORG O
+-- National Economy Minister Yannos Papandoniou defends " hard drachma " foreign exchange policy , says it wo n't change|||O O O O B-PER I-PER O O O O O O O O O O O O O O
+First half 1996|||O O O
+Turnover 273.6 vs 290.3|||O O O O
+Stagecoach sees Swebus deal agreed next week .|||B-ORG O B-ORG O O O O O
+Dissident Khmer Rouge leader Ieng Sary confirmed on Wednesday that he had broken with Pol Pot and other hardliners of the guerrilla group and had formed a rival movement .|||O B-ORG I-ORG O B-PER I-PER O O O O O O O O B-PER I-PER O O O O O O O O O O O O O O
+I believe this policy has not changed , " he said .|||O O O O O O O O O O O O
+" If they are still undecided whether the war Japan launched was aggressive in nature , it will be difficult to tell whether they will do the same again , " the newspaper said .|||O O O O O O O O O B-LOC O O O O O O O O O O O O O O O O O O O O O O O O O
+China raised indignant protests after several Japanese cabinet ministers visited a shrine dedicated to their country 's war dead on August 15 , the 51st anniversary of Japan 's World War Two surrender .|||B-LOC O O O O O B-MISC O O O O O O O O O O O O O O O O O O O O B-LOC O B-MISC I-MISC I-MISC O O
+China estimates 35 million Chinese were killed or wounded by invading Japanese troops from 1931 to 1945 .|||B-LOC O O O B-MISC O O O O O O B-MISC O O O O O O
+The leader of a junior partner in Japan 's three-party ruling coalition plans to resign to quell a political rebellion , party officials said on Wednesday .|||O O O O O O O B-LOC O O O O O O O O O O O O O O O O O O O
+HONG KONG 1996-08-28|||B-LOC I-LOC O
+Shr ( H.K. cents ) 65.61 vs 63.87|||O O B-LOC O O O O O
+The victim was Dai Houying , who wrote about China 's 1966-76 leftist Cultural Revolution and the lives of Chinese intellectuals , the official said .|||O O O B-PER I-PER O O O O B-LOC O O O B-MISC I-MISC O O O O B-MISC O O O O O O
+She gave no further details .|||O O O O O O
+-DOCSTART-|||O
+-- Hong Kong newsroom ( 852 ) 2843 6441|||O B-LOC I-LOC O O O O O O
+A human rights activist said on Wednesday he had been released after more than two weeks in detention that followed his call for an inquiry into the death of a Gaza man interrogated by Palestinian police .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-LOC O O O B-MISC O O
+Mohammad Dahman , director of the Gaza-based Addameer Prisoners Support Association , said he was freed on Tuesday without being charged .|||B-PER I-PER O O O O B-MISC B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O
+- Worldwide alarm over child prostitution|||O O O O O O
+- Banco Santander starts conquest of the east .|||O B-ORG I-ORG O O O O O O
+ISS said that the deal included ISS Inc operations in Mexico and the sale of ISS Inc interests in Brazil would be discussed .|||B-ORG O O O O O B-ORG I-ORG O O B-LOC O O O O B-ORG I-ORG O O B-LOC O O O O
+roughly 3 percent . "|||O O O O O
+BRUSSELS 1996-08-29|||B-LOC O
+French farmers set up blockades in mad cow protest .|||B-MISC O O O O O O O O O
+66 75|||O O
+Coltart 72 75 , Paul Lawrie 72 75 , Jose Coceres ( Argentina )|||B-PER O O O B-PER I-PER O O O B-PER I-PER O B-LOC O
+69 78 , Raymond Russell 69 78 , Roger Chapman 71 76 , Paul|||O O O B-PER I-PER O O O B-PER I-PER O O O B-PER
+Affleck 74 73 .|||B-PER O O O
+4. Erik Dekker ( Netherlands ) Rabobank 43|||O B-PER I-PER O B-LOC O B-ORG O
+7. Maarten den Bakker ( Netherlands ) TVM 1 minute 31 seconds|||O B-PER I-PER I-PER O B-LOC O B-ORG O O O O
+-DOCSTART-|||O
+England beat Pakistan by five wickets to win the first one-day ( 50 overs-a-side ) international at Old Trafford on Thursday .|||B-LOC O B-LOC O O O O O O O O O O O O O O B-LOC I-LOC O O O
+3. France ( Laurent Gane , Florian Rousseau , Herve Thuet )|||O B-LOC O B-PER I-PER O B-PER I-PER O B-PER I-PER O
+Magali Faure ( France ) beat Kathrin Freitag ( Germany ) two|||B-PER I-PER O B-LOC O O B-PER I-PER O B-LOC O O
+matches to nil ( with times for the last 200 metres of 11.833|||O O O O O O O O O O O O O
+First , Sohail , after making 48 , was bowled by Croft as he stepped back to try and hit through the off-side .|||O O B-PER O O O O O O O O B-PER O O O O O O O O O O O O
+first one-day ( 50 overs-a-side ) match between England and|||O O O O O O O O B-LOC O
+Saqlain Mushtaq 10-1-54-0 , Ata-ur-Rehman 3-0-14-0 , Mushtaq Ahmed|||B-PER I-PER O O B-PER O O B-PER I-PER
+1. Giovanni Lombardi ( Italy ) Polti 2 hours 35 minutes|||O B-PER I-PER O B-LOC O B-ORG O O O O
+4. Maarten den Bakker ( Netherlands ) TVM all same time|||O B-PER I-PER I-PER O B-LOC O B-ORG O O O
+Pakistan won the toss and elected to bat in the first one-day cricket international between England and Pakistan at Old Trafford on Thursday .|||B-LOC O O O O O O O O O O O O O O B-LOC O B-LOC O B-LOC I-LOC O O O
+Tunbridge Wells : Nottinghamshire 40-3 v Kent|||B-LOC I-LOC O B-ORG O O B-ORG
+Bristol : Gloucestershire 183 ( J. Russell 50 ) , Northamptonshire 123-4 ( K. Curran 51 not out ) .|||B-LOC O B-ORG O O B-PER I-PER O O O B-ORG O O B-PER I-PER O O O O O
+Scotland 's Jim Telfer was officially confirmed on Thursday as assistant coach for the British Lions tour to South Africa next year .|||B-LOC O B-PER I-PER O O O O O O O O O O B-ORG I-ORG O O B-LOC I-LOC O O O
+ATHLETICS - CHRISTIE TO RUN IN BERLIN .|||O O B-PER O O O B-LOC O
+Olympiakos of Greece beat Russia 's Dinamo 69-60 ( halftime 35-23 ) in the third match of an international basketball tournament on Thursday , qualifying for the finals .|||B-ORG O B-LOC O B-LOC O B-ORG O O O O O O O O O O O O O O O O O O O O O O
+6-2 6-2|||O O
+Major League Baseball|||B-MISC I-MISC I-MISC
+OAKLAND 64 72 .471 12 1/2|||B-ORG O O O O O
+NEW YORK AT CALIFORNIA|||B-ORG I-ORG O B-LOC
+LOS ANGELES 71 61 .538 2|||B-ORG I-ORG O O O O
+FLORIDA AT ST LOUIS|||B-ORG O B-LOC I-LOC
+-DOCSTART-|||O
+SEATTLE 1996-08-29|||B-LOC O
+Including the last three games of last October 's Divisional Playoff Series , the Mariners have beaten the Yankees 12 of the past 15 meetings overall and 14 of the last 16 in the Kingdome .|||O O O O O O O O O O O O O O B-ORG O O O B-ORG O O O O O O O O O O O O O O O B-LOC O
+Five players were ejected after Yankees ' outfielder Paul O'Neill and Seattle catcher John Marzano got into a fight after O'Neill had been brushed back .|||O O O O O B-ORG O O B-PER I-PER O B-ORG O B-PER I-PER O O O O O B-PER O O O O O
+Dave Nilsson had three hits for the Brewers .|||B-PER I-PER O O O O O B-ORG O
+In Toronto , Pat Hentgen tossed a five-hitter for his fifth consecutive complete game and three players drove in two runs apiece as the Toronto Blue Jays defeated the Minnesota Twins 6-1 for their ninth win in 11 games .|||O B-LOC O B-PER I-PER O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG O O B-ORG I-ORG O O O O O O O O O
+Hentgen ( 17-7 ) surrendered just three doubles and a pair of singles in tossing his major-league leading ninth complete game .|||B-PER O O O O O O O O O O O O O O O O O O O O O
+San Diego 3 NEW YORK 2 ( 10 innings )|||B-ORG I-ORG O B-ORG I-ORG O O O O O
+Groningen 1 Roda JC Kerkrade 1|||B-ORG O B-ORG I-ORG I-ORG O
+Fortuna Sittard 2 Heerenveen 4|||B-ORG I-ORG O B-ORG O
+Christie will run the anchor leg after Canada 's Bailey , American Johnson and Olympic silver medallist Fredericks have run the first three stages of the relay .|||B-PER O O O O O O B-LOC O B-PER O B-MISC B-PER O B-MISC O O B-PER O O O O O O O O O O
+Although Christie , who is not racing the individual 100 metres in Berlin , took his time to agree to run , the veteran was clearly delighted to be part of the tribute to the black American .|||O B-PER O O O O O O O O O O B-LOC O O O O O O O O O O O O O O O O O O O O O O O B-MISC O
+Owens 's widow Ruth is not well enough to attend but a message from her will be read out by the sprinter 's grand-daughter Gina Tillman during the meeting|||B-PER O O B-PER O O O O O O O O O O O O O O O O O O O O B-PER I-PER O O O
+It will also boost both countries ' ambitions to join NATO and the European Union .|||O O O O O O O O O O B-ORG O O B-ORG I-ORG O
+LONG GILT ( SEP ) ( 1/32 ) 107-12 107-10 107-06|||O O O O O O O O O O O
+EUROSWISS ( SEP ) 97.79 97.80 97.82|||B-ORG O O O O O O
+FTSE 100 ( SEP ) 3,894.00 3,894.00 3,941.50|||B-MISC I-MISC O O O O O O
+Officials said lack of funding had delayed the process .|||O O O O O O O O O O
+Nigeria would not refuse Commonwealth officials .|||B-LOC O O O B-ORG O O
+LAGOS 1996-08-29|||B-LOC O
+Nigeria would not object to a visit by Commonwealth officials but insists its suspension from the organisation be resolved before any other questions are addressed , Foreign Minister Tom Ikimi said on Thursday .|||B-LOC O O O O O O O B-ORG O O O O O O O O O O O O O O O O O O O B-PER I-PER O O O O
+Any discussions we have at ministerial level will be a continuation of what we began in London on that .|||O O O O O O O O O O O O O O O O B-LOC O O O
+She will be accompanied by several officials who will sign a cultural agreement with South Africa , where the Dutch were the first European settlers in 1652 .|||O O O O O O O O O O O O O O B-LOC I-LOC O O O B-MISC O O O B-MISC O O O O
+FRATERNITE MATIN|||B-ORG I-ORG
+In apparent retaliation for NATO 's detention of the Serbs , an angry Serb mob including policemen trapped six unarmed U.N. police monitors and three local aides in their office in the town of Zvornik , east of Mahala .|||O O O O B-ORG O O O O B-MISC O O O B-MISC O O O O O O B-ORG O O O O O O O O O O O O O B-LOC O O O B-LOC O
+On the Russian Trading System , Gazprom shares rose 25 percent on Thursday to $ 0.375 from $ 0.300 , after falling by over a third earlier this week .|||O O B-MISC I-MISC I-MISC O B-ORG O O O O O O O O O O O O O O O O O O O O O O O
+He was shot on Wednesday afternoon as he stepped off a bus near his family home in the village of Donje Ljupce in the municipality of Podujevo .|||O O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O O O O B-LOC O
+Serbia 's Zastava workers protest enters 9th day .|||B-LOC O B-ORG O O O O O O
+CARACAS 1996-08-28|||B-LOC O
+Foreign exchange controls were removed April 22 as part of a wider IMF-sponsored program .|||O O O O O O O O O O O O B-MISC O O
+The U.S. followed with a 24.6 percent share .|||O B-LOC O O O O O O O
+The credibility of the Buenos Aires provincial police , the largest force in Argentina , has been undermined this year by scandals that included the indictment of three officers for links to the 1994 bombing of a Jewish community centre and the arrest of an entire drugs squad for drug trafficking .|||O O O O B-LOC I-LOC O O O O O O O B-LOC O O O O O O O O O O O O O O O O O O O O O O O B-MISC O O O O O O O O O O O O O O
+Dealers estimate that the shortfall will increase due to the inflow of funds before the end of the month .|||O O O O O O O O O O O O O O O O O O O O
+Up for grabs in the election are the state legislature and 75 town halls .|||O O O O O O O O O O O O O O O
+SAO PAULO , Brazil 1996-08-28|||B-PER I-PER O B-LOC O
+HONG KONG 1996-08-29|||B-LOC I-LOC O
+The man was released after his arrest on Tuesday , pending further inquiries , the ICAC said in a statement .|||O O O O O O O O O O O O O O O B-ORG O O O O O
+At the time of his arrest , ICAC officers seized HK$ 100,000 , it added .|||O O O O O O O B-ORG O O B-MISC O O O O O
+-DOCSTART-|||O
+The ailing Yassin is the spiritual leader of the fundamentalist Hamas group which has killed scores of Israelis in suicide attacks aimed at wrecking Israel-PLO peace deals .|||O O B-PER O O O O O O O B-ORG O O O O O O B-MISC O O O O O O B-MISC O O O
+Accompanied by his wife and grandson , Peres arrived in Morocco on August 25 .|||O O O O O O O B-PER O O B-LOC O O O O
+Morris declined to address the allegations directly in his resignation statement but said he was quitting to avoid becoming a campaign issue .|||B-PER O O O O O O O O O O O O O O O O O O O O O O
+Aides said Clinton planned to spend most of Thursday in his hotel room several miles ( km ) from the convention hall working on his speech .|||O O B-PER O O O O O O O O O O O O O O O O O O O O O O O O
+Montana weekly muni bond indices - Piper Jaffray .|||B-LOC O O O O O B-ORG I-ORG O
+For Nov 11-25 from the U.S. Gulf or Nov 26 - Dec 10 from PNW it paid $ 0.8584 per bushel over CBOT January soybeans and for Dec 6-20 or Dec 21 - Jan it paid $ .8787 over CBOT January .|||O O O O O B-LOC I-LOC O O O O O O O B-ORG O O O O O O O O O O O O O O O O O O O O O O O O O O O
+We want to talk to him , " Andrews said of the man .|||O O O O O O O O B-PER O O O O O
+He said the man on the videotape did not match the description given by the jewelry store owner .|||O O O O O O O O O O O O O O O O O O O
+His lawyers have said his defence in the civil trial that starts Sept .|||O O O O O O O O O O O O O O
+I am not crying the blues .|||O O O O O O O
+Clinton adviser Morris announces resignation .|||B-PER O B-PER O O O
+" I will not subject my wife , family or friends to the sadistic , vitriol of yellow journalism .|||O O O O O O O O O O O O O O O O O O O O
+-DOCSTART-|||O
+Dealers noted a seasonal pickup in meal demand .|||O O O O O O O O O
+Gluten feed pellets Spot - unq|||O O O O O O
+-DOCSTART-|||O
+-DOCSTART-|||O
+The local police headquarters did not give a figure but said 1,800 workers at the Cherbourg yeard had stopped work .|||O O O O O O O O O O O O O O O B-LOC O O O O O
+- The government has blamed sugar technologists for not supporting a long-term programme of research and development to increase production of sugarcane .|||O O O O O O O O O O O O O O O O O O O O O O O
+- Mohib Textile Mills has defaulted to nearly 23 development finance institutions , foreign and local banks , leasing companies and modarabas ( Islamic mutual funds ) .|||O B-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O B-MISC O O O O
+- Karachi Stock Exchange index falls by 7.84 points .|||O B-ORG I-ORG I-ORG O O O O O O
+- The prime minister 's special economic assistant Shahid Hasan Khan said privatisation of thermal power plants , power generation from private plants and management contracts of Area Electricity Boards would help achieve 6.5 percent GDP growth .|||O O O O O O O O B-PER I-PER I-PER O O O O O O O O O O O O O O O O B-MISC I-MISC I-MISC O O O O O O O O
+SALANG TUNNEL , Afghanistan 1996-08-29|||B-LOC O O B-LOC O
+They said dozens of trucks began moving through the tunnel from both directions after the road reopened .|||O O O O O O O O O O O O O O O O O O
+Two Indians to die for killing 23 bus passengers .|||O B-MISC O O O O O O O O
+" It 's a positive strategic move , " said Miles Kan of Hambrecht & Quist .|||O O O O O O O O O O B-PER I-PER O B-ORG I-ORG I-ORG O
+But the PMC unit is far more profitable , he said .|||O O B-ORG O O O O O O O O O
+17,024,000 18,174,000 31,834,000 24,137,000|||O O O O
+shares outstanding|||O O
+Historical income before income|||O O O O
+-DOCSTART-|||O
+The spokesman said SBC Warburg has also put an " add " recommendation on Slough Estates ' shares , but added that this " is a general move , not because of the results . "|||O O O B-ORG I-ORG O O O O O O O O O B-ORG I-ORG O O O O O O O O O O O O O O O O O O O O
+-DOCSTART-|||O
+" After IOC 's very small purchase of 120,000 tonnes , I 'm still suspicious that they will buy more in the second half of October , " another said .|||O O B-ORG O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+" Gas oil will remain tight in the short term up to mid-September with the premium of around $ 1 for 0.5 percent ( sulphur material ) .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+In the second half of September and October we see the premium coming off to 70-75 cents . "|||O O O O O O O O O O O O O O O O O O O
+The official state news agency Petra said Kabariti would hold discussions " on the latest developments in the peace process and bilateral cooperation " .|||O O O O O B-ORG O B-PER O O O O O O O O O O O O O O O O O
+-DOCSTART-|||O
+The company said in a statement late on Wednesday it would conduct an enterprise assessment and strategic compliance plan for preparing all the mainframe systems of Life of Georgia and Southland Life to operate in the new century .|||O O O O O O O O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG O B-ORG I-ORG O O O O O O O
+* Boeing Co secures $ 5.5 billion in orders for new , larger 747s .|||O B-ORG I-ORG O O O O O O O O O O O O
+* President Bill Clinton is expected to propose a tax break on home sales .|||O O B-PER I-PER O O O O O O O O O O O
+WASHINGTON 1996-08-29|||B-LOC O
+-DOCSTART-|||O
+Sylvie Florence|||B-PER I-PER
+Separatist guerrillas planted two bombs overnight at government offices on the French Mediterranean island of Corsica despite fresh warnings of a crackdown by Paris , police said on Thursday .|||O O O O O O O O O O O B-MISC B-MISC O O B-LOC O O O O O O O B-LOC O O O O O O
+The new attacks followed by a day a warning of a new " get-tough " policy by Paris toward the separatists , who seek greater autonomy .|||O O O O O O O O O O O O O O O O O B-LOC O O O O O O O O O
+-DOCSTART-|||O
+Swedish options and derivatives exchange OM Gruppen AB said on Thursday it would open an electronic bourse for forest industry products in London in the first half of 1997 .|||B-MISC O O O O B-ORG I-ORG I-ORG O O O O O O O O O O O O O O B-LOC O O O O O O O
+Huge swings in the price of pulp over the past few years have made pulp producers ' profitability unpredictable , and made investing in new production capacity a risky business .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+The arrests followed a tip-off from a married couple who unexpectedly showed up at investigators ' offices on Wednesday . "|||O O O O O O O O O O O O O O O O O O O O O
+Police said the thieves intercepted a woman arriving to work at the canteen , forced her to open the safe where takings were kept and made off with the cash .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+Italians hold HIV-pensioner for harassing hookers .|||B-MISC O B-MISC O O O O
+He did not say how they had contracted the illness .|||O O O O O O O O O O O
+Bodies have been sighted but no survivors have yet been found at the site of Thursday 's crash of a Russian airliner on Norway 's remote Arctic island of Spitzbergen , Norwegian officials said .|||O O O O O O O O O O O O O O O O O O O O B-MISC O O B-LOC O O B-MISC O O B-LOC O B-MISC O O O
+The Norwegian news agency NTB quoted another official on the island as saying no survivors had been found .|||O B-MISC O O B-ORG O O O O O O O O O O O O O O
+Shares in Spanish oil and chemicals group Repsol were up 65 pesetas to 4,150 after the company announced net first half profits fell 1.1 percent to 61.45 billion pesetas on the previous year .|||O O B-MISC O O O O B-ORG O O O O O O O O O O O O O O O O O O O O O O O O O O
+The rise has been very quick and very crazy . "|||O O O O O O O O O O O
+-- Madrid Newsroom +34 1 585 2161|||O B-ORG I-ORG O O O O
+In 1995 , Kekkila reported a 5.6 million markka loss before extraordinary items and tax .|||O O O B-ORG O O O O O O O O O O O O
+Looking at market prospects , he said : " I think our best judgment at this stage is that it will probably bumble along in the rather mixed way it 's been in the first half . "|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+" You can see anxieties in Germany and France , in particular , beginning to grow and develop .|||O O O O O O B-LOC O B-LOC O O O O O O O O O O
+Against this background , Hope said the group was glad it had rationalised and destocked even though this had pressed margins , which had slipped to 9.5 percent from 11.3 percent a year ago .|||O O O O B-PER O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+" When the ( profit ) figures will bounce back up again is just a function of markets recovering just a fraction , " he added .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O
+SINGAPORE 1996-08-29|||B-LOC O
+-DOCSTART-|||O
+Nobody should try and exaggerate it by calling it a bomb because it was just a molotov cocktail , Utomo said .|||O O O O O O O O O O O O O O O O O O O B-PER O O
+-DOCSTART-|||O
+HONG KONG 1996-08-29|||B-LOC I-LOC O
+Civil servants argue the ban stymies their political rights .|||O O O O O O O O O O
+-DOCSTART-|||O
+Trade ( bln pts ) May - 196.8 - 180.6 - 279.9 - -|||O O O O O O O O O O O O O O
+Total M4 adj .|||O O O O
+GOVT.BUDGET ( bln pts ) Govt.Fcast 96|||O O O O O O O
+EPA Q2 +168,130 +31,230 +167,330 12.3 million|||O O O O O O O
+Absolute amount ( trln pts ) 18.1 17.8 16.9 - 69.7|||O O O O O O O O O O O
+NOTES - Bank of Spain announces balance of payments .|||O O B-ORG I-ORG I-ORG O O O O O
+**General Consumer Price Index ( 100=1992 ) , Producer Prices Index and Industrial Production Index ( 100=1990 ) .|||B-MISC I-MISC I-MISC I-MISC O O O O B-MISC I-MISC I-MISC O B-MISC I-MISC I-MISC O O O O
+- Coopers and Lybrand emigrates to Basque Country for fiscal reasons|||O B-ORG I-ORG I-ORG O O B-LOC I-LOC O O O
+- Government and Catalan nationalists set the scene for budget negotiations|||O O O B-MISC O O O O O O O
+VIENNA 1996-08-29|||B-LOC O
+-DOCSTART-|||O
+An estimated 50,000 people , including more than 110 foreigners , have been killed in Algeria 's violence pitting Moslem rebels against government forces since early 1992 when authorities in Algeria cancelled a general election in which FIS had taken a commanding lead .|||O O O O O O O O O O O O O O O B-LOC O O O B-MISC O O O O O O O O O O B-LOC O O O O O O B-ORG O O O O O O
+SOCCER - AUSTRIA BEAT SCOTLAND 4-0 IN EUROPEAN UNDER-21 MATCH .|||O O B-LOC O B-LOC O O B-MISC O O O
+Faure beat Dubnicoff 2-0 ( 12.112 / 12.246 )|||B-PER O B-PER O O O O O O
+7. Ingrid Haringa ( Netherlands ) 20|||O B-PER I-PER O B-LOC O O
+" I 'm a very good friend of David and spoke to him recently about coming to Aberdeen and he was very positive about it , " Kombouare said .|||O O O O O O O O B-PER O O O O O O O O B-ORG O O O O O O O O O B-PER O O
+" He said I would really enjoy life there and that I would settle in in terms of football as well .|||O O O O O O O O O O O O O O O O O O O O O O
+-DOCSTART-|||O
+3. Norifumi Abe ( Japan ) Yamaha 1:50.858|||O B-PER I-PER O B-LOC O B-ORG O
+Results of English league matches|||O O B-MISC O O

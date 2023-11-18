@@ -1,0 +1,215 @@
+This map reflected the European battlefield situation .|||O O O O B-NORP O O O
+In 1940 , the German army invaded and occupied Czechoslovakia , Poland , the Netherlands , Belgium , and France .|||O B-DATE O O B-NORP O O O O B-GPE O B-GPE O O B-GPE O B-GPE O O B-GPE O
+Um , , uh , through Yichang , it could directly reach Chongqing .|||O O O O O O B-GPE O O O O O B-GPE O
+The Eighth Route Army guerrillas were extraordinarily active , creating more and more trouble for the Japanese army in North China .|||O B-ORG I-ORG I-ORG O O O O O O O O O O O O B-NORP O O B-LOC I-LOC O
+That was to use railways as a pillar , roads as a chain , and strongholds as a lock , to carry out siege warfare in an attempt to divide the base areas behind enemy lines , ah , so as , er , to cut off their communication with one another .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+In addition , it relied on this cage , ah , to further strengthen its assaults against the base areas .|||O O O O O O O O O O O O O O O O O O O O O
+It was to break through the Japanese army 's siege policy against base areas behind enemy lines , and to avert the crisis of China 's compromise and surrender .|||O O O O O O B-NORP O O O O O O O O O O O O O O O O O B-GPE O O O O O
+Ah , why should you come out if you were told not to ?|||O O O O O O O O O O O O O O
+Essentially the entire enemy had been destroyed .|||O O O O O O O O
+It was an arduous battle .|||O O O O O O
+On the night of August 20 , offensives were launched against most of the Japanese independent 4th mixed brigade and part of the independent 9th mixed brigade along the western section of the Zhengtai Railway .|||O B-DATE I-DATE I-DATE I-DATE I-DATE O O O O O O O O B-NORP O B-ORDINAL O O O O O O O B-ORDINAL O O O O O O O B-FAC I-FAC I-FAC O
+Eh , medics were quite busy .|||O O O O O O O
+The Eighth Route Army officers and soldiers soaking in the muddy water fought their powerful enemy with utmost effort .|||O B-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O
+Under the powerful offensive of the Eighth Route Army , the enemy was only able to defend itself , without any strength to fight back .|||O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O
+They mobilized and organized the masses and won over the railway staff , making great effort to destroy the railroad , the stations , and related facilities by means including dismantlement , explosion , fire , and water .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+, I was responsible for this project , ah .|||O O O O O O O O O O
+Soldiers used hay cutters to sever the wire net , charging into the station and destroying the machine room and water tower , and then started to destroy the road .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+While destroying roads , there was clear - cut division of labor .|||O O O O O O O O O O O O O
+-LSB- -LSB- They attacked small bridges and small districts , and generally looted these stations . -RSB- -RSB-|||O O O O O O O O O O O O O O O O O O
+They carried away the iron , the iron rails of the railway , er to make steel .|||O O O O O O O O O O O O O O O O O O
+When they speak of the Hundred Regiments Offensive , they are always so excited .|||O O O O B-EVENT I-EVENT I-EVENT I-EVENT O O O O O O O
+Hey , this was my life .|||O O O O O O O
+Do you know lice ?|||O O O O O
+Correspondent Xu Xiaobing , covering frontline news at the time , snapped the shutter while artillery fire roared overhead .|||O B-PERSON I-PERSON O O O O O O O O O O O O O O O O O
+During the three and a half months from August 20 to December 5 , 1940 , the Eighth Route Army fought a total of 1,824 battles large and small .|||O B-DATE I-DATE I-DATE I-DATE I-DATE I-DATE O B-DATE I-DATE I-DATE I-DATE I-DATE I-DATE I-DATE O B-ORG I-ORG I-ORG I-ORG O O O O B-CARDINAL O O O O O
+In addition , large quantities of other military supplies were seized or destroyed .|||O O O O O O O O O O O O O O
+Telegrams and letters of congratulation arrived in Yan'an from all directions .|||O O O O O O O B-GPE O O O O
+The Hundred Regiments Offensive caused great excitement .|||B-EVENT I-EVENT I-EVENT I-EVENT O O O O
+The Hundred Regiments Offensive wrote a glorious page in the history of China 's War of Resistance against Japan .|||B-EVENT I-EVENT I-EVENT I-EVENT O O O O O O O O B-GPE O B-EVENT I-EVENT I-EVENT I-EVENT I-EVENT O
+First , let 's check out the main contents of today 's program .|||B-ORDINAL O O O O O O O O O B-DATE O O O
+Let 's now take a look at this .|||O O O O O O O O O
+Thank you for watching !|||O O O O O
+The two met .|||O B-CARDINAL O O
+Well , at the same time , he pointed out , that is , er , the issue of the prime minister 's visit to Yasukuni Shrine , the textbook issue , and the territorial dispute .|||O O O O O O O O O O O O O O O O O O O O O O O O O B-WORK_OF_ART I-WORK_OF_ART O O O O O O O O O O
+Nor was this for anything else .|||O O O O O O O
+Well , at the same time , that is , it was to express that there shall be no more war in future .|||O O O O O O O O O O O O O O O O O O O O O O O O
+However , this was still not accepted by the South Korean side .|||O O O O O O O O O B-NORP I-NORP O O
+In addition , is n't this year the year of the South Korean - Japanese friendship ?|||O O O O O B-DATE I-DATE O O O O B-NORP I-NORP I-NORP I-NORP O O
+Well , was n't it that things went contrary to his wishes ?|||O O O O O O O O O O O O O
+Uh-huh .|||O O
+Well , to be able to meet with Roh Moo - hyun was originally the only remedy he could count on .|||O O O O O O O O B-PERSON I-PERSON I-PERSON I-PERSON O O O O O O O O O O
+So , contrary to Koizumi 's diplomatic purpose , he not only failed to sidestep the issue of the visit , but rather exposed , this scandal to the entire world .|||O O O O B-PERSON O O O O O O O O O O O O O O O O O O O O O O O O O O O
+Uh-huh .|||O O
+He said , as long as we get on good terms with the US , then it follows naturally we will have good relations with our Asian neighboring countries .|||O O O O O O O O O O O O O B-GPE O O O O O O O O O O O O B-NORP O O O
+Uh-huh .|||O O
+That is , between the US and Japan , centering upon this intermediate report , actually the deal is again partially completed .|||O O O O O B-GPE O B-GPE O O O O O O O O O O O O O O O
+Uh-huh .|||O O
+Uh-huh .|||O O
+Uh-huh .|||O O
+Uh-huh .|||O O
+It grew only by 5.8 % according to Japan 's statistics .|||O O O O B-PERCENT I-PERCENT O O B-GPE O O O
+Uh-huh .|||O O
+Interests .|||O O
+with national interests .|||O O O O
+Well , with regard to Koizumi 's diplomatic thinking , there is still , that is , one question .|||O O O O O B-PERSON O O O O O O O O O O O B-CARDINAL O O
+For instance , they have , a kind of wrong doing .|||O O O O O O O O O O O O
+Uh-huh .|||O O
+Well , during these four years , we can say , er , nothing has been much improved , whether in internal affairs or diplomacy .|||O O O B-DATE I-DATE I-DATE O O O O O O O O O O O O O O O O O O O O
+Well , to Japanese people , what they are more concerned with is , for example , how my economy is developing , how my life will be , whether the national interests will be damaged , whether my personal interests will be affected , and so on and so forth .|||O O O B-NORP O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+Well , we have noticed that in response to such questions , some analysts recently noted that Japan 's diplomacy will pay a heavy price for what he has been doing .|||O O O O O O O O O O O O O O O O O B-GPE O O O O O O O O O O O O O O
+Uh-huh .|||O O
+Uh-huh .|||O O
+Then , in terms of economy , he has also been unable to keep the economic heat on .|||O O O O O O O O O O O O O O O O O O O
+Uh-huh .|||O O
+This is the most serious cost .|||O O O O O O O
+In this respect , such a question follows , that is , how far could Koizumi go following his diplomatic policy ?|||O O O O O O O O O O O O O O O B-PERSON O O O O O O
+Uh-huh .|||O O
+In fact we can see that he is sort of determined on this issue to fight against neighboring countries to the end .|||O O O O O O O O O O O O O O O O O O O O O O O
+That is because I recently met an American scholar whose first question to me was whether there will be any conflict in the East China Sea region .|||O O O O O O O B-NORP O O B-ORDINAL O O O O O O O O O O O O B-LOC I-LOC I-LOC O O
+It has triggered that --|||O O O O O
+Yeah .|||O O
+This is one of the important indexes that , we should watch for regarding which road exactly Japan will take .|||O O B-CARDINAL O O O O O O O O O O O O O O B-GPE O O O
+Uh-huh .|||O O
+Uh-huh .|||O O
+If it is impossible for talks to go on , it can still be postponed till future , en , when there is a chance to resume talks .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+Uh-huh .|||O O
+All right .|||O O O
+Uh-huh .|||O O
+Uh-huh .|||O O
+It is all in the hearts of people .|||O O O O O O O O O
+Uh-huh .|||O O
+Yes .|||O O
+Okay , let 's turn our attention to the city weather forecasts .|||O O O O O O O O O O O O O
+Xi'an , cloudy , 6 to 12 degrees .|||B-GPE O O O B-CARDINAL O B-QUANTITY I-QUANTITY O
+Seoul , sunny , 1 degree below zero to 8 degrees .|||B-GPE O O O B-QUANTITY I-QUANTITY I-QUANTITY I-QUANTITY O B-QUANTITY I-QUANTITY O
+Tokyo , sunny changing to cloudy , 8 to 14 degrees .|||B-GPE O O O O O O B-CARDINAL O B-QUANTITY I-QUANTITY O
+Paris , sunny , 1 degree below zero to 9 degrees .|||B-GPE O O O B-QUANTITY I-QUANTITY I-QUANTITY I-QUANTITY O B-QUANTITY I-QUANTITY O
+Let 's now connect via telephone with Mr. Wang Xinsheng , an expert on Japanese issues from Beijing University who is currently visiting Japan .|||O O O O O O O O B-PERSON I-PERSON O O O O B-NORP O O B-ORG I-ORG O O O O B-GPE O
+Was the four northern islands issue touched upon ?|||O O B-CARDINAL O O O O O O
+Uh-huh .|||O O
+Well , in fact , it can be said that there has still been no progress on territorial issues .|||O O O O O O O O O O O O O O O O O O O O
+The media here is concerned because Russia already promised to prioritize connecting it with China , er , , so the media here is concerned that it is an empty promise .|||O O O O O O B-GPE O O O O O O O B-GPE O O O O O O O O O O O O O O O O O
+However , due to the territorial issues , or little progress on the territorial issues , along with the business community 's concerns with the investment environment in Russia , well , it remains a big question how far economic cooperation can go .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-GPE O O O O O O O O O O O O O O O
+Well , they are also extremely dissatisfied because no progress has been made on this issue .|||O O O O O O O O O O O O O O O O O
+Because with large preconditions having been set , and now the framework having being set , it is impossible for Putin , that is to say , to make major breakthroughs on the substantive issues of Russian - Japanese relations .|||O O O O O O O O O O O O O O O O O O O O B-PERSON O O O O O O O O O O O O O O O B-NORP I-NORP I-NORP O O
+There should be exchanges back and forth , which would not work if Putin , refuses to come .|||O O O O O O O O O O O O O B-PERSON O O O O O
+Well , as you should know , it is entirely , impossible behavior .|||O O O O O O O O O O O O O O
+Right .|||O O
+Well , it seems it may also be very difficult for Koizumi now , that is to say , on the territorial issues , to return to what is called , er , economics first , territories second , or , the separation of politics and economics , or two islands first , then two islands later .|||O O O O O O O O O O O B-PERSON O O O O O O O O O O O O O O O O O O O O O O B-ORDINAL O O B-ORDINAL O O O O O O O O O O O B-CARDINAL O B-ORDINAL O O B-CARDINAL O O O
+Well , in the past , for instance , in 1996 , Primakov also proposed it when he was foreign minister .|||O O O O O O O O O O B-DATE O B-PERSON O O O O O O O O O
+This is a very interesting issue .|||O O O O O O O
+They dropped it .|||O O O O
+Well , this also has a lot to do with Russia 's strategy of building a powerful nation .|||O O O O O O O O O O B-GPE O O O O O O O O
+Well , we happen to have a background video clip here .|||O O O O O O O O O O O O
+It can be said that Putin 's visit to Japan after an interval of five years was realized following quite a few twists and turns .|||O O O O O B-PERSON O O O B-GPE O O O O B-DATE I-DATE O O O O O O O O O O
+Accordingly , the date of Putin 's visit to Japan turned into a variable which nobody could explain .|||O O O O O B-PERSON O O O B-GPE O O O O O O O O O
+That is , whether there should be a separation of politics and economics or not .|||O O O O O O O O O O O O O O O O
+Well , later , that is , after several changes , for instance , during Hashimoto Ryutaro 's term , ah , Russia proposed separating politics from economics , to make progress on both at the same time .|||O O O O O O O O O O O O O O O B-PERSON I-PERSON I-PERSON O O O O B-PERSON O O O O O O O O O O O O O O O O
+Eh , we all know Japan is the second largest economy in the world .|||O O O O O B-GPE O O B-ORDINAL O O O O O O
+At such time , he , needs someone else to give him a cup of water .|||O O O O O O O O O O O O O O O O O
+Uh-huh .|||O O
+Well , seen from this perspective , well , Japan is very important to Russia .|||O O O O O O O O O B-GPE O O O O B-GPE O
+Well , what does this status show ?|||O O O O O O O O
+So , that is , Japan used economics for political purposes .|||O O O O O B-GPE O O O O O O
+That is to say , this involves the origin of the Northern Territories issue .|||O O O O O O O O O O O B-LOC I-LOC O O
+With ancestors constantly changing , both sides had their own arguments .|||O O O O O O O O O O O O
+Well , there is also a nationalist sentiment issue ; also , including this , these have all been brought together .|||O O O O O O O O O O O O O O O O O O O O O O
+The then Soviet Union indicated willingness to return the Khabomai Rocks and Shikotan .|||O O B-GPE I-GPE O O O O B-LOC I-LOC I-LOC O B-LOC O
+As the two experts are constantly discussing , saying that the four northern islands issue is a dead knot in Japanese - Russian relations , yet this dead knot , it seems that currently both sides have this idea , they want to untie this dead knot .|||O O B-CARDINAL O O O O O O O O B-CARDINAL O O O O O O O O B-NORP I-NORP I-NORP O O O O O O O O O O O O O O O O O O O O O O O O O
+With , quite a troubled economy , Russia needed Japanese investment , needed Japan to get involved through this channel .|||O O O O O O O B-GPE O B-NORP O O O B-GPE O O O O O O O
+Well , as I just said very clearly , that is to say , in addition to the legal and historical complications , the repeated change of ownership , and then national sentiments as well , the four northern islands are also strategically very important .|||O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-CARDINAL O O O O O O O O
+It is still a large nation .|||O O O O O O O
+It would benefit Japan .|||O O O B-GPE O
+I think both sides generally know the two sides ' levels of political operations , knowing that territorial issues are hard to resolve .|||O O O O O O O B-CARDINAL O O O O O O O O O O O O O O O O
+So it may be like this .|||O O O O O O O
+That is , looking farther ahead , normalization of relations will still be gradually developed .|||O O O O O O O O O O O O O O O O
+Uh-huh .|||O O
+See you tomorrow at the same time .|||O O B-DATE O O O O O
+The two British nationals charged with leaking the information already appeared in court for interrogation yesterday for the first time .|||O B-CARDINAL B-NORP O O O O O O O O O O O O B-DATE O O B-ORDINAL O O
+Well , what exactly was this incident ?|||O O O O O O O O
+The other is Mr. Wu Huixuan , former CIR chief correspondent based in Qatar .|||O O O O B-PERSON I-PERSON O O B-ORG O O O O B-GPE O
+Well , let 's now look at the content of the article .|||O O O O O O O O O O O O O
+So how accurate is the news carried by it ?|||O O O O O O O O O O
+Uh-huh .|||O O
+Uh-huh .|||O O
+That 's because most British newspapers have their own steady readership .|||O O O O B-NORP O O O O O O O
+They have different levels of readership , ah .|||O O O O O O O O O
+Well , so , now we need to seriously consider its authenticity or accuracy .|||O O O O O O O O O O O O O O O
+How much is its accuracy , I think , is still quite hard to determine at this time , indeed ,|||O O O O O O O O O O O O O O O O O O O O O
+Uh-huh , uh-huh .|||O O O O
+The second point is to look at the reaction of al - Jazeera TV station .|||O B-ORDINAL O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O
+Um .|||O O
+Right .|||O O
+Well , of course it is still in a preliminary stage right now , and yesterday a hearing lasting only 15 minutes was held .|||O O O O O O O O O O O O O O O B-DATE O O O O B-TIME I-TIME O O O
+Eh , in other words , although they were interrogated , whether the secret leaked was something like our topic today , that is , Bush said he wanted to bomb al - Jazeera TV station , whether the secret divulged was this record , these are still two different things .|||O O O O O O O O O O O O O O O O O O O O B-DATE O O O O B-PERSON O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O B-CARDINAL O O O
+Yeah .|||O O
+Uh-huh .|||O O
+Um .|||O O
+There are no waves without wind .|||O O O O O O O
+The station logo , right .|||O O O O O O
+Let 's learn about this through another background video clip .|||O O O O O O O O O O O
+Prior to its establishment , there has been no Arabic - language TV station broadcasting news nonstop around the clock in the Arab world .|||O O O O O O O O O B-LANGUAGE I-LANGUAGE I-LANGUAGE O O O O O O O O O O B-NORP O O
+There were n't many people at the time .|||O O O O O O O O O
+Uh-huh .|||O O
+Uh-huh .|||O O
+Right .|||O O
+Uh-huh .|||O O
+Uh-huh .|||O O
+Uh-huh .|||O O
+Uh-huh .|||O O
+Uh-huh .|||O O
+We should say this is a very huge financial expenditure .|||O O O O O O O O O O O
+Extremely large .|||O O O
+Uh-huh .|||O O
+Well , speaking of its influence , we have also noticed that er , during the Afghan war , er , because it has the exclusive interview right to enter Afghanistan to conduct independent and exclusive interviews , we could say this is one of its advantages .|||O O O O O O O O O O O O O O O B-EVENT I-EVENT I-EVENT O O O O O O O O O O O O B-GPE O O O O O O O O O O O O O O O O O
+It also presented an opportunity to it as well .|||O O O O O O O O O O
+Right .|||O O
+It has a very talented team , eh .|||O O O O O O O O O
+Yeah .|||O O
+Er , that is why it is highly influential and competitive .|||O O O O O O O O O O O O
+The US government thinks that radicals , anti-American and religious commentators have become frequent guests at al - Jazeera TV station .|||O B-GPE O O O O O B-NORP O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O
+Uh-huh .|||O O
+So , it was always thought that there seemed to be some subtle relationship between al - Jazeera TV station and al - Qaeda .|||O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O B-ORG I-ORG I-ORG O
+Taciturn agreement .|||O O O
+Well , the same goes with the Iraq war .|||O O O O O O B-EVENT I-EVENT I-EVENT O
+Another Arabic nationality .|||O B-NORP O O
+Uh-huh .|||O O
+That 's because what they have reported can not be found in the Western media reports .|||O O O O O O O O O O O O O B-NORP O O O
+That 's why their fame grows .|||O O O O O O O
+Uh-huh .|||O O
+Right .|||O O
+But when our correspondents went to have an interview at the al - Jazeera TV station 's Beijing office today , they asked their office administrator named Ezzat , ah , the question why the US threatened to bomb al - Jazeera TV station ?|||O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O B-GPE O B-DATE O O O O O O O B-PERSON O O O O O O O B-GPE O O O B-ORG I-ORG I-ORG I-ORG O O
+Let 's hear what he said .|||O O O O O O O
+However , when I report , I do n't report for the sake of making somebody happy or not making somebody unhappy .|||O O O O O O O O O O O O O O O O O O O O O O O
+Some of the footage we broadcast did not conform to its interests .|||O O O O O O O O O O O O O
+Our reporter also , eh , almost had an accident there as several shots were purposely , er , fired at him .|||O O O O O O O O O O O O O O O O O O O O O O O
+At al - Jazeera TV station , there is , one famous saying , that is , if the whole world listens to CNN , or the whole world watches CNN , then whom does CNN watch or listen to ?|||O B-ORG I-ORG I-ORG I-ORG O O O O O B-CARDINAL O O O O O O O O O O O O B-ORG O O O O O O B-ORG O O O O B-ORG O O O O O
+Yeah .|||O O
+Right .|||O O
+However , as we are running out of time today , let 's end our discussion here .|||O O O O O O O O O B-DATE O O O O O O O O
+Thank you two very much for participating in our program .|||O O B-CARDINAL O O O O O O O O
+However , the day after tomorrow , that is , this Friday , a stronger cold current will enter Xinjiang in our country .|||O O B-DATE I-DATE I-DATE I-DATE O O O O O B-DATE O O O O O O O B-GPE O O O O
+Luoyang , sunny changing to cloudy , 3 to 11 degrees .|||B-GPE O O O O O O B-CARDINAL O B-QUANTITY I-QUANTITY O
+The co-hosts are Kira Phillips and Rick Sanchez /.|||O O O B-PERSON I-PERSON O B-PERSON I-PERSON O
+And I 'm Rick Sanchez /.|||O O O B-PERSON I-PERSON O
+No /.|||O O
+But once they steal it from you you ca n't get it back at any price /.|||O O O O O O O O O O O O O O O O O
+Why are there so many who want his life spared /?|||O O O O O O O O O O O
+At this point there 's something I should tell you /.|||O O O O O O O O O O O
+Now this is important /.|||O O O O O
+Kyra /?|||B-PERSON O
+So instead of more money they offered health insurance /.|||O O O O O O O O O O
+this is a private company /.|||O O O O O O
+Well I think the Walton family does take it personally /.|||O O O O B-PERSON O O O O O O
+They do n't like the bad publicity /.|||O O O O O O O O
+and the person who 's really benefiting is the consumer who goes in there and gets a sweater for four bucks /.|||O O O O O O O O O O O O O O O O O O O B-MONEY I-MONEY O
+Well and that 's what they say Rick /.|||O O O O O O O B-PERSON O
+Well they 're just starting to /.|||O O O O O O O
+You have to remember this company was a very closed uh culture really founded by Sam Walton /.|||O O O O O O O O O O O O O O O B-PERSON I-PERSON O
+They 're starting to realize that they need to respond more and more /.|||O O O O O O O O O O O O O O
+I mean they would n't be a problem to some people if they were n't so successful /.|||O O O O O O O O O O O O O O O O O O
+and two Marines died in a helicopter crash near Ramadi /.|||O B-CARDINAL O O O O O O O B-GPE O
+The afternoon and evening demonstrations organized by the group The World Ca n't Wait led police to close many streets around a federal building in West LA /.|||O B-TIME O B-TIME O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O B-GPE O
+Even now it 's impossible to grasp the tragedy along the Gulf Coast /.|||O O O O O O O O O O B-LOC I-LOC I-LOC O
+I mean you know so it 's all relative /.|||O O O O O O O O O O

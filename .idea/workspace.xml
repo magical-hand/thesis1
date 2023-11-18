@@ -1,7 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cec000ef-1685-4579-a71f-d45a170fabc6" name="Changes" comment="" />
+    <list default="true" id="cec000ef-1685-4579-a71f-d45a170fabc6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/F1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/argv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculate_F1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conll_03_english/conll2003_div.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conll_03_english/output_data31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conll_03_english/testa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conll_03_english/testb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conll_03_english/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data3/chang_data_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data3/conll2003_div.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data3/entity_list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data3/output_data30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data3/output_data90.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data3/tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data3/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data3/test_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data3/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data3/train_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data3/train_t1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data3/valid.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data3/valid_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataloader/DataLoader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataloader/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/embedding_generater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/embeds_of_sentence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enbedding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/CRF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/algorithms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/algorithms/dict_merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/algorithms/maximum_spanning_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/config_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/corpus_mapping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/custom_data_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/data_fetcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/datasets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/embeddings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/file_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/hyperparameter/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/hyperparameter/param_selection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/hyperparameter/parameter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/linear_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/list_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/models/biaffine_attention.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/models/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/models/dependency_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/models/ensemble_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/models/finetune_sequence_tagger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/models/language_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/models/mst_decoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/models/sequence_tagger_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/models/text_classification_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/models/text_regression_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/ner_dp_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/nn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/optim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/cmds/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/cmds/cmd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/cmds/evaluate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/cmds/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/cmds/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/modules/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/modules/bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/modules/biaffine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/modules/bilstm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/modules/char_lstm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/modules/dropout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/modules/mlp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/modules/scalar_mix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/modules/trilinear_attention.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/utils/alg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/utils/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/utils/corpus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/utils/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/utils/embedding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/utils/field.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/utils/fn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/utils/metric.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/parser/utils/vocab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/samplers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/trainers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/trainers/distillation_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/trainers/finetune_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/trainers/language_model_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/trainers/reinforcement_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/trainers/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/training_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/utils/archival.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/utils/checks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/utils/environment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/utils/exception_hook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/utils/extract_tokens_from_amr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/utils/file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/utils/from_params.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/utils/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/utils/nn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/utils/params.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/utils/registrable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/utils/string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/utils/time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/utils/tqdm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/variational_inference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/visual/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/visual/activations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/visual/html_templates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/visual/manifold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/visual/ner_html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flair/visual/training_curves.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_ELMO/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_ELMO/options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/ACE_DATASET/set1/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/ACE_DATASET/set5/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/ACE_DATASET/testa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/ACE_DATASET/testb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/ACE_DATASET/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/D_ACE_DATASET/set1/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/D_ACE_DATASET/set3/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/D_ACE_DATASET/testa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/D_ACE_DATASET/testb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/D_ACE_DATASET/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/allennlp_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/args_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/flair_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/flair_test_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/flair_test_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/flair_test_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/flair_test_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/logging_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/python_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/resources/logging_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/resources/output_result.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/resources/python_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/resources/taggers/sota-ner-flair/loss.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/resources/taggers/sota-ner-flair/training.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/resources/taggers/sota-ner-flair/weights.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/resources/time_recodertttt.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/test.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/test_flair_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/test_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/testa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/testb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/torch_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/torch_test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/torch_test_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_file/transformers_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +184,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/桌面文档整理 2023.9.17/python project/keykeykey - 简单一阶近似 - 同时运行/thesis1"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\桌面文档整理 2023.9.17\python project\keykeykey - 简单一阶近似 - 同时运行\thesis1" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

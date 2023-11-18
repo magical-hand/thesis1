@@ -1,0 +1,12 @@
+2023-09-24 01:13:36,861 logger DEBUG This is a customer debug message
+2023-09-24 01:13:36,861 logger INFO This is an customer info message
+2023-09-24 01:13:36,861 logger WARNING This is a customer warning message
+2023-09-24 01:13:36,861 logger ERROR This is an customer error message
+2023-09-24 01:13:36,861 logger CRITICAL This is a customer critical message
+2023-09-24 01:17:47,686 logger INFO This is an customer info message
+2023-09-24 01:17:47,686 logger WARNING This is a customer warning message
+2023-09-24 01:17:47,686 logger ERROR This is an customer error message
+2023-09-24 01:17:47,686 logger CRITICAL This is a customer critical message
+2023-09-24 01:18:52,212 logger WARNING This is a customer warning message
+2023-09-24 01:18:52,212 logger ERROR This is an customer error message
+2023-09-24 01:18:52,212 logger CRITICAL This is a customer critical message

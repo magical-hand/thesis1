@@ -1,0 +1,51 @@
+2023-03-10 16:03:35,151 ----------------------------------------------------------------------------------------------------
+2023-03-10 16:03:35,152 Model: "SequenceTagger(
+  (embeddings): StackedEmbeddings(
+    (list_embedding_0): WordEmbeddings(
+      'glove'
+      (embedding): Embedding(400001, 100)
+    )
+    (list_embedding_1): FlairEmbeddings(
+      (lm): LanguageModel(
+        (drop): Dropout(p=0.05, inplace=False)
+        (encoder): Embedding(300, 100)
+        (rnn): LSTM(100, 2048)
+        (decoder): Linear(in_features=2048, out_features=300, bias=True)
+      )
+    )
+    (list_embedding_2): FlairEmbeddings(
+      (lm): LanguageModel(
+        (drop): Dropout(p=0.05, inplace=False)
+        (encoder): Embedding(300, 100)
+        (rnn): LSTM(100, 2048)
+        (decoder): Linear(in_features=2048, out_features=300, bias=True)
+      )
+    )
+  )
+  (word_dropout): WordDropout(p=0.05)
+  (locked_dropout): LockedDropout(p=0.5)
+  (embedding2nn): Linear(in_features=4196, out_features=4196, bias=True)
+  (rnn): LSTM(4196, 256, batch_first=True, bidirectional=True)
+  (linear): Linear(in_features=512, out_features=19, bias=True)
+  (loss_function): ViterbiLoss()
+  (crf): CRF()
+)"
+2023-03-10 16:03:35,153 ----------------------------------------------------------------------------------------------------
+2023-03-10 16:03:35,154 Corpus: "Corpus: 13488 train + 1499 dev + 3684 test sentences"
+2023-03-10 16:03:35,155 ----------------------------------------------------------------------------------------------------
+2023-03-10 16:03:35,155 Parameters:
+2023-03-10 16:03:35,155  - learning_rate: "0.100000"
+2023-03-10 16:03:35,156  - mini_batch_size: "32"
+2023-03-10 16:03:35,156  - patience: "3"
+2023-03-10 16:03:35,156  - anneal_factor: "0.5"
+2023-03-10 16:03:35,157  - max_epochs: "150"
+2023-03-10 16:03:35,157  - shuffle: "True"
+2023-03-10 16:03:35,157  - train_with_dev: "False"
+2023-03-10 16:03:35,157  - batch_growth_annealing: "False"
+2023-03-10 16:03:35,158 ----------------------------------------------------------------------------------------------------
+2023-03-10 16:03:35,158 Model training base path: "resources\taggers\sota-ner-flair"
+2023-03-10 16:03:35,158 ----------------------------------------------------------------------------------------------------
+2023-03-10 16:03:35,159 Device: cpu
+2023-03-10 16:03:35,159 ----------------------------------------------------------------------------------------------------
+2023-03-10 16:03:35,159 Embeddings storage mode: cpu
+2023-03-10 16:03:35,160 ----------------------------------------------------------------------------------------------------
