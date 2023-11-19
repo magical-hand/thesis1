@@ -200,7 +200,7 @@ class MixedOp(nn.Module):
         sentences = [Sentence(i) for i in x]
         self.stack_embedding.embed(sentences)
         # a=time()
-        weights = F.softmax(weights, dim=-1)
+        weights = F.softmax(weights, dim=-1)*2-1
         weight_embedding_sentence=[]
         # print(len(self._ops),'qwerqwerq')
         for sentence in sentences:
