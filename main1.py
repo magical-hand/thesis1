@@ -6,6 +6,7 @@
 # from main_model import BERT_LSTM_CRF
 import torch.optim as optim
 import torch.optim.lr_scheduler
+from datetime import datetime
 
 from utils import load_vocab, read_corpus, load_model, save_model,load_label_list
 import utils
@@ -79,7 +80,7 @@ def train(**kwargs):
     # 模拟训练15000步
     warmup_steps = max_steps*0.05
     init_lr = config.lr
-
+    embeddings_file=open("embeddings_select".format(datetime.now().strftime('%Y-%m-%d_%H_%M_%S')), 'w')
     for epoch in range(config.base_epoch):
         step = 0
         train_start_time=time.time()
@@ -129,13 +130,16 @@ def train(**kwargs):
                 print('step: {} |  epoch: {}|  loss: {}'.format(step, epoch, loss.item()))
             arch_train(inputs,tags,masks,dev_loader,architect,config.unrolled,config.arch_learning_rate,optimizer_real)
         plt.plot(total_step_list, loss_list, '-y')
-        # plt.show()
+        for embeddings_order,weight_nums in model.arch_parameters():
+            if weight_nums<0.00001:
+                config.embedding_select.append(embeddings_order)
+        embeddings_file.write(config.embedding_select)
         plt.savefig('./save_{}'.format(epoch))
         scheduler.step()
         arch_scheduler.step()
         logger_1.info('End {} epoch train,spend time {}.\nThe arch_parmeters is {},the top 3 parameters is {} '.format(epoch,time.time()-train_start_time,model.arch_parameters(),torch.topk(model.arch_parameters(),3)))
         loss_temp = test_mod(model, test_loader, epoch, config)
-        # print(loss_temp)
+
         if loss_temp < eval_loss:
             save_model(model, epoch)
         eval_loss=loss_temp

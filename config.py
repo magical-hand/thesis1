@@ -1,5 +1,5 @@
 # coding=utf-8
-
+from opration import embbedings_config
 
 class Config(object):
     def __init__(self):
@@ -34,6 +34,8 @@ class Config(object):
         self.arch_weight_decay=0.001
         self.L1_weight=0.1
         self.unrolled=False
+        self.choosed=False
+        self.embedding_select = [1,2,3,4,5,6,7,8,9,10]
         self.regular=False
         self.total_epoch=0
         self.dataset_config={

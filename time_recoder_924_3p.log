@@ -1,0 +1,116 @@
+2023-11-19 18:39:10,074 - main1.py[line:32] - 当前设置为:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:5e-05
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.001
+L1_weight:0.1
+unrolled:False
+regular:False
+total_epoch:0
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-11-19 19:07:26,776 - main1.py[line:86] - -------------------------------start 0 epoch train-----------------------------------
+2023-11-19 21:36:09,146 - main1.py[line:136] - End 0 epoch train,spend time 8922.367434740067.
+The arch_parmeters is tensor([-1.3972e-02, -8.9627e-06, -4.2106e-01, -4.3955e-01, -1.4905e+00,
+        -4.3057e-01, -6.9835e-05, -3.0330e-06,  2.1266e+00, -8.4463e-02,
+         1.6570e-01], device='cuda:0', requires_grad=True),the top 3 parameters is torch.return_types.topk(
+values=tensor([ 2.1266e+00,  1.6570e-01, -3.0330e-06], device='cuda:0',
+       grad_fn=<TopkBackward>),
+indices=tensor([ 8, 10,  7], device='cuda:0')) 
+2023-11-19 21:50:13,087 - main1.py[line:198] - End dev,spend time 843.9406154155731.
+ F1 value is {'PER': 0.9844049247606019, 'LOC': 0.9823855057876195, 'ORG': 0.9611705120990434, 'MIS': 0.950383631713555} ,total_F1 is 0.9724463388643628,eval  epoch: 0|  loss: 0.0009450887734035276.
+2023-11-19 21:50:13,087 - main1.py[line:199] - -----------------------------End 0 epoch train---------------------------------
+2023-11-19 21:50:24,336 - main1.py[line:86] - -------------------------------start 1 epoch train-----------------------------------
+2023-11-19 23:48:12,279 - main1.py[line:136] - End 1 epoch train,spend time 7067.93928360939.
+The arch_parmeters is tensor([-1.0626e-05, -1.4691e-04, -8.6502e-02, -1.0554e-01, -1.1564e+00,
+        -9.6562e-02,  1.2619e-04, -1.6237e-04,  1.7898e+00, -1.5879e-04,
+        -4.3274e-05], device='cuda:0', requires_grad=True),the top 3 parameters is torch.return_types.topk(
+values=tensor([ 1.7898e+00,  1.2619e-04, -1.0626e-05], device='cuda:0',
+       grad_fn=<TopkBackward>),
+indices=tensor([8, 6, 0], device='cuda:0')) 
+2023-11-20 00:03:50,609 - main1.py[line:198] - End dev,spend time 938.3294167518616.
+ F1 value is {'PER': 0.9833923223523006, 'LOC': 0.9892526868282929, 'ORG': 0.9742551345096905, 'MIS': 0.9446981227803146} ,total_F1 is 0.9769500839566478,eval  epoch: 1|  loss: 0.0009086629129805655.
+2023-11-20 00:03:50,609 - main1.py[line:199] - -----------------------------End 1 epoch train---------------------------------
+2023-11-20 00:04:02,055 - main1.py[line:86] - -------------------------------start 2 epoch train-----------------------------------
+2023-11-20 02:31:35,157 - main1.py[line:136] - End 2 epoch train,spend time 8853.097522974014.
+The arch_parmeters is tensor([-2.3689e-04,  4.7474e-05,  1.7836e-04, -2.0445e-04, -8.2272e-01,
+         2.2888e-04, -1.4528e-06, -8.2774e-05,  1.4551e+00, -1.3767e-04,
+        -1.3196e-04], device='cuda:0', requires_grad=True),the top 3 parameters is torch.return_types.topk(
+values=tensor([1.4551e+00, 2.2888e-04, 1.7836e-04], device='cuda:0',
+       grad_fn=<TopkBackward>),
+indices=tensor([8, 5, 2], device='cuda:0')) 
+2023-11-20 02:58:31,549 - main1.py[line:198] - End dev,spend time 1616.3910341262817.
+ F1 value is {'PER': 0.9860388721598686, 'LOC': 0.9849473156046161, 'ORG': 0.9735175590097871, 'MIS': 0.9655521783181358} ,total_F1 is 0.9792924275999083,eval  epoch: 2|  loss: 0.0005827819401363157.
+2023-11-20 02:58:31,549 - main1.py[line:199] - -----------------------------End 2 epoch train---------------------------------
+2023-11-20 02:58:43,028 - main1.py[line:86] - -------------------------------start 3 epoch train-----------------------------------
+2023-11-20 06:06:12,073 - main1.py[line:136] - End 3 epoch train,spend time 11249.041384458542.
+The arch_parmeters is tensor([ 1.6635e-05,  4.5436e-06,  4.4409e-06,  2.8597e-05, -7.8932e-01,
+         2.4806e-05, -3.3422e-07, -1.7973e-06,  1.4216e+00,  6.2767e-06,
+         1.0154e-05], device='cuda:0', requires_grad=True),the top 3 parameters is torch.return_types.topk(
+values=tensor([1.4216e+00, 2.8597e-05, 2.4806e-05], device='cuda:0',
+       grad_fn=<TopkBackward>),
+indices=tensor([8, 3, 5], device='cuda:0')) 
+2023-11-20 06:33:48,572 - main1.py[line:198] - End dev,spend time 1656.4991009235382.
+ F1 value is {'PER': 0.9894108064078198, 'LOC': 0.9866532359607153, 'ORG': 0.978711162255466, 'MIS': 0.9728900255754476} ,total_F1 is 0.9832632785632403,eval  epoch: 3|  loss: 0.0006336711487680111.
+2023-11-20 06:33:48,572 - main1.py[line:199] - -----------------------------End 3 epoch train---------------------------------
+2023-11-20 06:33:48,594 - main1.py[line:86] - -------------------------------start 4 epoch train-----------------------------------
+2023-11-20 08:42:55,420 - main1.py[line:32] - 当前设置为:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:5e-05
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.001
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+regular:False
+total_epoch:0
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-11-20 08:43:13,342 - main1.py[line:86] - -------------------------------start 0 epoch train-----------------------------------
