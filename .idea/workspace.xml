@@ -6,12 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="cec000ef-1685-4579-a71f-d45a170fabc6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embeddings_select" beforeDir="false" afterPath="$PROJECT_DIR$/test_file/resources/open_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main1.py" beforeDir="false" afterPath="$PROJECT_DIR$/main1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/result/checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_recoder_924_3p.log" beforeDir="false" afterPath="$PROJECT_DIR$/time_recoder_924_3p.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,6 +34,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2YLbBO1umyCk4spfFbMP35kb7gO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,6 +76,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="open_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="thesis1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_file/resources" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_file/resources/open_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="torch_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="thesis1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_file" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_file/torch_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in main1.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="thesis1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,6 +135,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main1" />
+        <item itemvalue="Python.open_test" />
+        <item itemvalue="Python.torch_test" />
         <item itemvalue="Python tests.Python tests in main1.py" />
       </list>
     </recent_temporary>

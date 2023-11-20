@@ -188,3 +188,58 @@ total_epoch:0
 dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
 
 2023-11-20 12:00:20,796 - main1.py[line:87] - -------------------------------start 0 epoch train-----------------------------------
+2023-11-20 13:33:41,147 - main1.py[line:139] - End 0 epoch train,spend time 5600.327243566513.
+The arch_parmeters is tensor([ 6.3486e-06,  8.4754e-01, -8.6606e-01, -2.0541e-01, -7.3923e-01,
+         3.4792e-05,  2.3330e-04, -5.7598e-05, -3.4072e-05,  1.2098e-04],
+       device='cuda:0', requires_grad=True),the top 3 parameters is torch.return_types.topk(
+values=tensor([8.4754e-01, 2.3330e-04, 1.2098e-04], device='cuda:0',
+       grad_fn=<TopkBackward>),
+indices=tensor([1, 6, 9], device='cuda:0')) 
+2023-11-20 13:44:03,083 - main1.py[line:200] - End dev,spend time 621.9358088970184.
+ F1 value is {'PER': 0.9822840010902153, 'LOC': 0.9814070351758795, 'ORG': 0.9675380637747772, 'MIS': 0.9507364144235654} ,total_F1 is 0.9733567447896786,eval  epoch: 0|  loss: 0.0007852406996601033.
+2023-11-20 13:44:03,084 - main1.py[line:201] - -----------------------------End 0 epoch train---------------------------------
+2023-11-20 13:44:13,092 - main1.py[line:87] - -------------------------------start 1 epoch train-----------------------------------
+2023-11-20 15:13:20,610 - main1.py[line:139] - End 1 epoch train,spend time 5347.51566362381.
+The arch_parmeters is tensor([-6.7279e-05,  5.1927e-01, -5.3139e-01,  1.2781e-04, -4.0462e-01,
+        -6.8985e-05,  5.8067e-05,  1.1923e-04,  2.2435e-04,  3.1519e-05],
+       device='cuda:0', requires_grad=True),the top 3 parameters is torch.return_types.topk(
+values=tensor([5.1927e-01, 2.2435e-04, 1.2781e-04], device='cuda:0',
+       grad_fn=<TopkBackward>),
+indices=tensor([1, 8, 3], device='cuda:0')) 
+2023-11-20 15:23:46,145 - main1.py[line:200] - End dev,spend time 625.5355134010315.
+ F1 value is {'PER': 0.986069379950833, 'LOC': 0.9816904941058441, 'ORG': 0.9694348327566321, 'MIS': 0.946181445412609} ,total_F1 is 0.9743628989056402,eval  epoch: 1|  loss: 0.0007677088368613765.
+2023-11-20 15:23:46,145 - main1.py[line:201] - -----------------------------End 1 epoch train---------------------------------
+2023-11-20 15:23:56,678 - main1.py[line:87] - -------------------------------start 2 epoch train-----------------------------------
+2023-11-20 16:53:17,705 - main1.py[line:139] - End 2 epoch train,spend time 5361.02426815033.
+The arch_parmeters is tensor([ 5.3197e-06,  1.8507e-01, -1.9762e-01,  8.6187e-05, -7.0851e-02,
+        -6.8023e-05,  3.9957e-06,  2.5234e-04,  9.7850e-05, -5.0812e-05],
+       device='cuda:0', requires_grad=True),the top 3 parameters is torch.return_types.topk(
+values=tensor([1.8507e-01, 2.5234e-04, 9.7850e-05], device='cuda:0',
+       grad_fn=<TopkBackward>),
+indices=tensor([1, 7, 8], device='cuda:0')) 
+2023-11-20 17:03:50,127 - main1.py[line:200] - End dev,spend time 632.4218783378601.
+ F1 value is {'PER': 0.9822549822549824, 'LOC': 0.9842381786339754, 'ORG': 0.968403074295474, 'MIS': 0.9613034623217923} ,total_F1 is 0.9760219228134276,eval  epoch: 2|  loss: 0.0007748402514547672.
+2023-11-20 17:03:50,127 - main1.py[line:201] - -----------------------------End 2 epoch train---------------------------------
+2023-11-20 17:03:50,138 - main1.py[line:87] - -------------------------------start 3 epoch train-----------------------------------
+2023-11-20 18:32:31,076 - main1.py[line:139] - End 3 epoch train,spend time 5320.93536567688.
+The arch_parmeters is tensor([ 5.2288e-06,  1.5161e-01, -1.6424e-01, -1.5195e-05, -3.7471e-02,
+         2.2677e-06, -9.7603e-06, -1.3080e-05, -1.2141e-05,  2.6759e-06],
+       device='cuda:0', requires_grad=True),the top 3 parameters is torch.return_types.topk(
+values=tensor([1.5161e-01, 5.2288e-06, 2.6759e-06], device='cuda:0',
+       grad_fn=<TopkBackward>),
+indices=tensor([1, 0, 9], device='cuda:0')) 
+2023-11-20 18:42:55,623 - main1.py[line:200] - End dev,spend time 624.5467877388.
+ F1 value is {'PER': 0.9833378858235455, 'LOC': 0.9790940766550523, 'ORG': 0.9723820483314155, 'MIS': 0.960325534079349} ,total_F1 is 0.9756878286715951,eval  epoch: 3|  loss: 0.0007754098694279509.
+2023-11-20 18:42:55,623 - main1.py[line:201] - -----------------------------End 3 epoch train---------------------------------
+2023-11-20 18:42:55,634 - main1.py[line:87] - -------------------------------start 4 epoch train-----------------------------------
+2023-11-20 20:11:42,489 - main1.py[line:139] - End 4 epoch train,spend time 5326.851696014404.
+The arch_parmeters is tensor([-8.1884e-06,  1.1807e-01, -1.3080e-01,  2.3737e-05, -4.0244e-03,
+        -1.6895e-05, -2.9100e-05,  1.6593e-05,  1.4209e-05,  3.5289e-06],
+       device='cuda:0', requires_grad=True),the top 3 parameters is torch.return_types.topk(
+values=tensor([1.1807e-01, 2.3737e-05, 1.6593e-05], device='cuda:0',
+       grad_fn=<TopkBackward>),
+indices=tensor([1, 3, 7], device='cuda:0')) 
+2023-11-20 20:22:07,235 - main1.py[line:200] - End dev,spend time 624.7456195354462.
+ F1 value is {'PER': 0.9807327001356853, 'LOC': 0.9812077173640692, 'ORG': 0.9688482423549586, 'MIS': 0.9625448948178553} ,total_F1 is 0.9750076196281621,eval  epoch: 4|  loss: 0.0008816040911764468.
+2023-11-20 20:22:07,235 - main1.py[line:201] - -----------------------------End 4 epoch train---------------------------------
+2023-11-20 20:22:07,246 - main1.py[line:87] - -------------------------------start 5 epoch train-----------------------------------

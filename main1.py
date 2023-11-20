@@ -76,11 +76,16 @@ def train(**kwargs):
     total_step_list = []
     loss_list = []
 
+    handler2 = logging.FileHandler(filename="time_recoder_924_3p.log", mode='a')
+    handler2.setLevel(logging.WARNING)
+    formatter = logging.Formatter("%(asctime)s - %(filename)s[line:%(lineno)d] - %(message)s")
+    handler2.setFormatter(formatter)
+    logger_1.addHandler(handler2)
     max_steps = 10000
     # 模拟训练15000步
     warmup_steps = max_steps*0.05
     init_lr = config.lr
-    embeddings_file=open("embeddings_select".format(datetime.now().strftime('%Y-%m-%d_%H_%M_%S')), 'w')
+    # embeddings_file=open("embeddings_select_{}".format(datetime.now().strftime('%Y-%m-%d_%H_%M_%S')), 'w')
     for epoch in range(config.base_epoch):
         step = 0
         train_start_time=time.time()
@@ -105,17 +110,7 @@ def train(**kwargs):
                 learning_rate = warmup_learning_rate
                 optimizer_real = optimizer(filter(lambda p: p.requires_grad, model.parameters()), lr=learning_rate,
                                   weight_decay=config.weight_decay)
-            # for i,tag in enumerate(tags):
-            #     tags[i]=torch.cat([tag,torch.zeros(model.batch_sequence_length-len(tag))])
-            #     masks[i]=torch.cat([masks[i],torch.zeros(model.batch_sequence_length-len(tag))])
-            # tags=Variable(torch.cat(tags).long()).view(config.batch_size,model.batch_sequence_length)
-            # masks =Variable(torch.cat(masks).long()).view(config.batch_size,model.batch_sequence_length)
 
-            # print(torch.cuda.get_device_name(),'qwerqrtqert',torch.cuda.current_device())
-
-            # tags=tags.to(device)
-            # masks=masks.to(device)
-            # print(tags.shape,tags.device,'asdf',device)
             loss = model.loss(feats, masks,tags)
             # forward_time = time.time()
             # logging.info('forward time {}'.format(forward_time - train_start_time))
@@ -132,16 +127,16 @@ def train(**kwargs):
         for embeddings_order,weight_nums in enumerate(model.arch_parameters()):
             if weight_nums>0.0001:
                 config.embedding_select.append(embeddings_order)
-        embeddings_file.write(str(config.embedding_select)+"|||"+str(epoch))
+        logger_1.warning(str(config.embedding_select)+"|||"+str(epoch))
         plt.savefig('./save_{}'.format(epoch))
-        scheduler.step() 
+        scheduler.step()
         arch_scheduler.step()
         logger_1.info('End {} epoch train,spend time {}.\nThe arch_parmeters is {},the top 3 parameters is {} '.format(epoch,time.time()-train_start_time,model.arch_parameters(),torch.topk(model.arch_parameters(),3)))
         loss_temp = test_mod(model, test_loader, epoch, config)
         if loss_temp < eval_loss:
             save_model(model, epoch)
         eval_loss=loss_temp
-    embeddings_file.close()
+
 def arch_train(input_train,target_train,mask_train,dev_loader,architect,unrolled,eta,network_optim):
     try:
         input_search,masks_search, target_search = next(dev_loader)
@@ -339,12 +334,4 @@ if __name__ == '__main__':
     handler2.setFormatter(formatter)
     logger_1.addHandler(handler2)
 
-    # logging.basicConfig(format='%(asctime)s - %(filename)s[line:%(lineno)d] - %(message)s',
-    #                     filename='time_recoder_9_19.log',
-    #                     filemode='a',
-    #                     level=logging.INFO)
-
     fire.Fire()
-
-    # test_data='./data2/test.txt'
-    # predict(test_data)
