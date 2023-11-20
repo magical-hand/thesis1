@@ -122,7 +122,6 @@ def train(**kwargs):
             if total_step%3==0:
                 loss_list.append(loss.item())
                 total_step_list.append(total_step)
-
             loss.backward()
             optimizer_real.step()
             # logging.info('backward time {}'.format(time.time()-draw_time))
@@ -130,12 +129,12 @@ def train(**kwargs):
                 print('step: {} |  epoch: {}|  loss: {}'.format(step, epoch, loss.item()))
             arch_train(inputs,tags,masks,dev_loader,architect,config.unrolled,config.arch_learning_rate,optimizer_real)
         plt.plot(total_step_list, loss_list, '-y')
-        for embeddings_order,weight_nums in model.arch_parameters():
-            if weight_nums<0.0001:
+        for embeddings_order,weight_nums in enumerate(model.arch_parameters()):
+            if weight_nums>0.0001:
                 config.embedding_select.append(embeddings_order)
         embeddings_file.write(str(config.embedding_select)+"|||"+str(epoch))
         plt.savefig('./save_{}'.format(epoch))
-        scheduler.step()
+        scheduler.step() 
         arch_scheduler.step()
         logger_1.info('End {} epoch train,spend time {}.\nThe arch_parmeters is {},the top 3 parameters is {} '.format(epoch,time.time()-train_start_time,model.arch_parameters(),torch.topk(model.arch_parameters(),3)))
         loss_temp = test_mod(model, test_loader, epoch, config)

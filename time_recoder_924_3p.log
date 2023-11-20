@@ -114,3 +114,77 @@ total_epoch:0
 dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
 
 2023-11-20 08:43:13,342 - main1.py[line:86] - -------------------------------start 0 epoch train-----------------------------------
+2023-11-20 09:57:55,204 - main1.py[line:33] - 当前设置为:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:5e-05
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.001
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+regular:False
+total_epoch:0
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-11-20 09:59:12,425 - main1.py[line:87] - -------------------------------start 0 epoch train-----------------------------------
+2023-11-20 11:58:54,991 - main1.py[line:33] - 当前设置为:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:5e-05
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.001
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+regular:False
+total_epoch:0
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-11-20 12:00:20,796 - main1.py[line:87] - -------------------------------start 0 epoch train-----------------------------------
