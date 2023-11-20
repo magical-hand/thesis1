@@ -131,19 +131,18 @@ def train(**kwargs):
             arch_train(inputs,tags,masks,dev_loader,architect,config.unrolled,config.arch_learning_rate,optimizer_real)
         plt.plot(total_step_list, loss_list, '-y')
         for embeddings_order,weight_nums in model.arch_parameters():
-            if weight_nums<0.00001:
+            if weight_nums<0.0001:
                 config.embedding_select.append(embeddings_order)
-        embeddings_file.write(config.embedding_select)
+        embeddings_file.write(str(config.embedding_select)+"|||"+str(epoch))
         plt.savefig('./save_{}'.format(epoch))
         scheduler.step()
         arch_scheduler.step()
         logger_1.info('End {} epoch train,spend time {}.\nThe arch_parmeters is {},the top 3 parameters is {} '.format(epoch,time.time()-train_start_time,model.arch_parameters(),torch.topk(model.arch_parameters(),3)))
         loss_temp = test_mod(model, test_loader, epoch, config)
-
         if loss_temp < eval_loss:
             save_model(model, epoch)
         eval_loss=loss_temp
-
+    embeddings_file.close()
 def arch_train(input_train,target_train,mask_train,dev_loader,architect,unrolled,eta,network_optim):
     try:
         input_search,masks_search, target_search = next(dev_loader)
