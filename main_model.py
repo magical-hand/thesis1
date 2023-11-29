@@ -1,6 +1,7 @@
 import configparser
 import copy
 from config import Config
+from config import config_class
 
 import torch
 from flair.data import Sentence
@@ -200,7 +201,10 @@ class MixedOp(nn.Module):
         sentences = [Sentence(i) for i in x]
         self.stack_embedding.embed(sentences)
         # a=time()
-        weights = F.softmax(weights, dim=-1)*2-1
+        if config_class.all_embedding_used==False:
+            weights = F.softmax(weights, dim=-1)
+        else:
+            weights=torch.ones_like(weights)
         weight_embedding_sentence=[]
         # print(len(self._ops),'qwerqwerq')
         for sentence in sentences:
@@ -326,7 +330,7 @@ class Architect(object):
     # masks = masks.to(device)
 
     loss = self.model.loss(feats, masks_valid, target_valid)
-    l1_penalty=self.config.L1_weight*torch.sum(torch.abs(self.model.arch_parameters()))
+    l1_penalty=self.config.L1_weight*torch.sum(torch.abs(self.model.arch_parameters()-1))
     loss=loss+l1_penalty
     loss.backward()
 

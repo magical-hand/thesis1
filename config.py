@@ -20,9 +20,9 @@ class Config(object):
         self.dropout1 = 0.5
         self.dropout_ratio = 0.5
         self.rnn_layer = 1
-        self.lr = 0.0005
+        self.lr = 0.00001
         self.lr_decay = 0.001
-        self.weight_decay = 0.00005
+        self.weight_decay = 0.0005
         self.checkpoint = 'result/'
         self.optim = 'Adam'
         self.load_model = False
@@ -31,13 +31,15 @@ class Config(object):
         self.momentum =(0.9, 0.999)
         self.network_weight_decay=0.001
         self.arch_learning_rate=0.0005
-        self.arch_weight_decay=0.001
+        self.arch_weight_decay=0.0005
         self.L1_weight=0.1
         self.unrolled=False
         self.choosed=False
-        self.embedding_select = [1,2,3,4,5,6,7,8,9,10]
+        self.embedding_select = [0,1,2,3,4,5,6,7,8,9]
         self.regular=False
         self.total_epoch=0
+        self.all_embedding_used=True
+        self.searching_embeddings=True
         self.dataset_config={
                 'data_folder': r'C:\Users\Administrator\Desktop\ACE-main\datasets\conll_03_english',
                 'column_format':{
@@ -55,6 +57,8 @@ class Config(object):
     def __str__(self):
 
         return '\n'.join(['%s:%s' % item for item in self.__dict__.items()])
+
+config_class=Config()
 
 
 if __name__ == '__main__':
