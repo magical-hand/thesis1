@@ -20,7 +20,7 @@ class Config(object):
         self.dropout1 = 0.5
         self.dropout_ratio = 0.5
         self.rnn_layer = 1
-        self.lr = 0.00001
+        self.lr = 0.0005
         self.lr_decay = 0.001
         self.weight_decay = 0.0005
         self.checkpoint = 'result/'
@@ -36,9 +36,9 @@ class Config(object):
         self.unrolled=False
         self.choosed=False
         self.embedding_select = [0,1,2,3,4,5,6,7,8,9]
-        self.regular=False
+        self.regular_used=True
         self.total_epoch=0
-        self.all_embedding_used=True
+        self.all_embedding_used=False
         self.searching_embeddings=True
         self.dataset_config={
                 'data_folder': r'C:\Users\Administrator\Desktop\ACE-main\datasets\conll_03_english',
