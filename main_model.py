@@ -43,13 +43,19 @@ class BERT_LSTM_CRF(nn.Module):
         self.embedding_dim = embedding_dim
         self.hidden_dim = hidden_dim
         # self.word_embeds = BertModel.from_pretrained(bert_config)
-
         self.word_embeds = MixedOp(use_cuda)
         self._initialize_alphas()
-        word_embeds_len =self.word_embeds.stack_embedding.embedding_length
+
         # if "ELMoEmbeddings('small')" in OPS:
         #     word_embeds_len+=1024
-        self.liner_1=nn.Linear(word_embeds_len,embedding_dim)
+        if config_class.regular_used==True:
+
+            word_embeds_len = self.word_embeds.stack_embedding.embedding_length
+            self.liner_1=nn.Linear(word_embeds_len,embedding_dim)
+        else:
+            self.linear_list=[]
+            for embedding in self.word_embeds.embeddings_list:
+                self.linear_list.append(nn.Linear(embedding.embedding_length,embedding_dim,bias=False))
         self.lstm = nn.LSTM(embedding_dim, hidden_dim,
                             num_layers=rnn_layers, bidirectional=True, dropout=dropout_ratio, batch_first=True)
         self.rnn_layers = rnn_layers
@@ -71,8 +77,8 @@ class BERT_LSTM_CRF(nn.Module):
     def _initialize_alphas(self):
         num_ops = len(self.word_embeds.embeddings_list)
         self._arch_parameters = Variable(torch.randn(num_ops))
-        self._arch_parameters=self._arch_parameters.to(device)
-        self._arch_parameters.requires_grad=True
+        self._arch_parameters = self._arch_parameters.to(device)
+        self._arch_parameters.requires_grad = True
 
 
     def arch_parameters(self):
@@ -95,12 +101,6 @@ class BERT_LSTM_CRF(nn.Module):
         return:
             crf output (word_seq_len, batch_size, tag_size, tag_size), hidden
         '''
-        # time_1=time()
-
-
-
-        # time_2=time()
-        # logging.info('sentence1 time {}'.format(time_2-time_1))
 
         embeds = self.word_embeds(sentence,self.arch_parameters())
 
@@ -109,11 +109,6 @@ class BERT_LSTM_CRF(nn.Module):
 
         batch_size = embeds.size(0)
         self.batch_sequence_length=embeds.shape[1]
-        # hidden = self.rand_init_hidden(batch_size)
-        # if embeds.is_cuda:
-        #     hidden = (i.cuda() for i in hidden)
-        #     hidden=list(hidden)
-        # print(embeds.shape)
 
         embeds=self.liner_1(embeds)
         # embeds=torch.cat([self.liner_1(embeds[:,i,:]) for i in range(embeds.shape[1])])
@@ -145,35 +140,6 @@ class BERT_LSTM_CRF(nn.Module):
         loss_value /= float(batch_size)
         return loss_value
 
-    # def _make_padded_tensor_for_batch(self, sentences) :
-    #     names = self.word_embeds.stack_embedding.embeddings.get_names()
-    #     lengths= [len(sentence.tokens) for sentence in sentences]
-    #     longest_token_sequence_in_batch: int = max(lengths)
-    #     embedding_length=self.word_embeds.stack_embedding.embeddings.embedding_length
-    #     pre_allocated_zero_tensor = torch.zeros(
-    #         embedding_length* longest_token_sequence_in_batch,
-    #         dtype=torch.float,
-    #         device=device,
-    #     )
-    #     all_embs = list()
-    #     for sentence in sentences:
-    #         all_embs += [emb for token in sentence for emb in token.get_each_embedding(names)]
-    #         nb_padding_tokens = longest_token_sequence_in_batch - len(sentence)
-    #         cls_embedding=torch.ones(embedding_length)
-    #         sep_embedding=cls_embedding*2
-    #         all_embs=cls_embedding+all_embs+sep_embedding
-    #         if nb_padding_tokens > 0:
-    #             t = pre_allocated_zero_tensor[: embedding_length * nb_padding_tokens]
-    #             all_embs.append(t)
-    #
-    #     sentence_tensor = torch.cat(all_embs).view(
-    #         [
-    #             len(sentences),
-    #             longest_token_sequence_in_batch,
-    #             self.word_embeds.stack_embedding.embeddings.embedding_length,
-    #         ]
-    #     )
-    #     return torch.tensor(lengths, dtype=torch.long), sentence_tensor
 
 class MixedOp(nn.Module):
 
@@ -183,18 +149,6 @@ class MixedOp(nn.Module):
         self.use_cuda=use_cuda
         # self._ops = []
         self.embeddings_list = embeddings_generater(config.dataset_config).embeddings_list
-        
-
-        # for primitive in OPS:  #PRIMITIVES中就是8个操作
-        #     if primitive=="ELMoEmbeddings('small')":
-        #         options_file = "model_ELMO/options.json"  # 配置文件地址
-        #         weight_file = "model_ELMO/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5"  # 权重文件地址
-        #         # 这里的1表示产生一组线性加权的词向量。
-        #         # 如果改成2 即产生两组不同的线性加权的词向量。
-        #         self.elmo_model = Elmo(options_file, weight_file, 1, dropout=0)
-        #         continue
-        #     op = eval(primitive)    #OPS中存储了各种操作的函数
-        #     self._ops.append(op)#把这些op都放在预先定义好的modulelist里
         self.stack_embedding=StackedEmbeddings(self.embeddings_list)
 
     def forward(self, x, weights):
@@ -211,17 +165,10 @@ class MixedOp(nn.Module):
         for sentence in sentences:
             weight_embedding_token=[]
             for token in sentence.tokens:
-                # print(token.embedding.shape,'??????')
-                # print(token._embeddings[self._ops[1].name].device,weights.device)
-                #print([token._embeddings[self._ops[i].name].shape for i in range(len(self._ops))])
-                # print([(token._embeddings[self._ops[i].name].to(device)).shape for i in range(len(self._ops))])
-                # print([(token._embeddings[self._ops[i].name].to(device)*weights[i]).shape for i in range(len(self._ops))])
+
                 weight_embedding_token.append(torch.cat([token._embeddings[self.embeddings_list[i].name].to(device)*weights[i] for i in range(len(self.embeddings_list))]))
             weight_embedding_sentence.append(torch.stack(weight_embedding_token))
-        # character_ids = batch_to_ids(x).to(device)
-        # elmo_embeddings=self.elmo_model(character_ids)['elmo_representations'][0]*weights[-1]
-            # print(weight_embedding_token[0].shape,'jkluoio')
-        # print(time()-a,'>>>>>',time())
+
         result=torch.stack(weight_embedding_sentence).to(device)
         # result=torch.cat([result,elmo_embeddings],2)
         return result
@@ -262,22 +209,6 @@ class MixedOp(nn.Module):
         self.sequence_len=longest_token_sequence_in_batch
         return Variable(sentence_tensor)
 
-
-
-        # for w,op in zip(weights,self._ops):
-        #     op.embed(x)
-        #     print(x.embedding.shape)
-        #     try:
-        #         self.embeding_1=torch.cat((self.embeding_1,w*x.embedding),dim=1)
-        #     except AttributeError:
-        #         print('???????????????????')
-        #         self.embeding_1=w*x.embedding
-        # a=torch.stack([w*op.embed(x) for w,op in zip(weights,self._ops)])
-        # print(a.size(x),a)
-        # return self.embeding_1
-    # return sum(w * op(x) for w, op in zip(weights, self._ops))  #op(x)就是对输入x做一个相应的操作 w1*op1(x)+w2*op2(x)+...+w8*op8(x)
-                                                                #也就是对输入x做8个操作并乘以相应的权重，把结果加起来
-
 def _concat(xs):
 
   return torch.cat([x.view(-1).to(device) for x in xs])
@@ -294,11 +225,7 @@ class Architect(object):
   def _compute_unrolled_model(self, input, target,mask, eta, network_optimizer):
     model_feats=self.model(input)
     loss = self.model.loss(model_feats,mask, target)
-    # self.model.to(device)
-    # c=list(self.model.parameters())
-    # for name,parameters in self.model.named_parameters():
-        # print(name,parameters.device,parameters.size(),'>>>>>>>>')
-    # print(self.model.arch_parameters(),'?????????')
+
     theta = _concat(filter(lambda p: p.requires_grad, self.model.parameters())).data
     try:
       moment = _concat(network_optimizer.state[v]['momentum_buffer'] for v in self.model.parameters()).mul_(self.network_momentum)
@@ -319,16 +246,6 @@ class Architect(object):
 
   def _backward_step(self, input_valid, masks_valid,target_valid):
     feats = self.model(input_valid)
-    # tags,masks=target_valid,masks_valid
-    #
-    # # target_valid, masks_valid = Variable(target_valid).to(device), Variable(masks_valid).to(device)
-    # for i, tag in enumerate(tags):
-    #     tags[i] = torch.cat([tag, torch.zeros(self.model.batch_sequence_length - len(tag))])
-    #     masks[i] = torch.cat([masks[i], torch.zeros(self.model.batch_sequence_length - len(tag))])
-    # tags = Variable(torch.cat(tags).long()).view(self.config.batch_size, self.model.batch_sequence_length)
-    # masks = Variable(torch.cat(masks).long()).view(self.config.batch_size, self.model.batch_sequence_length)
-    # tags = tags.to(device)
-    # masks = masks.to(device)
 
     loss = self.model.loss(feats, masks_valid, target_valid)
     l1_penalty=self.config.L1_weight*torch.sum(torch.abs(self.model.arch_parameters()-1))
@@ -389,22 +306,3 @@ class Architect(object):
       p.data.add_(R, v)
 
     return [(x-y).div_(2*R) for x, y in zip(grads_p, grads_n)]
-
-
-
-
-    # prec1, prec5 = utils.accuracy(logits, target, topk=(1, 5))
-    # n = input.size(0)
-    # objs.update(loss.data[0], n)
-    # top1.update(prec1.data[0], n)
-    # top5.update(prec5.data[0], n)
-
-  #   if step % args.report_freq == 0:
-  #     logging.info('valid %03d %e %f %f', step, objs.avg, top1.avg, top5.avg)
-  #
-  # return top1.avg, objs.avg
-
-# c='i am a salt fish'
-# sentence=Sentence(c)
-# model=MixedOp()
-# print(model(sentence,[0.4,0.2,0.2,0.5,0.3]))

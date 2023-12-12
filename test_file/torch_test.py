@@ -1,9 +1,13 @@
 import torch
-a=[torch.randn([3]) for i  in range(4)]
+a=[torch.randn([3])]
 
 c=torch.cat(a)
 print(c)
 
-for num, i in enumerate(c):
-    if i>2:
-        print(num,i)
+d=torch.nn.Linear(c.size()[0],2)
+for num in d.parameters():
+    print(num)
+
+f=d(c)
+
+print(f)
