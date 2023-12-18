@@ -10,10 +10,13 @@
 <<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/embeddings_select.log" beforeDir="false" afterPath="$PROJECT_DIR$/embeddings_select.log" afterDir="false" />
+=======
+>>>>>>> parent of 2b639a0 (所有词嵌入均使用)
 =======
 >>>>>>> parent of 2b639a0 (所有词嵌入均使用)
       <change beforePath="$PROJECT_DIR$/main1.py" beforeDir="false" afterPath="$PROJECT_DIR$/main1.py" afterDir="false" />
