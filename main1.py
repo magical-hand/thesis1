@@ -137,8 +137,8 @@ def train(**kwargs):
                 print('step: {} |  epoch: {}|  loss: {}'.format(step, epoch, loss.item()))
             # arch_train(inputs,tags,masks,dev_loader,architect,config.unrolled,config.arch_learning_rate,optimizer_real)
 
-            if config.all_embedding_used==False:
-                arch_train(inputs, tags, masks, dev_loader, architect, config.unrolled, config.arch_learning_rate,optimizer_real)
+        if config.all_embedding_used==False:
+            arch_train(inputs, tags, masks, dev_loader, architect, config.unrolled, config.arch_learning_rate,optimizer_real)
         plt.plot(total_step_list, loss_list, '-y')
 <<<<<<< HEAD
         if config.searching_embeddings:

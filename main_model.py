@@ -183,7 +183,6 @@ class MixedOp(nn.Module):
         self.use_cuda=use_cuda
         # self._ops = []
         self.embeddings_list = embeddings_generater(config.dataset_config).embeddings_list
-        
 
         # for primitive in OPS:  #PRIMITIVES中就是8个操作
         #     if primitive=="ELMoEmbeddings('small')":

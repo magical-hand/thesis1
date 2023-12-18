@@ -5,45 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cec000ef-1685-4579-a71f-d45a170fabc6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/main2_all_embedding_use.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 <<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/embeddings_select.log" beforeDir="false" afterPath="$PROJECT_DIR$/embeddings_select.log" afterDir="false" />
+=======
+>>>>>>> parent of 2b639a0 (所有词嵌入均使用)
       <change beforePath="$PROJECT_DIR$/main1.py" beforeDir="false" afterPath="$PROJECT_DIR$/main1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/result/checkpoint" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/save_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_0.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/save_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_14.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_17.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_18.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_19.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_19.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/save_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_20.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_21.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_22.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_23.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_23.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_24.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_24.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_25.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_25.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_26.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_26.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_27.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_27.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_28.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_28.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/save_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/save_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/save_9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/time_recoder_924_3p.log" beforeDir="false" afterPath="$PROJECT_DIR$/time_recoder_924_3p.log" afterDir="false" />
 =======
       <change beforePath="$PROJECT_DIR$/main1.py" beforeDir="false" afterPath="$PROJECT_DIR$/main1.py" afterDir="false" />
@@ -78,7 +58,7 @@
       <recent name="E:\桌面文档整理 2023.9.17\python project\keykeykey - 简单一阶近似 - 同时运行\thesis1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main1">
+  <component name="RunManager" selected="Python.main2_all_embedding_use">
     <configuration name="main1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="thesis1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,7 +94,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main2_all_embedding_use.py" />
-      <option name="PARAMETERS" value="train --all_embedding_used True" />
+      <option name="PARAMETERS" value="train" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
