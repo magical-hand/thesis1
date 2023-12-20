@@ -1,3 +1,4 @@
 
 model_ELMO/options.json
 model_ELMO/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5
+.idea/workspace.xml
