@@ -188,6 +188,7 @@ total_epoch:0
 dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
 
 2023-11-20 12:00:20,796 - main1.py[line:87] - -------------------------------start 0 epoch train-----------------------------------
+<<<<<<< HEAD
 2023-11-20 13:33:41,147 - main1.py[line:139] - End 0 epoch train,spend time 5600.327243566513.
 The arch_parmeters is tensor([ 6.3486e-06,  8.4754e-01, -8.6606e-01, -2.0541e-01, -7.3923e-01,
          3.4792e-05,  2.3330e-04, -5.7598e-05, -3.4072e-05,  1.2098e-04],
@@ -3317,3 +3318,43 @@ The arch_parmeters is tensor([1.0000, 1.0000, 0.1284, 0.5558, 1.0000, 0.8302, 0.
  F1 value is {'PER': 0.9603960396039604, 'LOC': 0.9386653581943082, 'ORG': 0.8732867132867133, 'MIS': 0.7774647887323942} ,total_F1 is 0.9049150206706477,eval  epoch: 8|  loss: 0.002794757091774131.
 2023-12-12 19:48:32,847 - main1.py[line:201] - -----------------------------End 8 epoch train---------------------------------
 2023-12-12 19:48:37,927 - main1.py[line:92] - -------------------------------start 9 epoch train-----------------------------------
+=======
+>>>>>>> parent of c711a8d (embeddings_select_true)
+2023-12-20 15:53:31,742 - main1.py[line:33] - 当前设置为:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:1e-05
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular:False
+total_epoch:0
+all_embedding_used:True
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
