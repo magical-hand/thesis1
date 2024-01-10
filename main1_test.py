@@ -18,7 +18,7 @@ import fire
 # import numpy as np
 # from tensorboardX import SummaryWriter
 from calculate_F1 import *
-from main_model import *
+from main_model_test import *
 from dataloader.DataLoader import DataSetRewrite
 import logging
 import time
@@ -63,7 +63,7 @@ def train(**kwargs):
     #   print(parm1,parm1[1].requires_grad)
     optimizer_real = optimizer(filter(lambda p: p.requires_grad, model.parameters()), lr=config.lr, weight_decay=config.weight_decay)
     # scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=10)
-    scheduler = torch.optim.lr_scheduler.StepLR(optimizer_real,3, 0.1, last_epoch=-1)
+    scheduler = torch.optim.lr_scheduler.StepLR(optimizer_real,2, 0.1, last_epoch=-1)
     eval_loss = 10000
 
     architect = Architect(model, config)
@@ -124,8 +124,8 @@ def train(**kwargs):
                     arch_selected.append(embeddings_order)
             logger_1.warning(str(config.embedding_select)+"|||"+str(arch_selected)+"|||"+str(epoch))
         plt.savefig('./save_{}'.format(epoch))
-        # scheduler.step()
-        # arch_scheduler.step()
+        scheduler.step() 
+        arch_scheduler.step()
         logger_1.info('End {} epoch train,spend time {}.\nThe arch_parmeters is {}'.format(epoch,time.time()-train_start_time,model.arch_parameters()))
         loss_temp = test_mod(model, test_loader, epoch, config)
         if loss_temp < eval_loss:

@@ -3055,6 +3055,7 @@ searching_embeddings:True
 dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
 
 2023-12-05 13:23:35,125 - main1.py[line:92] - -------------------------------start 0 epoch train-----------------------------------
+<<<<<<< HEAD
 2023-12-05 15:31:16,505 - main1.py[line:135] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 9]|||0
 2023-12-05 15:31:16,536 - main1.py[line:139] - End 0 epoch train,spend time 7661.408771514893.
 The arch_parmeters is tensor([ 0.2528,  0.0063, -0.4402, -0.8905, -0.3437, -0.7132, -0.0085, -0.7459,
@@ -3358,3 +3359,1916 @@ all_embedding_used:True
 searching_embeddings:True
 dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
 
+=======
+>>>>>>> parent of 0bb94e5 (‰∏çÂ•ΩÁöÑÁªìÊûú)
+2023-12-20 21:45:12,313 - main1.py[line:33] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-20 21:45:46,613 - main1.py[line:93] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-20 23:34:51,731 - main1.py[line:147] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 3, 4, 7, 9]|||0
+2023-12-20 23:34:51,762 - main1.py[line:151] - End 0 epoch train,spend time 6545.146512746811.
+The arch_parmeters is tensor([ 0.1360, -0.1375, -1.6734,  0.9999,  0.1888, -1.3092, -0.8537,  1.4745,
+        -0.4460,  0.7461], device='cuda:0', requires_grad=True)
+2023-12-20 23:47:42,183 - main1.py[line:212] - End dev,spend time 770.4213216304779.
+ F1 value is {'PER': 0.9403567447045708, 'LOC': 0.9119035133717881, 'ORG': 0.7870510875063227, 'MIS': 0.7389048991354465} ,total_F1 is 0.8590634787258422,eval  epoch: 0|  loss: 0.00413927896967474.
+2023-12-20 23:47:42,183 - main1.py[line:213] - -----------------------------End 0 epoch train---------------------------------
+2023-12-20 23:47:46,401 - main1.py[line:93] - -------------------------------start 1 epoch train-----------------------------------
+2023-12-21 01:31:00,209 - main1.py[line:147] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 3, 4, 7, 9]|||1
+2023-12-21 01:31:00,231 - main1.py[line:151] - End 1 epoch train,spend time 6193.8275899887085.
+The arch_parmeters is tensor([ 0.4535,  0.1959, -1.3376,  1.0000,  0.5336, -0.9676, -0.5121,  1.1505,
+        -0.1044,  1.0001], device='cuda:0', requires_grad=True)
+2023-12-21 01:43:49,309 - main1.py[line:212] - End dev,spend time 769.0785477161407.
+ F1 value is {'PER': 0.950559956296094, 'LOC': 0.9082125603864734, 'ORG': 0.8069983597594312, 'MIS': 0.7599118942731278} ,total_F1 is 0.8711355984083257,eval  epoch: 1|  loss: 0.0038478928916859177.
+2023-12-21 01:43:49,309 - main1.py[line:213] - -----------------------------End 1 epoch train---------------------------------
+2023-12-21 01:43:53,574 - main1.py[line:93] - -------------------------------start 2 epoch train-----------------------------------
+2023-12-21 03:27:25,733 - main1.py[line:147] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 3, 4, 7, 8, 9]|||2
+2023-12-21 03:27:25,755 - main1.py[line:151] - End 2 epoch train,spend time 6212.178869009018.
+The arch_parmeters is tensor([ 0.7717,  0.5281, -1.0027,  0.9998,  0.8737, -0.6299, -0.1743,  0.9998,
+         0.2336,  1.0003], device='cuda:0', requires_grad=True)
+2023-12-21 03:40:14,490 - main1.py[line:212] - End dev,spend time 768.7351989746094.
+ F1 value is {'PER': 0.95654550423613, 'LOC': 0.9388765157139322, 'ORG': 0.8598295621510431, 'MIS': 0.7323290845886442} ,total_F1 is 0.8951594044742381,eval  epoch: 2|  loss: 0.0033654516597963727.
+2023-12-21 03:40:14,491 - main1.py[line:213] - -----------------------------End 2 epoch train---------------------------------
+2023-12-21 03:40:18,860 - main1.py[line:93] - -------------------------------start 3 epoch train-----------------------------------
+2023-12-21 05:23:31,099 - main1.py[line:147] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 3, 4, 7, 8, 9]|||3
+2023-12-21 05:23:31,121 - main1.py[line:151] - End 3 epoch train,spend time 6192.258093357086.
+The arch_parmeters is tensor([ 0.8041,  0.5616, -0.9692,  1.0000,  0.9073, -0.5963, -0.1407,  1.0000,
+         0.2672,  1.0000], device='cuda:0', requires_grad=True)
+2023-12-21 05:36:21,002 - main1.py[line:212] - End dev,spend time 769.8808569908142.
+ F1 value is {'PER': 0.9532244672017715, 'LOC': 0.9497762307309796, 'ORG': 0.8437994722955144, 'MIS': 0.7935135135135135} ,total_F1 is 0.8986817325800376,eval  epoch: 3|  loss: 0.0035343708294742512.
+2023-12-21 05:36:21,002 - main1.py[line:213] - -----------------------------End 3 epoch train---------------------------------
+2023-12-21 05:36:21,014 - main1.py[line:93] - -------------------------------start 4 epoch train-----------------------------------
+2023-12-21 07:19:44,313 - main1.py[line:147] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 3, 4, 7, 8, 9]|||4
+2023-12-21 07:19:44,336 - main1.py[line:151] - End 4 epoch train,spend time 6203.320488452911.
+The arch_parmeters is tensor([ 0.8368,  0.5949, -0.9355,  1.0000,  0.9409, -0.5627, -0.1071,  1.0000,
+         0.3008,  1.0000], device='cuda:0', requires_grad=True)
+2023-12-21 07:32:34,797 - main1.py[line:212] - End dev,spend time 770.460517168045.
+ F1 value is {'PER': 0.9456089148315202, 'LOC': 0.9435265104808878, 'ORG': 0.8355058969584109, 'MIS': 0.7893961708394699} ,total_F1 is 0.893525949705725,eval  epoch: 4|  loss: 0.0030536534651270453.
+2023-12-21 07:32:34,797 - main1.py[line:213] - -----------------------------End 4 epoch train---------------------------------
+2023-12-21 07:32:39,278 - main1.py[line:93] - -------------------------------start 5 epoch train-----------------------------------
+2023-12-21 09:19:10,639 - main1.py[line:147] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 3, 4, 7, 8, 9]|||5
+2023-12-21 09:19:10,681 - main1.py[line:151] - End 5 epoch train,spend time 6391.399958848953.
+The arch_parmeters is tensor([ 0.8695,  0.6281, -0.9019,  1.0000,  0.9745, -0.5291, -0.0736,  1.0000,
+         0.3344,  1.0000], device='cuda:0', requires_grad=True)
+2023-12-21 09:42:42,015 - main1.py[line:33] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-21 10:14:37,444 - main1.py[line:93] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-21 13:04:44,174 - main1.py[line:147] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 8, 9]|||0
+2023-12-21 13:04:44,229 - main1.py[line:151] - End 0 epoch train,spend time 10206.78271651268.
+The arch_parmeters is tensor([ 2.2269e-01,  1.2791e-04,  6.0860e-06, -7.2494e-05, -2.3714e+00,
+        -7.1790e-01, -1.5393e-04, -8.2879e-01,  1.1499e+00,  4.5985e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-21 13:29:16,893 - main1.py[line:212] - End dev,spend time 1472.6642408370972.
+ F1 value is {'PER': 0.9594964422550629, 'LOC': 0.9223156853043047, 'ORG': 0.8321964529331514, 'MIS': 0.7253012048192772} ,total_F1 is 0.8822671069810306,eval  epoch: 0|  loss: 0.0038098464596946283.
+2023-12-21 13:29:16,893 - main1.py[line:213] - -----------------------------End 0 epoch train---------------------------------
+2023-12-21 13:29:21,381 - main1.py[line:93] - -------------------------------start 1 epoch train-----------------------------------
+2023-12-21 22:00:44,196 - main1.py[line:33] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-21 22:01:20,910 - main1.py[line:92] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-22 00:11:08,327 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[2, 6, 7, 9]|||0
+2023-12-22 00:11:08,408 - main1.py[line:130] - End 0 epoch train,spend time 7787.496351718903.
+The arch_parmeters is tensor([-6.3922e-01, -2.3623e-04,  1.4117e+00, -7.8588e-03, -1.9039e+00,
+        -5.3989e-01,  4.2147e-02,  1.2668e+00, -1.6479e-01,  8.1171e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-22 00:29:37,254 - main1.py[line:188] - End dev,spend time 1108.8469235897064.
+ F1 value is {'PER': 0.7546402237477752, 'LOC': 0.7909574468085107, 'ORG': 0.6585838991270612, 'MIS': 0.5587557603686636} ,total_F1 is 0.7103962222386188,eval  epoch: 0|  loss: 0.010609073515208262.
+2023-12-22 00:29:37,254 - main1.py[line:189] - -----------------------------End 0 epoch train---------------------------------
+2023-12-22 00:29:42,104 - main1.py[line:92] - -------------------------------start 1 epoch train-----------------------------------
+2023-12-22 02:20:38,416 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 2, 7, 9]|||1
+2023-12-22 02:20:38,437 - main1.py[line:130] - End 1 epoch train,spend time 6656.331265449524.
+The arch_parmeters is tensor([-5.6182e-01,  1.2806e-04,  1.0806e+00,  4.1098e-05, -1.5795e+00,
+        -2.0825e-01, -5.9761e-05,  9.3628e-01,  7.7135e-05,  4.7976e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-22 02:33:00,205 - main1.py[line:188] - End dev,spend time 741.7685260772705.
+ F1 value is {'PER': 0.8900297216968387, 'LOC': 0.8387251377905585, 'ORG': 0.6692552064948817, 'MIS': 0.618018018018018} ,total_F1 is 0.7783708517057322,eval  epoch: 1|  loss: 0.008350748048638397.
+2023-12-22 02:33:00,206 - main1.py[line:189] - -----------------------------End 1 epoch train---------------------------------
+2023-12-22 02:33:04,579 - main1.py[line:92] - -------------------------------start 2 epoch train-----------------------------------
+2023-12-22 04:10:11,972 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[2, 5, 7, 9]|||2
+2023-12-22 04:10:11,994 - main1.py[line:130] - End 2 epoch train,spend time 5827.413707256317.
+The arch_parmeters is tensor([-4.5434e-01, -1.8321e-04,  7.5436e-01, -1.0011e-04, -1.2520e+00,
+         1.2937e-04, -5.9756e-05,  6.0511e-01, -5.8960e-05,  1.4657e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-22 04:22:33,435 - main1.py[line:188] - End dev,spend time 741.4410722255707.
+ F1 value is {'PER': 0.8679245283018868, 'LOC': 0.8661298439859084, 'ORG': 0.7259221311475411, 'MIS': 0.6939988116458704} ,total_F1 is 0.8025116777701202,eval  epoch: 2|  loss: 0.006370963971569853.
+2023-12-22 04:22:33,435 - main1.py[line:189] - -----------------------------End 2 epoch train---------------------------------
+2023-12-22 04:22:37,783 - main1.py[line:92] - -------------------------------start 3 epoch train-----------------------------------
+2023-12-22 05:59:50,312 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[2, 7, 9]|||3
+2023-12-22 05:59:50,333 - main1.py[line:130] - End 3 epoch train,spend time 5832.548909664154.
+The arch_parmeters is tensor([-4.4251e-01, -1.4256e-05,  7.2192e-01, -5.5983e-06, -1.2190e+00,
+         7.3655e-06,  6.9056e-06,  5.7192e-01, -8.3816e-06,  1.1293e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-22 06:12:12,433 - main1.py[line:188] - End dev,spend time 742.0995545387268.
+ F1 value is {'PER': 0.9209252286175362, 'LOC': 0.8436482084690554, 'ORG': 0.8018999720592345, 'MIS': 0.6956521739130436} ,total_F1 is 0.8350755809581109,eval  epoch: 3|  loss: 0.005611277976126041.
+2023-12-22 06:12:12,433 - main1.py[line:189] - -----------------------------End 3 epoch train---------------------------------
+2023-12-22 06:12:17,648 - main1.py[line:92] - -------------------------------start 4 epoch train-----------------------------------
+2023-12-22 07:49:26,674 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[2, 7, 9]|||4
+2023-12-22 07:49:26,697 - main1.py[line:130] - End 4 epoch train,spend time 5829.04777431488.
+The arch_parmeters is tensor([-4.2927e-01, -1.8732e-05,  6.8983e-01, -2.6481e-05, -1.1857e+00,
+        -2.2753e-05, -2.2612e-05,  5.3869e-01,  2.3592e-05,  7.9306e-02],
+       device='cuda:0', requires_grad=True)
+2023-12-22 08:01:47,251 - main1.py[line:188] - End dev,spend time 740.5539724826813.
+ F1 value is {'PER': 0.868020304568528, 'LOC': 0.8849196223526409, 'ORG': 0.7044093630919979, 'MIS': 0.6655931293612453} ,total_F1 is 0.7999402806808003,eval  epoch: 4|  loss: 0.007072598698004237.
+2023-12-22 08:01:47,252 - main1.py[line:189] - -----------------------------End 4 epoch train---------------------------------
+2023-12-22 08:01:47,263 - main1.py[line:92] - -------------------------------start 5 epoch train-----------------------------------
+2023-12-22 09:38:52,620 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[2, 7, 9]|||5
+2023-12-22 09:38:52,644 - main1.py[line:130] - End 5 epoch train,spend time 5825.37916469574.
+The arch_parmeters is tensor([-4.1416e-01,  8.3268e-06,  6.5764e-01, -1.2689e-05, -1.1522e+00,
+         2.1763e-05, -2.3569e-07,  5.0549e-01, -1.1222e-05,  4.5659e-02],
+       device='cuda:0', requires_grad=True)
+2023-12-22 09:51:14,557 - main1.py[line:188] - End dev,spend time 741.911625623703.
+ F1 value is {'PER': 0.9360881542699725, 'LOC': 0.9163306451612904, 'ORG': 0.8268059181897301, 'MIS': 0.76017601760176} ,total_F1 is 0.875845448184716,eval  epoch: 5|  loss: 0.0044865036910434935.
+2023-12-22 09:51:14,557 - main1.py[line:189] - -----------------------------End 5 epoch train---------------------------------
+2023-12-22 09:51:18,994 - main1.py[line:92] - -------------------------------start 6 epoch train-----------------------------------
+2023-12-22 11:28:21,827 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[2, 7, 9]|||6
+2023-12-22 11:28:21,851 - main1.py[line:130] - End 6 epoch train,spend time 5822.8563685417175.
+The arch_parmeters is tensor([-4.1244e-01,  3.1994e-06,  6.5442e-01, -2.4030e-06, -1.1489e+00,
+         2.3949e-06,  8.7153e-08,  5.0215e-01,  4.6079e-07,  4.2291e-02],
+       device='cuda:0', requires_grad=True)
+2023-12-22 11:40:43,319 - main1.py[line:188] - End dev,spend time 741.4672038555145.
+ F1 value is {'PER': 0.9070691024622717, 'LOC': 0.902181907330228, 'ORG': 0.8050314465408807, 'MIS': 0.7346938775510203} ,total_F1 is 0.854120352625527,eval  epoch: 6|  loss: 0.004932228574212992.
+2023-12-22 11:40:43,319 - main1.py[line:189] - -----------------------------End 6 epoch train---------------------------------
+2023-12-22 11:40:43,330 - main1.py[line:92] - -------------------------------start 7 epoch train-----------------------------------
+2023-12-22 12:40:44,501 - main1.py[line:33] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-22 12:41:07,568 - main1.py[line:92] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-22 14:22:51,901 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 3, 5, 6, 8, 9]|||0
+2023-12-22 14:22:51,930 - main1.py[line:130] - End 0 epoch train,spend time 6104.360466480255.
+The arch_parmeters is tensor([ 3.6342e-01,  1.9069e-04, -2.9375e-01,  7.5017e-01, -1.1461e+00,
+         9.0022e-01,  3.4312e-01, -1.2784e+00,  4.6645e-01,  4.1408e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-22 14:35:17,530 - main1.py[line:188] - End dev,spend time 745.6007652282715.
+ F1 value is {'PER': 0.8985274431057564, 'LOC': 0.8584002070929329, 'ORG': 0.7441719648804118, 'MIS': 0.6888667992047713} ,total_F1 is 0.8143731123673817,eval  epoch: 0|  loss: 0.006084715589037481.
+2023-12-22 14:35:17,530 - main1.py[line:189] - -----------------------------End 0 epoch train---------------------------------
+2023-12-22 14:35:21,960 - main1.py[line:92] - -------------------------------start 1 epoch train-----------------------------------
+2023-12-22 16:13:38,755 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 3, 5, 6, 8, 9]|||1
+2023-12-22 16:13:38,776 - main1.py[line:130] - End 1 epoch train,spend time 5896.814914226532.
+The arch_parmeters is tensor([ 1.8710e-01, -8.2980e-05, -2.6684e-02,  4.1691e-01, -8.1386e-01,
+         5.6689e-01,  6.4649e-03, -9.4919e-01,  1.3218e-01,  7.8887e-02],
+       device='cuda:0', requires_grad=True)
+2023-12-22 16:26:03,796 - main1.py[line:188] - End dev,spend time 745.0197837352753.
+ F1 value is {'PER': 0.9597796143250689, 'LOC': 0.9409079381181842, 'ORG': 0.8617698091382302, 'MIS': 0.7892682926829269} ,total_F1 is 0.9014601330173533,eval  epoch: 1|  loss: 0.0031950190382183724.
+2023-12-22 16:26:03,796 - main1.py[line:189] - -----------------------------End 1 epoch train---------------------------------
+2023-12-22 16:26:07,947 - main1.py[line:92] - -------------------------------start 2 epoch train-----------------------------------
+2023-12-22 18:00:03,346 - main1.py[line:33] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-22 18:30:32,932 - main1.py[line:92] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-22 20:37:44,749 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||0
+2023-12-22 20:37:44,782 - main1.py[line:130] - End 0 epoch train,spend time 7631.8460347652435.
+The arch_parmeters is tensor([ 0.4075, -0.3569, -0.6953, -0.8840, -0.4958,  0.5567, -0.2127,  0.2420,
+         1.2526,  1.4083], device='cuda:0', requires_grad=True)
+2023-12-22 20:56:14,987 - main1.py[line:188] - End dev,spend time 1110.2052972316742.
+ F1 value is {'PER': 0.8399790136411331, 'LOC': 0.8132239382239381, 'ORG': 0.5928692699490662, 'MIS': 0.519916142557652} ,total_F1 is 0.7268326957607931,eval  epoch: 0|  loss: 0.010757310997765019.
+2023-12-22 20:56:14,988 - main1.py[line:189] - -----------------------------End 0 epoch train---------------------------------
+2023-12-22 20:56:19,194 - main1.py[line:92] - -------------------------------start 1 epoch train-----------------------------------
+2023-12-22 23:15:32,982 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 7, 8, 9]|||1
+2023-12-22 23:15:33,003 - main1.py[line:130] - End 1 epoch train,spend time 8353.80634021759.
+The arch_parmeters is tensor([ 3.1537e-01, -1.0037e-01, -3.6011e-01, -5.5906e-01, -1.8161e-01,
+         2.3107e-01,  6.3076e-05,  1.5370e-04,  9.2836e-01,  1.0847e+00],
+       device='cuda:0', requires_grad=True)
+2023-12-22 23:34:06,972 - main1.py[line:188] - End dev,spend time 1113.969318151474.
+ F1 value is {'PER': 0.8499590051926756, 'LOC': 0.8655986967146349, 'ORG': 0.7368972746331237, 'MIS': 0.6695141484249866} ,total_F1 is 0.7953342030542553,eval  epoch: 1|  loss: 0.007914045115686812.
+2023-12-22 23:34:06,972 - main1.py[line:189] - -----------------------------End 1 epoch train---------------------------------
+2023-12-22 23:34:11,601 - main1.py[line:92] - -------------------------------start 2 epoch train-----------------------------------
+2023-12-23 00:58:08,726 - main1.py[line:33] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-23 01:30:10,897 - main1.py[line:92] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-23 03:10:20,181 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||0
+2023-12-23 03:10:20,210 - main1.py[line:130] - End 0 epoch train,spend time 6009.310986757278.
+The arch_parmeters is tensor([ 4.7782e-01,  7.7628e-01,  1.5047e+00,  3.4913e-01, -2.8347e-04,
+        -2.0079e-01, -1.7950e-04, -9.3303e-02, -2.2729e-01, -4.2993e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-23 03:22:48,466 - main1.py[line:188] - End dev,spend time 748.2562396526337.
+ F1 value is {'PER': 0.776672937382424, 'LOC': 0.7373689227836034, 'ORG': 0.4908321579689703, 'MIS': 0.5296276874672261} ,total_F1 is 0.6624012638230647,eval  epoch: 0|  loss: 0.013488388623831407.
+2023-12-23 03:22:48,466 - main1.py[line:189] - -----------------------------End 0 epoch train---------------------------------
+2023-12-23 03:22:53,280 - main1.py[line:92] - -------------------------------start 1 epoch train-----------------------------------
+2023-12-23 05:01:33,127 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 5, 9]|||1
+2023-12-23 05:01:33,147 - main1.py[line:130] - End 1 epoch train,spend time 5919.864584207535.
+The arch_parmeters is tensor([ 3.7801e-01,  5.6603e-01,  1.1691e+00,  2.0487e-02, -4.2346e-05,
+        -1.9058e-04,  4.2002e-05,  3.9564e-05,  4.7458e-05, -9.7922e-02],
+       device='cuda:0', requires_grad=True)
+2023-12-23 05:14:02,588 - main1.py[line:188] - End dev,spend time 749.4413778781891.
+ F1 value is {'PER': 0.7939994642378785, 'LOC': 0.7849538679914833, 'ORG': 0.6676646706586826, 'MIS': 0.44202266782911936} ,total_F1 is 0.7007503310283949,eval  epoch: 1|  loss: 0.013020142294325918.
+2023-12-23 05:14:02,588 - main1.py[line:189] - -----------------------------End 1 epoch train---------------------------------
+2023-12-23 05:14:06,817 - main1.py[line:92] - -------------------------------start 2 epoch train-----------------------------------
+2023-12-23 06:52:50,983 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 8]|||2
+2023-12-23 06:52:51,005 - main1.py[line:130] - End 2 epoch train,spend time 5924.187373876572.
+The arch_parmeters is tensor([ 3.1055e-01,  3.8229e-01,  8.4094e-01, -1.5507e-04,  1.5328e-04,
+         1.3266e-05, -5.2301e-05,  3.9041e-05,  1.5890e-04, -7.5786e-05],
+       device='cuda:0', requires_grad=True)
+2023-12-23 07:05:18,809 - main1.py[line:188] - End dev,spend time 747.8034598827362.
+ F1 value is {'PER': 0.7902973395931142, 'LOC': 0.82237017310253, 'ORG': 0.6128440366972477, 'MIS': 0.577036310107949} ,total_F1 is 0.7125187674268963,eval  epoch: 2|  loss: 0.011752695913584727.
+2023-12-23 07:05:18,809 - main1.py[line:189] - -----------------------------End 2 epoch train---------------------------------
+2023-12-23 07:05:23,190 - main1.py[line:92] - -------------------------------start 3 epoch train-----------------------------------
+2023-12-23 08:44:11,743 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2]|||3
+2023-12-23 08:44:11,764 - main1.py[line:130] - End 3 epoch train,spend time 5928.573728084564.
+The arch_parmeters is tensor([ 3.0111e-01,  3.6308e-01,  8.0877e-01,  8.2623e-06, -2.8804e-05,
+         7.9132e-06, -7.7041e-06,  8.3652e-06,  9.3718e-06,  1.7247e-05],
+       device='cuda:0', requires_grad=True)
+2023-12-23 08:56:41,029 - main1.py[line:188] - End dev,spend time 749.26451587677.
+ F1 value is {'PER': 0.8601841196777905, 'LOC': 0.8344107409249129, 'ORG': 0.7061882475299011, 'MIS': 0.6200640341515473} ,total_F1 is 0.7734906945074896,eval  epoch: 3|  loss: 0.010206713822652709.
+2023-12-23 08:56:41,029 - main1.py[line:189] - -----------------------------End 3 epoch train---------------------------------
+2023-12-23 08:56:45,966 - main1.py[line:92] - -------------------------------start 4 epoch train-----------------------------------
+2023-12-23 10:35:28,315 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2]|||4
+2023-12-23 10:35:28,338 - main1.py[line:130] - End 4 epoch train,spend time 5922.3701412677765.
+The arch_parmeters is tensor([ 2.8875e-01,  3.4102e-01,  7.7680e-01,  2.2213e-05, -6.1561e-06,
+         6.7653e-06,  3.1118e-06,  2.2490e-05,  2.1461e-06,  2.3944e-05],
+       device='cuda:0', requires_grad=True)
+2023-12-23 10:47:56,840 - main1.py[line:188] - End dev,spend time 748.502393245697.
+ F1 value is {'PER': 0.7236570247933883, 'LOC': 0.8215613382899629, 'ORG': 0.609740117929679, 'MIS': 0.641228939544103} ,total_F1 is 0.7012293642430629,eval  epoch: 4|  loss: 0.012654902406458585.
+2023-12-23 10:47:56,840 - main1.py[line:189] - -----------------------------End 4 epoch train---------------------------------
+2023-12-23 10:47:56,851 - main1.py[line:92] - -------------------------------start 5 epoch train-----------------------------------
+2023-12-23 12:26:34,846 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2]|||5
+2023-12-23 12:26:34,870 - main1.py[line:130] - End 5 epoch train,spend time 5918.018120288849.
+The arch_parmeters is tensor([ 2.7751e-01,  3.2068e-01,  7.4423e-01,  3.6495e-06, -8.0186e-06,
+         1.6005e-05,  2.4698e-05, -3.9735e-06,  1.6075e-05,  1.4145e-05],
+       device='cuda:0', requires_grad=True)
+2023-12-23 12:39:04,724 - main1.py[line:188] - End dev,spend time 749.8536949157715.
+ F1 value is {'PER': 0.8512898330804248, 'LOC': 0.8602409638554217, 'ORG': 0.7610981308411215, 'MIS': 0.6616628175519631} ,total_F1 is 0.8060331825037708,eval  epoch: 5|  loss: 0.010111280994595222.
+2023-12-23 12:39:04,724 - main1.py[line:189] - -----------------------------End 5 epoch train---------------------------------
+2023-12-23 12:39:09,283 - main1.py[line:92] - -------------------------------start 6 epoch train-----------------------------------
+2023-12-23 14:17:49,899 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2]|||6
+2023-12-23 14:17:49,923 - main1.py[line:130] - End 6 epoch train,spend time 5920.6380610466.
+The arch_parmeters is tensor([ 2.7642e-01,  3.1865e-01,  7.4096e-01, -1.4691e-06, -2.7138e-06,
+        -1.0818e-06,  2.7144e-06,  2.1217e-06,  3.1135e-07, -5.9083e-08],
+       device='cuda:0', requires_grad=True)
+2023-12-23 14:30:17,844 - main1.py[line:188] - End dev,spend time 747.9211757183075.
+ F1 value is {'PER': 0.8768980477223428, 'LOC': 0.8340192043895748, 'ORG': 0.7127894156560088, 'MIS': 0.6879659211927582} ,total_F1 is 0.7930424528301886,eval  epoch: 6|  loss: 0.009493195167127644.
+2023-12-23 14:30:17,844 - main1.py[line:189] - -----------------------------End 6 epoch train---------------------------------
+2023-12-23 14:30:22,677 - main1.py[line:92] - -------------------------------start 7 epoch train-----------------------------------
+2023-12-23 15:17:08,189 - main1.py[line:33] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-23 15:38:23,206 - main1.py[line:92] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-23 17:22:10,288 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 7, 9]|||0
+2023-12-23 17:22:10,319 - main1.py[line:130] - End 0 epoch train,spend time 6227.111131906509.
+The arch_parmeters is tensor([ 1.3957e-01, -9.4709e-01,  8.3638e-01, -3.3737e-01, -7.1573e-01,
+         7.5609e-02, -8.6164e-05, -1.4733e-01, -3.3274e-05,  6.4582e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-23 17:34:54,457 - main1.py[line:188] - End dev,spend time 764.1381003856659.
+ F1 value is {'PER': 0.824655894673848, 'LOC': 0.743829379343398, 'ORG': 0.6098026734563973, 'MIS': 0.5002205558006175} ,total_F1 is 0.6894150417827298,eval  epoch: 0|  loss: 0.012610500376179534.
+2023-12-23 17:34:54,457 - main1.py[line:189] - -----------------------------End 0 epoch train---------------------------------
+2023-12-23 17:34:59,087 - main1.py[line:92] - -------------------------------start 1 epoch train-----------------------------------
+2023-12-23 19:17:45,437 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 4, 5, 6, 8, 9]|||1
+2023-12-23 19:17:45,459 - main1.py[line:130] - End 1 epoch train,spend time 6166.370240449905.
+The arch_parmeters is tensor([-3.5023e-04, -6.0715e-01,  5.3280e-01, -2.8215e-05, -3.7742e-01,
+         1.1902e-04,  3.1733e-04,  1.3596e-05, -1.7154e-04,  3.2310e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-23 19:30:30,162 - main1.py[line:188] - End dev,spend time 764.7031538486481.
+ F1 value is {'PER': 0.6498576657177714, 'LOC': 0.8021082894106373, 'ORG': 0.6662295081967213, 'MIS': 0.6255594231725511} ,total_F1 is 0.6948350173108174,eval  epoch: 1|  loss: 0.01307344138622284.
+2023-12-23 19:30:30,162 - main1.py[line:189] - -----------------------------End 1 epoch train---------------------------------
+2023-12-23 19:30:30,176 - main1.py[line:92] - -------------------------------start 2 epoch train-----------------------------------
+2023-12-23 21:13:01,562 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 2, 3, 4, 5, 8]|||2
+2023-12-23 21:13:01,584 - main1.py[line:130] - End 2 epoch train,spend time 6151.40740776062.
+The arch_parmeters is tensor([ 1.2695e-05, -2.6576e-01,  2.3935e-01, -1.9358e-04, -4.0156e-02,
+        -1.5384e-04,  1.7781e-05,  9.8056e-06, -1.5051e-04,  4.3001e-05],
+       device='cuda:0', requires_grad=True)
+2023-12-23 21:25:46,129 - main1.py[line:188] - End dev,spend time 764.5443823337555.
+ F1 value is {'PER': 0.8607518796992482, 'LOC': 0.8781985670419652, 'ORG': 0.722629582806574, 'MIS': 0.712630998345284} ,total_F1 is 0.8033228213214367,eval  epoch: 2|  loss: 0.006676936149597168.
+2023-12-23 21:25:46,129 - main1.py[line:189] - -----------------------------End 2 epoch train---------------------------------
+2023-12-23 21:25:50,747 - main1.py[line:92] - -------------------------------start 3 epoch train-----------------------------------
+2023-12-23 23:27:49,536 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 2, 4]|||3
+2023-12-23 23:27:49,559 - main1.py[line:130] - End 3 epoch train,spend time 7318.809498548508.
+The arch_parmeters is tensor([ 1.3072e-06, -2.3185e-01,  2.0948e-01, -1.7573e-05, -6.3161e-03,
+         1.2493e-05, -1.7856e-05,  1.0997e-05, -9.4897e-06, -8.7750e-06],
+       device='cuda:0', requires_grad=True)
+2023-12-23 23:46:20,367 - main1.py[line:188] - End dev,spend time 1110.8079857826233.
+ F1 value is {'PER': 0.9073634204275534, 'LOC': 0.8919281308661839, 'ORG': 0.7791356184798807, 'MIS': 0.5627740135512157} ,total_F1 is 0.8063069795247347,eval  epoch: 3|  loss: 0.007117039133917611.
+2023-12-23 23:46:20,367 - main1.py[line:189] - -----------------------------End 3 epoch train---------------------------------
+2023-12-23 23:46:20,379 - main1.py[line:92] - -------------------------------start 4 epoch train-----------------------------------
+2023-12-24 01:49:18,403 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 2]|||4
+2023-12-24 01:49:18,427 - main1.py[line:130] - End 4 epoch train,spend time 7378.0476014614105.
+The arch_parmeters is tensor([-1.7132e-05, -1.9798e-01,  1.7799e-01, -3.4922e-06, -5.8867e-07,
+         1.8232e-05, -3.1295e-06, -7.4964e-06, -9.0312e-06, -2.2578e-06],
+       device='cuda:0', requires_grad=True)
+2023-12-24 02:03:24,560 - main1.py[line:188] - End dev,spend time 846.1328871250153.
+ F1 value is {'PER': 0.9282913165266107, 'LOC': 0.8595378341640235, 'ORG': 0.7111111111111111, 'MIS': 0.727740607308286} ,total_F1 is 0.8245328370938979,eval  epoch: 4|  loss: 0.005665763369146383.
+2023-12-24 02:03:24,560 - main1.py[line:189] - -----------------------------End 4 epoch train---------------------------------
+2023-12-24 02:03:28,837 - main1.py[line:92] - -------------------------------start 5 epoch train-----------------------------------
+2023-12-24 04:01:36,220 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 2]|||5
+2023-12-24 04:01:36,245 - main1.py[line:130] - End 5 epoch train,spend time 7087.40589261055.
+The arch_parmeters is tensor([ 9.8583e-06, -1.6435e-01,  1.4618e-01,  1.4723e-05,  8.8755e-06,
+        -1.4713e-05,  1.8898e-06,  1.2620e-05, -2.4903e-05, -2.5737e-05],
+       device='cuda:0', requires_grad=True)
+2023-12-24 04:15:47,833 - main1.py[line:188] - End dev,spend time 851.5881814956665.
+ F1 value is {'PER': 0.9254410927717701, 'LOC': 0.8962065331928346, 'ORG': 0.7628600823045267, 'MIS': 0.7502930832356388} ,total_F1 is 0.8446993180409176,eval  epoch: 5|  loss: 0.005677507227321841.
+2023-12-24 04:15:47,833 - main1.py[line:189] - -----------------------------End 5 epoch train---------------------------------
+2023-12-24 04:15:47,845 - main1.py[line:92] - -------------------------------start 6 epoch train-----------------------------------
+2023-12-24 06:13:45,248 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 2]|||6
+2023-12-24 06:13:45,274 - main1.py[line:130] - End 6 epoch train,spend time 7077.426622390747.
+The arch_parmeters is tensor([-3.3332e-07, -1.6100e-01,  1.4292e-01,  2.9150e-07,  2.3468e-06,
+        -2.7390e-06, -1.2673e-06,  2.9607e-06,  2.0124e-06, -2.9209e-06],
+       device='cuda:0', requires_grad=True)
+2023-12-24 06:27:57,455 - main1.py[line:188] - End dev,spend time 852.1802036762238.
+ F1 value is {'PER': 0.9221886169920264, 'LOC': 0.8899755501222494, 'ORG': 0.8048780487804877, 'MIS': 0.7156286721504113} ,total_F1 is 0.8538830749862302,eval  epoch: 6|  loss: 0.005302410980440536.
+2023-12-24 06:27:57,456 - main1.py[line:189] - -----------------------------End 6 epoch train---------------------------------
+2023-12-24 06:28:02,143 - main1.py[line:92] - -------------------------------start 7 epoch train-----------------------------------
+2023-12-24 08:26:47,905 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 2]|||7
+2023-12-24 08:26:47,934 - main1.py[line:130] - End 7 epoch train,spend time 7125.787932395935.
+The arch_parmeters is tensor([ 1.3555e-06, -1.5767e-01,  1.3968e-01, -2.1336e-06, -2.8444e-06,
+         1.1779e-06,  2.9720e-06, -1.2952e-06, -3.0040e-06, -4.3733e-08],
+       device='cuda:0', requires_grad=True)
+2023-12-24 08:41:04,881 - main1.py[line:188] - End dev,spend time 856.9468212127686.
+ F1 value is {'PER': 0.9279279279279278, 'LOC': 0.9128051818634779, 'ORG': 0.8330532212885154, 'MIS': 0.7575107296137339} ,total_F1 is 0.8727692307692307,eval  epoch: 7|  loss: 0.003962925357638665.
+2023-12-24 08:41:04,881 - main1.py[line:189] - -----------------------------End 7 epoch train---------------------------------
+2023-12-24 08:41:10,159 - main1.py[line:92] - -------------------------------start 8 epoch train-----------------------------------
+2023-12-24 10:39:27,734 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 2]|||8
+2023-12-24 10:39:27,765 - main1.py[line:130] - End 8 epoch train,spend time 7097.604115486145.
+The arch_parmeters is tensor([ 6.0920e-07, -1.5432e-01,  1.3640e-01, -4.5170e-07,  8.2903e-07,
+        -1.8796e-07,  2.1956e-07, -3.3378e-09, -8.0871e-08, -1.6707e-06],
+       device='cuda:0', requires_grad=True)
+2023-12-24 10:53:46,222 - main1.py[line:188] - End dev,spend time 858.4570133686066.
+ F1 value is {'PER': 0.9331872946330778, 'LOC': 0.9057291666666666, 'ORG': 0.8066963117970181, 'MIS': 0.7606112054329373} ,total_F1 is 0.864852469041431,eval  epoch: 8|  loss: 0.004126995914387253.
+2023-12-24 10:53:46,222 - main1.py[line:189] - -----------------------------End 8 epoch train---------------------------------
+2023-12-24 10:53:46,234 - main1.py[line:92] - -------------------------------start 9 epoch train-----------------------------------
+2023-12-24 12:51:40,595 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 2]|||9
+2023-12-24 12:51:40,627 - main1.py[line:130] - End 9 epoch train,spend time 7074.3907124996185.
+The arch_parmeters is tensor([ 3.2434e-07, -1.5399e-01,  1.3607e-01, -3.1053e-08,  2.0145e-07,
+        -9.1991e-08,  9.0496e-08,  1.8495e-07,  1.6544e-07,  2.3229e-07],
+       device='cuda:0', requires_grad=True)
+2023-12-24 13:05:47,923 - main1.py[line:188] - End dev,spend time 847.2964057922363.
+ F1 value is {'PER': 0.8753782668500689, 'LOC': 0.8815212091662603, 'ORG': 0.8052877995042688, 'MIS': 0.7462365591397849} ,total_F1 is 0.8398850922286059,eval  epoch: 9|  loss: 0.006718809649629413.
+2023-12-24 13:05:47,923 - main1.py[line:189] - -----------------------------End 9 epoch train---------------------------------
+2023-12-24 13:05:47,934 - main1.py[line:92] - -------------------------------start 10 epoch train-----------------------------------
+2023-12-24 15:04:10,885 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 2]|||10
+2023-12-24 15:04:10,918 - main1.py[line:130] - End 10 epoch train,spend time 7102.982693433762.
+The arch_parmeters is tensor([-1.9759e-08, -1.5366e-01,  1.3574e-01,  3.8818e-08,  1.2645e-07,
+        -1.5201e-08, -2.2817e-07, -8.9955e-08, -3.4480e-08,  7.8279e-09],
+       device='cuda:0', requires_grad=True)
+2023-12-24 15:18:18,253 - main1.py[line:188] - End dev,spend time 847.3342578411102.
+ F1 value is {'PER': 0.925155363415293, 'LOC': 0.9040156709108715, 'ORG': 0.818489289740699, 'MIS': 0.7311827956989247} ,total_F1 is 0.8635114503816793,eval  epoch: 10|  loss: 0.004728361795533378.
+2023-12-24 15:18:18,253 - main1.py[line:189] - -----------------------------End 10 epoch train---------------------------------
+2023-12-24 15:18:23,248 - main1.py[line:92] - -------------------------------start 11 epoch train-----------------------------------
+2023-12-24 17:16:25,423 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 2]|||11
+2023-12-24 17:16:25,459 - main1.py[line:130] - End 11 epoch train,spend time 7082.2089767456055.
+The arch_parmeters is tensor([ 2.0269e-07, -1.5332e-01,  1.3541e-01, -5.1065e-08, -8.7845e-08,
+         6.1202e-08, -2.1464e-08, -6.1955e-08, -1.6282e-07,  1.7080e-07],
+       device='cuda:0', requires_grad=True)
+2023-12-24 17:30:30,758 - main1.py[line:188] - End dev,spend time 845.2988166809082.
+ F1 value is {'PER': 0.9137614678899083, 'LOC': 0.9098445595854923, 'ORG': 0.8334293948126801, 'MIS': 0.6736053288925895} ,total_F1 is 0.8494869712851553,eval  epoch: 11|  loss: 0.004863832469256419.
+2023-12-24 17:30:30,758 - main1.py[line:189] - -----------------------------End 11 epoch train---------------------------------
+2023-12-24 17:30:30,770 - main1.py[line:92] - -------------------------------start 12 epoch train-----------------------------------
+2023-12-24 19:28:03,419 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 2]|||12
+2023-12-24 19:28:03,455 - main1.py[line:130] - End 12 epoch train,spend time 7052.683926105499.
+The arch_parmeters is tensor([-4.0637e-09, -1.5329e-01,  1.3537e-01, -2.0415e-09,  2.9785e-09,
+        -2.5594e-08, -1.6984e-08, -1.4803e-08, -1.9430e-08,  2.5782e-08],
+       device='cuda:0', requires_grad=True)
+2023-12-24 19:42:03,899 - main1.py[line:188] - End dev,spend time 840.4440791606903.
+ F1 value is {'PER': 0.8903360250065121, 'LOC': 0.918986083499006, 'ORG': 0.8344765881300327, 'MIS': 0.714619336758524} ,total_F1 is 0.8567792168900202,eval  epoch: 12|  loss: 0.004496811021049068.
+2023-12-24 19:42:03,900 - main1.py[line:189] - -----------------------------End 12 epoch train---------------------------------
+2023-12-24 19:42:09,254 - main1.py[line:92] - -------------------------------start 13 epoch train-----------------------------------
+2023-12-24 21:37:27,798 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 2]|||13
+2023-12-24 21:37:27,836 - main1.py[line:130] - End 13 epoch train,spend time 6918.579859972.
+The arch_parmeters is tensor([ 1.6325e-08, -1.5326e-01,  1.3534e-01, -1.2553e-08,  1.1044e-08,
+        -2.8469e-09, -1.5254e-08,  3.1226e-10, -1.2519e-08, -2.9620e-09],
+       device='cuda:0', requires_grad=True)
+2023-12-24 21:50:15,953 - main1.py[line:188] - End dev,spend time 768.1173067092896.
+ F1 value is {'PER': 0.9382781456953643, 'LOC': 0.924417115039713, 'ORG': 0.8408163265306122, 'MIS': 0.7648902821316614} ,total_F1 is 0.8829672861311627,eval  epoch: 13|  loss: 0.0037317710102729076.
+2023-12-24 21:50:15,953 - main1.py[line:189] - -----------------------------End 13 epoch train---------------------------------
+2023-12-24 21:50:20,432 - main1.py[line:92] - -------------------------------start 14 epoch train-----------------------------------
+2023-12-24 23:13:35,426 - main1.py[line:33] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-24 23:14:15,445 - main1.py[line:92] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-25 00:53:07,134 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 4, 5, 6, 7, 8, 9]|||0
+2023-12-25 00:53:07,166 - main1.py[line:130] - End 0 epoch train,spend time 5931.718058347702.
+The arch_parmeters is tensor([ 1.6801e-01, -2.4534e+00,  9.4983e-02, -5.1341e-05, -3.8962e-01,
+         6.7611e-01,  2.0609e-01, -2.0921e-01, -7.4016e-01, -1.7087e+00],
+       device='cuda:0', requires_grad=True)
+2023-12-25 01:05:40,399 - main1.py[line:188] - End dev,spend time 753.2329559326172.
+ F1 value is {'PER': 0.9022082018927444, 'LOC': 0.8641917293233083, 'ORG': 0.7401162790697674, 'MIS': 0.6507495835646863} ,total_F1 is 0.8119223659889094,eval  epoch: 0|  loss: 0.0058850792219054026.
+2023-12-25 01:05:40,399 - main1.py[line:189] - -----------------------------End 0 epoch train---------------------------------
+2023-12-25 01:05:45,000 - main1.py[line:92] - -------------------------------start 1 epoch train-----------------------------------
+2023-12-25 02:44:36,545 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 3, 4, 5, 6, 8, 9]|||1
+2023-12-25 02:44:36,566 - main1.py[line:130] - End 1 epoch train,spend time 5931.564473390579.
+The arch_parmeters is tensor([ 4.7245e-04, -2.1123e+00, -3.4591e-05, -1.0780e-04, -4.5064e-02,
+         3.5460e-01, -1.5574e-04, -3.6341e-05, -3.9822e-01, -1.3676e+00],
+       device='cuda:0', requires_grad=True)
+2023-12-25 02:57:11,063 - main1.py[line:188] - End dev,spend time 754.4964971542358.
+ F1 value is {'PER': 0.9027705175117616, 'LOC': 0.890715667311412, 'ORG': 0.7787663107947805, 'MIS': 0.6913580246913581} ,total_F1 is 0.8392788645953202,eval  epoch: 1|  loss: 0.005146852416812249.
+2023-12-25 02:57:11,063 - main1.py[line:189] - -----------------------------End 1 epoch train---------------------------------
+2023-12-25 02:57:16,200 - main1.py[line:92] - -------------------------------start 2 epoch train-----------------------------------
+2023-12-25 04:36:12,012 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 3, 4, 5, 6, 7, 8, 9]|||2
+2023-12-25 04:36:12,033 - main1.py[line:130] - End 2 epoch train,spend time 5935.831894636154.
+The arch_parmeters is tensor([-9.0944e-05, -1.7759e+00,  6.7558e-05, -1.4485e-04,  2.1029e-04,
+         2.9601e-02,  1.5006e-04,  1.7729e-04, -6.1984e-02, -1.0323e+00],
+       device='cuda:0', requires_grad=True)
+2023-12-25 04:48:47,039 - main1.py[line:188] - End dev,spend time 755.0059010982513.
+ F1 value is {'PER': 0.9319034852546917, 'LOC': 0.8546970038296913, 'ORG': 0.7686590275627128, 'MIS': 0.5397279885468863} ,total_F1 is 0.8211019929660024,eval  epoch: 2|  loss: 0.005380071221657519.
+2023-12-25 04:48:47,039 - main1.py[line:189] - -----------------------------End 2 epoch train---------------------------------
+2023-12-25 04:48:47,051 - main1.py[line:92] - -------------------------------start 3 epoch train-----------------------------------
+2023-12-25 06:27:41,443 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 8, 9]|||3
+2023-12-25 06:27:41,463 - main1.py[line:130] - End 3 epoch train,spend time 5934.410680532455.
+The arch_parmeters is tensor([-5.4191e-06, -1.7423e+00,  1.5841e-05, -1.4597e-05,  5.8161e-08,
+        -2.9294e-05, -1.0547e-05,  1.0811e-05, -2.8581e-02, -9.9888e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-25 06:40:15,665 - main1.py[line:188] - End dev,spend time 754.2028059959412.
+ F1 value is {'PER': 0.9414030261348005, 'LOC': 0.9052631578947369, 'ORG': 0.8105515587529977, 'MIS': 0.7279656979514054} ,total_F1 is 0.8629418472063853,eval  epoch: 3|  loss: 0.004251998381794624.
+2023-12-25 06:40:15,665 - main1.py[line:189] - -----------------------------End 3 epoch train---------------------------------
+2023-12-25 06:40:20,685 - main1.py[line:92] - -------------------------------start 4 epoch train-----------------------------------
+2023-12-25 08:19:16,915 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 9]|||4
+2023-12-25 08:19:17,374 - main1.py[line:130] - End 4 epoch train,spend time 5936.6865248680115.
+The arch_parmeters is tensor([ 1.7640e-06, -1.7087e+00,  6.3257e-06, -6.3341e-06, -5.9771e-06,
+        -1.5671e-05,  1.2761e-05,  3.1741e-05,  1.1337e-05, -9.6540e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-25 08:31:51,444 - main1.py[line:188] - End dev,spend time 754.0686268806458.
+ F1 value is {'PER': 0.9349411104879416, 'LOC': 0.9277018633540373, 'ORG': 0.8350974930362117, 'MIS': 0.7709320695102686} ,total_F1 is 0.8814984709480124,eval  epoch: 4|  loss: 0.003699462649957189.
+2023-12-25 08:31:51,444 - main1.py[line:189] - -----------------------------End 4 epoch train---------------------------------
+2023-12-25 08:31:56,149 - main1.py[line:92] - -------------------------------start 5 epoch train-----------------------------------
+2023-12-25 10:10:53,321 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 9]|||5
+2023-12-25 10:10:53,344 - main1.py[line:130] - End 5 epoch train,spend time 5937.193911075592.
+The arch_parmeters is tensor([ 1.3519e-05, -1.6752e+00,  1.1300e-05, -1.1692e-05,  2.6800e-05,
+        -5.2831e-06, -4.1724e-06, -1.0479e-05, -1.2729e-05, -9.3198e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-25 10:23:27,192 - main1.py[line:188] - End dev,spend time 753.8484079837799.
+ F1 value is {'PER': 0.938553561718325, 'LOC': 0.9223674096848579, 'ORG': 0.8363338788870704, 'MIS': 0.7498542274052478} ,total_F1 is 0.879802499614257,eval  epoch: 5|  loss: 0.003725515783957715.
+2023-12-25 10:23:27,192 - main1.py[line:189] - -----------------------------End 5 epoch train---------------------------------
+2023-12-25 10:23:27,203 - main1.py[line:92] - -------------------------------start 6 epoch train-----------------------------------
+2023-12-25 12:02:16,827 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 9]|||6
+2023-12-25 12:02:16,850 - main1.py[line:130] - End 6 epoch train,spend time 5929.644660711288.
+The arch_parmeters is tensor([-9.3895e-07, -1.6719e+00, -1.1173e-06,  2.3920e-07, -7.6040e-07,
+         1.4432e-06, -1.0459e-06, -1.3501e-06, -2.0114e-06, -9.2864e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-25 12:14:50,759 - main1.py[line:188] - End dev,spend time 753.9095385074615.
+ F1 value is {'PER': 0.9521465682253213, 'LOC': 0.921535076998289, 'ORG': 0.8483245149911817, 'MIS': 0.767029192902118} ,total_F1 is 0.8899744126541055,eval  epoch: 6|  loss: 0.0033983798521869586.
+2023-12-25 12:14:50,759 - main1.py[line:189] - -----------------------------End 6 epoch train---------------------------------
+2023-12-25 12:14:55,643 - main1.py[line:92] - -------------------------------start 7 epoch train-----------------------------------
+2023-12-25 13:54:03,587 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[1, 9]|||7
+2023-12-25 13:54:03,612 - main1.py[line:130] - End 7 epoch train,spend time 5947.966473579407.
+The arch_parmeters is tensor([ 2.7149e-06, -1.6685e+00,  3.3717e-07,  1.4098e-06,  4.0707e-09,
+         2.5905e-06,  2.2867e-06, -2.0171e-06, -2.7678e-07, -9.2530e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-25 14:06:41,579 - main1.py[line:188] - End dev,spend time 757.9671652317047.
+ F1 value is {'PER': 0.9504840940525588, 'LOC': 0.9128254119894913, 'ORG': 0.8392965433596119, 'MIS': 0.7882173692229558} ,total_F1 is 0.8859132297803963,eval  epoch: 7|  loss: 0.0033843106818649002.
+2023-12-25 14:06:41,579 - main1.py[line:189] - -----------------------------End 7 epoch train---------------------------------
+2023-12-25 14:06:46,038 - main1.py[line:92] - -------------------------------start 8 epoch train-----------------------------------
+2023-12-25 15:21:44,110 - main1.py[line:33] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-25 15:22:06,818 - main1.py[line:92] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-25 16:07:43,791 - main1_test_2.py[line:32] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-25 16:08:09,859 - main1_test_2.py[line:91] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-25 18:07:55,226 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 3, 4, 5, 6, 7, 8]|||0
+2023-12-25 18:07:55,343 - main1.py[line:130] - End 0 epoch train,spend time 9948.462426662445.
+The arch_parmeters is tensor([-1.1119e+00,  6.3672e-01,  9.8269e-05,  1.2983e+00, -1.9801e+00,
+        -6.9830e-01, -1.2198e+00,  1.5991e-04, -2.2488e-01,  5.1605e-05],
+       device='cuda:0', requires_grad=True)
+2023-12-25 18:35:54,812 - main1.py[line:188] - End dev,spend time 1679.4683723449707.
+ F1 value is {'PER': 0.9161396755567777, 'LOC': 0.9148406374501992, 'ORG': 0.7975638051044083, 'MIS': 0.7383660806618408} ,total_F1 is 0.8579976985040276,eval  epoch: 0|  loss: 0.004730009582807433.
+2023-12-25 18:35:54,812 - main1.py[line:189] - -----------------------------End 0 epoch train---------------------------------
+2023-12-25 18:36:00,178 - main1.py[line:92] - -------------------------------start 1 epoch train-----------------------------------
+2023-12-25 19:37:41,019 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 6, 8, 9]|||0
+2023-12-25 19:37:41,081 - main1_test_2.py[line:129] - End 0 epoch train,spend time 12571.218216896057.
+The arch_parmeters is tensor([-1.2398e+00,  2.0412e+00, -2.9900e-04,  9.7059e-01, -1.3561e-04,
+         6.7064e-05,  8.2213e-01, -3.2575e-05, -7.0636e-01,  5.9971e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-25 20:05:30,063 - main1_test_2.py[line:187] - End dev,spend time 1668.9815649986267.
+ F1 value is {'PER': 0.9299154622307063, 'LOC': 0.9243697478991596, 'ORG': 0.8087167070217919, 'MIS': 0.7202868852459017} ,total_F1 is 0.8639964130922134,eval  epoch: 0|  loss: 0.004338544832085663.
+2023-12-25 20:05:30,064 - main1_test_2.py[line:188] - -----------------------------End 0 epoch train---------------------------------
+2023-12-25 20:05:34,488 - main1_test_2.py[line:91] - -------------------------------start 1 epoch train-----------------------------------
+2023-12-25 22:05:23,963 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6]|||1
+2023-12-25 22:05:24,001 - main1.py[line:130] - End 1 epoch train,spend time 12563.820130109787.
+The arch_parmeters is tensor([-7.6776e-01,  3.0926e-01,  1.1098e-04,  9.7349e-01, -1.6514e+00,
+        -3.5814e-01, -8.7991e-01,  7.4232e-05, -9.3543e-05, -2.8704e-05],
+       device='cuda:0', requires_grad=True)
+2023-12-25 22:33:25,433 - main1.py[line:188] - End dev,spend time 1681.4326026439667.
+ F1 value is {'PER': 0.9398496240601504, 'LOC': 0.9067694531438208, 'ORG': 0.8127418874665079, 'MIS': 0.741788782213239} ,total_F1 is 0.8674789979565579,eval  epoch: 1|  loss: 0.004263481947610963.
+2023-12-25 22:33:25,434 - main1.py[line:189] - -----------------------------End 1 epoch train---------------------------------
+2023-12-25 22:33:30,505 - main1.py[line:92] - -------------------------------start 2 epoch train-----------------------------------
+2023-12-25 23:32:42,145 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 3, 4, 5, 6, 7, 8, 9]|||1
+2023-12-25 23:32:42,186 - main1_test_2.py[line:129] - End 1 epoch train,spend time 12427.69578051567.
+The arch_parmeters is tensor([-9.0019e-01,  1.7039e+00,  2.6331e-05,  6.3480e-01, -1.3657e-04,
+         1.9948e-04,  4.8559e-01,  2.7217e-04, -3.6982e-01,  2.6291e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-26 00:03:42,368 - main1_test_2.py[line:187] - End dev,spend time 1860.181890487671.
+ F1 value is {'PER': 0.9423183582917359, 'LOC': 0.9140605762127555, 'ORG': 0.8423869413968424, 'MIS': 0.7619548081975829} ,total_F1 is 0.8798376794168483,eval  epoch: 1|  loss: 0.0036341789758430336.
+2023-12-26 00:03:42,369 - main1_test_2.py[line:188] - -----------------------------End 1 epoch train---------------------------------
+2023-12-26 00:03:47,375 - main1_test_2.py[line:91] - -------------------------------start 2 epoch train-----------------------------------
+2023-12-26 02:05:01,668 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||2
+2023-12-26 02:05:02,134 - main1.py[line:130] - End 2 epoch train,spend time 12691.621472120285.
+The arch_parmeters is tensor([-4.7099e-01,  4.2821e-02, -1.1340e-03,  6.4444e-01, -1.3103e+00,
+        -1.3968e-02, -5.3817e-01,  1.0803e-04,  1.6333e-04,  1.2964e-04],
+       device='cuda:0', requires_grad=True)
+2023-12-26 02:33:07,829 - main1.py[line:188] - End dev,spend time 1685.6951968669891.
+ F1 value is {'PER': 0.9343691401017948, 'LOC': 0.9232298136645963, 'ORG': 0.8010915706488781, 'MIS': 0.7301762114537446} ,total_F1 is 0.8679303915475451,eval  epoch: 2|  loss: 0.0047444418916162455.
+2023-12-26 02:33:07,829 - main1.py[line:189] - -----------------------------End 2 epoch train---------------------------------
+2023-12-26 02:33:07,849 - main1.py[line:92] - -------------------------------start 3 epoch train-----------------------------------
+2023-12-26 03:31:17,492 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 3, 4, 5, 6, 7, 8, 9]|||2
+2023-12-26 03:31:17,534 - main1_test_2.py[line:129] - End 2 epoch train,spend time 12450.15590429306.
+The arch_parmeters is tensor([-5.7562e-01,  1.3696e+00,  5.3654e-06,  2.9888e-01,  1.5762e-04,
+        -1.4081e-04,  1.4938e-01, -1.5137e-04, -3.3709e-02,  1.9207e-04],
+       device='cuda:0', requires_grad=True)
+2023-12-26 03:59:10,463 - main1_test_2.py[line:187] - End dev,spend time 1672.9293076992035.
+ F1 value is {'PER': 0.9368614094838879, 'LOC': 0.9340252038547071, 'ORG': 0.8479802651865556, 'MIS': 0.8009153318077804} ,total_F1 is 0.8950602878257488,eval  epoch: 2|  loss: 0.0032600289245821395.
+2023-12-26 03:59:10,463 - main1_test_2.py[line:188] - -----------------------------End 2 epoch train---------------------------------
+2023-12-26 03:59:15,131 - main1_test_2.py[line:91] - -------------------------------start 3 epoch train-----------------------------------
+2023-12-26 06:04:45,653 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 3, 4, 6]|||3
+2023-12-26 06:04:45,704 - main1.py[line:130] - End 3 epoch train,spend time 12697.840161323547.
+The arch_parmeters is tensor([-4.4492e-01,  1.9057e-02,  1.6177e-05,  6.1159e-01, -1.2762e+00,
+         1.5874e-05, -5.0442e-01, -1.1993e-06,  1.0379e-05,  1.7829e-05],
+       device='cuda:0', requires_grad=True)
+2023-12-26 06:32:47,801 - main1.py[line:188] - End dev,spend time 1682.096955537796.
+ F1 value is {'PER': 0.9323479249573622, 'LOC': 0.9201650084930841, 'ORG': 0.8394077448747153, 'MIS': 0.7392550143266474} ,total_F1 is 0.8770161290322581,eval  epoch: 3|  loss: 0.003930968383573136.
+2023-12-26 06:32:47,801 - main1.py[line:189] - -----------------------------End 3 epoch train---------------------------------
+2023-12-26 06:32:52,276 - main1.py[line:92] - -------------------------------start 4 epoch train-----------------------------------
+2023-12-26 07:32:44,661 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 3, 6, 8]|||3
+2023-12-26 07:32:44,706 - main1_test_2.py[line:129] - End 3 epoch train,spend time 12809.566471099854.
+The arch_parmeters is tensor([-5.4349e-01,  1.3363e+00,  2.5572e-05,  2.6534e-01, -4.7014e-06,
+         5.6003e-06,  1.1579e-01,  1.2298e-05, -1.6573e-04, -2.5848e-06],
+       device='cuda:0', requires_grad=True)
+2023-12-26 08:00:34,024 - main1_test_2.py[line:187] - End dev,spend time 1669.3178844451904.
+ F1 value is {'PER': 0.9559782608695653, 'LOC': 0.9351032448377581, 'ORG': 0.8728082382410243, 'MIS': 0.807982740021575} ,total_F1 is 0.9061007957559681,eval  epoch: 3|  loss: 0.0028320054962949932.
+2023-12-26 08:00:34,024 - main1_test_2.py[line:188] - -----------------------------End 3 epoch train---------------------------------
+2023-12-26 08:00:39,366 - main1_test_2.py[line:91] - -------------------------------start 4 epoch train-----------------------------------
+2023-12-26 10:02:17,058 - main1.py[line:126] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 3, 4, 6]|||4
+2023-12-26 10:02:17,102 - main1.py[line:130] - End 4 epoch train,spend time 12564.822562932968.
+The arch_parmeters is tensor([-4.1931e-01,  9.3176e-06, -6.2469e-05,  5.7927e-01, -1.2425e+00,
+         3.5828e-05, -4.7084e-01, -7.8491e-06,  1.2422e-05, -1.0097e-05],
+       device='cuda:0', requires_grad=True)
+2023-12-26 10:30:19,813 - main1.py[line:188] - End dev,spend time 1682.7112708091736.
+ F1 value is {'PER': 0.9523030798582719, 'LOC': 0.9325215626585488, 'ORG': 0.8558733685087476, 'MIS': 0.7599346761023408} ,total_F1 is 0.8926354509924131,eval  epoch: 4|  loss: 0.0033662900609790153.
+2023-12-26 10:30:19,813 - main1.py[line:189] - -----------------------------End 4 epoch train---------------------------------
+2023-12-26 10:30:24,656 - main1.py[line:92] - -------------------------------start 5 epoch train-----------------------------------
+2023-12-26 11:27:44,175 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 3, 6]|||4
+2023-12-26 11:27:44,220 - main1_test_2.py[line:129] - End 4 epoch train,spend time 12424.85070014.
+The arch_parmeters is tensor([-5.1070e-01,  1.3029e+00, -1.6157e-05,  2.3190e-01,  3.4609e-07,
+         8.5205e-07,  8.2302e-02,  2.8757e-05, -2.7312e-05, -6.8903e-07],
+       device='cuda:0', requires_grad=True)
+2023-12-26 11:55:39,717 - main1_test_2.py[line:187] - End dev,spend time 1675.4962804317474.
+ F1 value is {'PER': 0.954509177972865, 'LOC': 0.941754730892111, 'ORG': 0.8772334293948126, 'MIS': 0.805449591280654} ,total_F1 is 0.9093124190969314,eval  epoch: 4|  loss: 0.0028506214888590685.
+2023-12-26 11:55:39,717 - main1_test_2.py[line:188] - -----------------------------End 4 epoch train---------------------------------
+2023-12-26 11:55:39,737 - main1_test_2.py[line:91] - -------------------------------start 5 epoch train-----------------------------------
+2023-12-26 13:56:50,809 - main1_test_2.py[line:32] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-26 13:56:51,391 - main1.py[line:32] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-26 14:00:05,563 - main1_test.py[line:32] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-26 14:35:46,503 - main1.py[line:91] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-26 14:35:46,997 - main1_test_2.py[line:91] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-26 14:35:47,049 - main1_test.py[line:91] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-27 18:39:43,256 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 4, 5, 6, 7, 8, 9]|||0
+2023-12-27 18:39:43,445 - main1_test_2.py[line:129] - End 0 epoch train,spend time 101036.43518900871.
+The arch_parmeters is tensor([-6.4860e-01, -2.9535e-01, -8.4190e-02, -5.0412e-05,  7.1272e-01,
+         3.9478e-02, -3.5592e-01, -3.9796e-01,  5.8968e-01,  9.9238e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-27 18:48:47,756 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3, 4, 5, 6, 7, 8, 9]|||0
+2023-12-27 18:48:47,883 - main1.py[line:129] - End 0 epoch train,spend time 101581.2886788845.
+The arch_parmeters is tensor([ 2.2689e-04,  1.8314e-05, -1.3172e-01, -1.4660e+00, -1.5625e+00,
+        -1.2227e-01,  6.1033e-01, -7.5096e-01,  5.6328e-01, -9.2769e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-27 19:51:48,431 - main1_test_2.py[line:187] - End dev,spend time 4324.985694408417.
+ F1 value is {'PER': 0.9308885754583922, 'LOC': 0.9152363348296805, 'ORG': 0.7716873212583413, 'MIS': 0.7366568914956012} ,total_F1 is 0.8509030454167612,eval  epoch: 0|  loss: 0.004357758276867417.
+2023-12-27 19:51:48,432 - main1_test_2.py[line:188] - -----------------------------End 0 epoch train---------------------------------
+2023-12-27 19:51:55,002 - main1_test_2.py[line:91] - -------------------------------start 1 epoch train-----------------------------------
+2023-12-27 20:01:12,634 - main1.py[line:187] - End dev,spend time 4344.7511484622955.
+ F1 value is {'PER': 0.8745031232254401, 'LOC': 0.8697247706422018, 'ORG': 0.7415660786134325, 'MIS': 0.6738738738738739} ,total_F1 is 0.8046606193306225,eval  epoch: 0|  loss: 0.006182808921022236.
+2023-12-27 20:01:12,634 - main1.py[line:188] - -----------------------------End 0 epoch train---------------------------------
+2023-12-27 20:01:18,253 - main1.py[line:91] - -------------------------------start 1 epoch train-----------------------------------
+2023-12-27 20:21:57,966 - main1.py[line:32] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-27 20:53:34,303 - main1.py[line:91] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-27 23:11:14,778 - main1_test.py[line:32] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-27 23:11:42,031 - main1_test.py[line:91] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-28 00:51:52,879 - main1_test.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3, 5, 6, 8, 9]|||0
+2023-12-28 00:51:52,911 - main1_test.py[line:129] - End 0 epoch train,spend time 6010.8783390522.
+The arch_parmeters is tensor([-4.2104e-01, -6.4908e-05,  7.4273e-01, -7.0107e-01,  9.1801e-05,
+        -1.8459e-04, -1.9225e-01,  2.0903e-05, -2.3404e-04,  3.3488e-04],
+       device='cuda:0', requires_grad=True)
+2023-12-28 01:04:31,019 - main1_test.py[line:187] - End dev,spend time 758.1083545684814.
+ F1 value is {'PER': 0.8999730385548665, 'LOC': 0.883586406362979, 'ORG': 0.6998689384010486, 'MIS': 0.6811731315042573} ,total_F1 is 0.8123464373464373,eval  epoch: 0|  loss: 0.006032799099976162.
+2023-12-28 01:04:31,019 - main1_test.py[line:188] - -----------------------------End 0 epoch train---------------------------------
+2023-12-28 01:04:36,154 - main1_test.py[line:91] - -------------------------------start 1 epoch train-----------------------------------
+2023-12-28 02:44:55,481 - main1_test.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3, 5, 6, 7, 9]|||1
+2023-12-28 02:44:55,503 - main1_test.py[line:129] - End 1 epoch train,spend time 6019.346644878387.
+The arch_parmeters is tensor([-8.7581e-02,  1.6283e-05,  4.2094e-01, -3.6633e-01,  2.5384e-05,
+        -1.5977e-04,  1.2932e-04, -2.9454e-04,  6.6388e-05,  1.7999e-04],
+       device='cuda:0', requires_grad=True)
+2023-12-28 02:57:29,170 - main1_test.py[line:187] - End dev,spend time 753.6671230792999.
+ F1 value is {'PER': 0.8420033873699491, 'LOC': 0.8896761133603238, 'ORG': 0.7538028169014085, 'MIS': 0.47472527472527476} ,total_F1 is 0.7938461538461539,eval  epoch: 1|  loss: 0.00855239618499324.
+2023-12-28 02:57:29,170 - main1_test.py[line:188] - -----------------------------End 1 epoch train---------------------------------
+2023-12-28 02:57:29,183 - main1_test.py[line:91] - -------------------------------start 2 epoch train-----------------------------------
+2023-12-28 04:37:46,955 - main1_test.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[2, 3, 4, 5, 6, 7, 9]|||2
+2023-12-28 04:37:46,976 - main1_test.py[line:129] - End 2 epoch train,spend time 6017.792237281799.
+The arch_parmeters is tensor([ 2.8118e-05,  4.2432e-07,  7.9021e-02, -3.3089e-02, -1.2859e-04,
+         1.9027e-04,  1.7677e-04, -1.7432e-04,  9.4055e-06, -1.5639e-04],
+       device='cuda:0', requires_grad=True)
+2023-12-28 04:50:20,227 - main1_test.py[line:187] - End dev,spend time 753.2499873638153.
+ F1 value is {'PER': 0.8913678618857902, 'LOC': 0.8445349626612356, 'ORG': 0.7696560196560196, 'MIS': 0.7448275862068965} ,total_F1 is 0.8262518968133535,eval  epoch: 2|  loss: 0.006072600888756086.
+2023-12-28 04:50:20,228 - main1_test.py[line:188] - -----------------------------End 2 epoch train---------------------------------
+2023-12-28 04:50:25,071 - main1_test.py[line:91] - -------------------------------start 3 epoch train-----------------------------------
+2023-12-28 06:30:46,157 - main1_test.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[2]|||3
+2023-12-28 06:30:46,178 - main1_test.py[line:129] - End 3 epoch train,spend time 6021.105002880096.
+The arch_parmeters is tensor([-1.9766e-05,  6.0097e-07,  4.4715e-02,  3.6774e-06, -1.5433e-05,
+         4.7478e-06,  1.5431e-05, -3.0456e-05, -1.1869e-05, -2.0423e-05],
+       device='cuda:0', requires_grad=True)
+2023-12-28 06:43:20,445 - main1_test.py[line:187] - End dev,spend time 754.2675857543945.
+ F1 value is {'PER': 0.9157333333333333, 'LOC': 0.8969505783385909, 'ORG': 0.7877629063097513, 'MIS': 0.7102803738317758} ,total_F1 is 0.8456344943992635,eval  epoch: 3|  loss: 0.004900802306409152.
+2023-12-28 06:43:20,445 - main1_test.py[line:188] - -----------------------------End 3 epoch train---------------------------------
+2023-12-28 06:43:25,573 - main1_test.py[line:91] - -------------------------------start 4 epoch train-----------------------------------
+2023-12-28 08:23:49,563 - main1_test.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[2]|||4
+2023-12-28 08:23:49,586 - main1_test.py[line:129] - End 4 epoch train,spend time 6024.010932922363.
+The arch_parmeters is tensor([ 2.9245e-05,  1.1117e-05,  1.0516e-02,  1.2611e-05,  1.4077e-05,
+        -1.4669e-05, -9.7843e-06, -9.4946e-06, -2.8525e-05,  5.1896e-06],
+       device='cuda:0', requires_grad=True)
+2023-12-28 08:36:22,150 - main1_test.py[line:187] - End dev,spend time 752.5634849071503.
+ F1 value is {'PER': 0.9010309278350516, 'LOC': 0.9015041242115478, 'ORG': 0.7789137380191693, 'MIS': 0.7320261437908498} ,total_F1 is 0.8464293880039631,eval  epoch: 4|  loss: 0.004777734684494306.
+2023-12-28 08:36:22,150 - main1_test.py[line:188] - -----------------------------End 4 epoch train---------------------------------
+2023-12-28 08:36:27,116 - main1_test.py[line:91] - -------------------------------start 5 epoch train-----------------------------------
+2023-12-28 10:16:35,643 - main1_test.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[]|||5
+2023-12-28 10:16:35,665 - main1_test.py[line:129] - End 5 epoch train,spend time 6008.547200679779.
+The arch_parmeters is tensor([-3.0026e-05, -1.0034e-05,  1.7355e-05,  1.1034e-05, -1.2342e-06,
+         2.7092e-05,  7.6764e-07, -3.0789e-06,  4.6318e-06, -9.3355e-06],
+       device='cuda:0', requires_grad=True)
+2023-12-28 10:29:08,018 - main1_test.py[line:187] - End dev,spend time 752.3519017696381.
+ F1 value is {'PER': 0.9214864487286951, 'LOC': 0.8903036238981391, 'ORG': 0.8156028368794327, 'MIS': 0.641429179072735} ,total_F1 is 0.8360949395432153,eval  epoch: 5|  loss: 0.00545872393644081.
+2023-12-28 10:29:08,018 - main1_test.py[line:188] - -----------------------------End 5 epoch train---------------------------------
+2023-12-28 10:29:08,030 - main1_test.py[line:91] - -------------------------------start 6 epoch train-----------------------------------
+2023-12-28 12:09:12,730 - main1_test.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[]|||6
+2023-12-28 12:09:12,753 - main1_test.py[line:129] - End 6 epoch train,spend time 6004.722031116486.
+The arch_parmeters is tensor([ 1.2732e-07, -3.0383e-07,  1.6114e-06, -3.4574e-07, -1.3412e-06,
+         8.2506e-07, -1.3597e-06,  1.7381e-06,  1.9636e-06, -7.7668e-08],
+       device='cuda:0', requires_grad=True)
+2023-12-28 12:21:46,153 - main1_test.py[line:187] - End dev,spend time 753.4006457328796.
+ F1 value is {'PER': 0.916957807041118, 'LOC': 0.9190922545633942, 'ORG': 0.8497109826589596, 'MIS': 0.7738801942795468} ,total_F1 is 0.8795843520782396,eval  epoch: 6|  loss: 0.005586167495205717.
+2023-12-28 12:21:46,153 - main1_test.py[line:188] - -----------------------------End 6 epoch train---------------------------------
+2023-12-28 12:21:46,164 - main1_test.py[line:91] - -------------------------------start 7 epoch train-----------------------------------
+2023-12-28 12:51:04,375 - main1_test_2.py[line:32] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:0.0005
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:0.0005
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-28 12:51:30,309 - main1_test_2.py[line:91] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-28 15:10:39,188 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 6, 9]|||0
+2023-12-28 15:10:39,244 - main1_test_2.py[line:129] - End 0 epoch train,spend time 8348.931738853455.
+The arch_parmeters is tensor([-6.8767e-01,  1.8224e-04,  7.0885e-01, -7.1995e-01,  8.7012e-05,
+        -5.3926e-05, -2.0821e-01, -7.5988e-06,  1.1593e-05, -2.9427e-03],
+       device='cuda:0', requires_grad=True)
+2023-12-28 15:36:07,293 - main1_test_2.py[line:187] - End dev,spend time 1528.0495195388794.
+ F1 value is {'PER': 0.8014842300556587, 'LOC': 0.7582229816317813, 'ORG': 0.6327420761849374, 'MIS': 0.5767269355586462} ,total_F1 is 0.7076672587329781,eval  epoch: 0|  loss: 0.01205125057472373.
+2023-12-28 15:36:07,293 - main1_test_2.py[line:188] - -----------------------------End 0 epoch train---------------------------------
+2023-12-28 15:36:12,448 - main1_test_2.py[line:91] - -------------------------------start 1 epoch train-----------------------------------
+2023-12-28 18:25:14,539 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3, 6]|||1
+2023-12-28 18:25:14,576 - main1_test_2.py[line:129] - End 1 epoch train,spend time 10142.126077651978.
+The arch_parmeters is tensor([-5.1133e-01, -1.9976e-05,  3.8920e-01, -3.9319e-01, -9.8319e-05,
+         8.4363e-05,  1.0330e-04,  7.3874e-05, -4.8085e-05,  8.6782e-05],
+       device='cuda:0', requires_grad=True)
+2023-12-28 18:50:28,993 - main1_test_2.py[line:187] - End dev,spend time 1514.4174392223358.
+ F1 value is {'PER': 0.9006657789613849, 'LOC': 0.865318981359937, 'ORG': 0.7512576858580212, 'MIS': 0.6658892128279883} ,total_F1 is 0.8172979699774442,eval  epoch: 1|  loss: 0.006768427704865077.
+2023-12-28 18:50:28,994 - main1_test_2.py[line:188] - -----------------------------End 1 epoch train---------------------------------
+2023-12-28 18:50:33,466 - main1_test_2.py[line:91] - -------------------------------start 2 epoch train-----------------------------------
+2023-12-28 21:55:44,148 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 6, 7, 8, 9]|||2
+2023-12-28 21:55:44,192 - main1_test_2.py[line:129] - End 2 epoch train,spend time 11110.724136829376.
+The arch_parmeters is tensor([-3.7015e-01,  2.3005e-04,  9.9951e-02, -5.8686e-02,  2.8604e-04,
+         9.9555e-05,  1.6955e-04,  2.5172e-04,  1.7181e-04, -2.5335e-04],
+       device='cuda:0', requires_grad=True)
+2023-12-28 22:23:51,522 - main1_test_2.py[line:187] - End dev,spend time 1687.3301935195923.
+ F1 value is {'PER': 0.9472521402927367, 'LOC': 0.9234680905161454, 'ORG': 0.821010562375107, 'MIS': 0.7386231038506418} ,total_F1 is 0.8773001331140866,eval  epoch: 2|  loss: 0.004083301379995526.
+2023-12-28 22:23:51,523 - main1_test_2.py[line:188] - -----------------------------End 2 epoch train---------------------------------
+2023-12-28 22:23:56,438 - main1_test_2.py[line:91] - -------------------------------start 3 epoch train-----------------------------------
+2023-12-29 01:19:52,745 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3]|||3
+2023-12-29 01:19:52,786 - main1_test_2.py[line:129] - End 3 epoch train,spend time 10556.345172643661.
+The arch_parmeters is tensor([-3.5510e-01,  1.3802e-05,  7.5495e-02, -2.4881e-02, -2.0059e-05,
+        -1.9798e-05,  8.9277e-06,  1.6824e-05, -1.2100e-05, -1.1529e-05],
+       device='cuda:0', requires_grad=True)
+2023-12-29 01:46:01,005 - main1_test_2.py[line:187] - End dev,spend time 1568.2193977832794.
+ F1 value is {'PER': 0.934001670843776, 'LOC': 0.8943046357615895, 'ORG': 0.7625354777672658, 'MIS': 0.7207718501702611} ,total_F1 is 0.8470607366452557,eval  epoch: 3|  loss: 0.005318058549233203.
+2023-12-29 01:46:01,005 - main1_test_2.py[line:188] - -----------------------------End 3 epoch train---------------------------------
+2023-12-29 01:46:01,024 - main1_test_2.py[line:91] - -------------------------------start 4 epoch train-----------------------------------
+2023-12-29 04:40:48,495 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2]|||4
+2023-12-29 04:40:48,537 - main1_test_2.py[line:129] - End 4 epoch train,spend time 10487.510971069336.
+The arch_parmeters is tensor([-3.3895e-01,  3.5062e-05,  5.1384e-02,  3.4018e-05, -1.8798e-05,
+        -1.7546e-05, -3.4050e-05, -7.1492e-06,  1.8580e-05, -1.7726e-05],
+       device='cuda:0', requires_grad=True)
+2023-12-29 05:06:47,852 - main1_test_2.py[line:187] - End dev,spend time 1559.3154549598694.
+ F1 value is {'PER': 0.9432337906914179, 'LOC': 0.931910569105691, 'ORG': 0.8250764525993883, 'MIS': 0.7669172932330827} ,total_F1 is 0.8850774581093899,eval  epoch: 4|  loss: 0.0037042573937829935.
+2023-12-29 05:06:47,852 - main1_test_2.py[line:188] - -----------------------------End 4 epoch train---------------------------------
+2023-12-29 05:06:52,799 - main1_test_2.py[line:91] - -------------------------------start 5 epoch train-----------------------------------
+2023-12-29 08:01:14,404 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2]|||5
+2023-12-29 08:01:14,449 - main1_test_2.py[line:129] - End 5 epoch train,spend time 10461.64748120308.
+The arch_parmeters is tensor([-3.2501e-01,  2.4384e-06,  2.8691e-02,  8.0997e-07,  2.1259e-05,
+        -5.1242e-06, -8.3379e-07, -3.3270e-05, -1.7548e-05, -2.1095e-05],
+       device='cuda:0', requires_grad=True)
+2023-12-29 08:27:24,744 - main1_test_2.py[line:187] - End dev,spend time 1570.2950942516327.
+ F1 value is {'PER': 0.9459161147902869, 'LOC': 0.9147982062780269, 'ORG': 0.8322295805739515, 'MIS': 0.7589743589743589} ,total_F1 is 0.8788494606846958,eval  epoch: 5|  loss: 0.0038198223653829323.
+2023-12-29 08:27:24,745 - main1_test_2.py[line:188] - -----------------------------End 5 epoch train---------------------------------
+2023-12-29 08:27:24,765 - main1_test_2.py[line:91] - -------------------------------start 6 epoch train-----------------------------------
+2023-12-29 11:20:23,000 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2]|||6
+2023-12-29 11:20:23,044 - main1_test_2.py[line:129] - End 6 epoch train,spend time 10378.276556253433.
+The arch_parmeters is tensor([-3.2348e-01, -1.2839e-06,  2.6323e-02,  1.4072e-06, -2.3659e-06,
+        -1.2781e-06,  1.4105e-06, -2.3489e-07, -1.7826e-06,  2.4919e-06],
+       device='cuda:0', requires_grad=True)
+2023-12-29 11:45:58,208 - main1_test_2.py[line:187] - End dev,spend time 1535.164468050003.
+ F1 value is {'PER': 0.9552238805970149, 'LOC': 0.9329692154915591, 'ORG': 0.8586621886369997, 'MIS': 0.7607555089192025} ,total_F1 is 0.8938666666666666,eval  epoch: 6|  loss: 0.003452949141556362.
+2023-12-29 11:45:58,209 - main1_test_2.py[line:188] - -----------------------------End 6 epoch train---------------------------------
+2023-12-29 11:46:02,918 - main1_test_2.py[line:91] - -------------------------------start 7 epoch train-----------------------------------
+2023-12-29 14:51:02,705 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2]|||7
+2023-12-29 14:51:02,750 - main1_test_2.py[line:129] - End 7 epoch train,spend time 11099.830041885376.
+The arch_parmeters is tensor([-3.2214e-01,  1.4472e-06,  2.3804e-02, -6.3333e-07, -6.5560e-07,
+         6.5667e-07, -6.3121e-07, -9.6387e-07,  6.3024e-07,  6.2498e-07],
+       device='cuda:0', requires_grad=True)
+2023-12-29 15:16:14,566 - main1_test_2.py[line:187] - End dev,spend time 1511.8151082992554.
+ F1 value is {'PER': 0.9444289304663502, 'LOC': 0.9230769230769231, 'ORG': 0.8252477829942619, 'MIS': 0.7915508615897721} ,total_F1 is 0.8819780388543346,eval  epoch: 7|  loss: 0.003354658383243489.
+2023-12-29 15:16:14,566 - main1_test_2.py[line:188] - -----------------------------End 7 epoch train---------------------------------
+2023-12-29 15:16:19,795 - main1_test_2.py[line:91] - -------------------------------start 8 epoch train-----------------------------------
+2023-12-29 16:31:57,794 - main1_test_2.py[line:32] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:5e-05
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:5e-05
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-29 16:49:53,117 - main1_test_2.py[line:91] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-29 19:45:52,442 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||0
+2023-12-29 19:45:52,500 - main1_test_2.py[line:129] - End 0 epoch train,spend time 10559.379630565643.
+The arch_parmeters is tensor([-7.4679e-01, -1.2527e-01,  9.9615e-01, -1.0033e+00,  2.2814e-01,
+         2.7330e-01, -4.9313e-01,  1.6103e-01, -1.3541e-05, -2.9256e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-29 20:11:45,491 - main1_test_2.py[line:187] - End dev,spend time 1552.9915051460266.
+ F1 value is {'PER': 0.9104929771412833, 'LOC': 0.806843540788495, 'ORG': 0.6962709934528892, 'MIS': 0.598434004474273} ,total_F1 is 0.7771693019668336,eval  epoch: 0|  loss: 0.0074572920799255375.
+2023-12-29 20:11:45,491 - main1_test_2.py[line:188] - -----------------------------End 0 epoch train---------------------------------
+2023-12-29 20:11:50,169 - main1_test_2.py[line:91] - -------------------------------start 1 epoch train-----------------------------------
+2023-12-29 23:10:38,784 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||1
+2023-12-29 23:10:38,804 - main1_test_2.py[line:129] - End 1 epoch train,spend time 10728.634193181992.
+The arch_parmeters is tensor([-7.0873e-01, -8.7193e-02,  9.6262e-01, -9.7079e-01,  1.9586e-01,
+         2.4072e-01, -4.6037e-01,  1.2808e-01, -5.5623e-06, -2.5950e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-29 23:23:07,628 - main1_test_2.py[line:187] - End dev,spend time 748.8226940631866.
+ F1 value is {'PER': 0.9219551714825815, 'LOC': 0.8890077560845147, 'ORG': 0.7825337546681987, 'MIS': 0.6546165119687348} ,total_F1 is 0.8328450269853508,eval  epoch: 1|  loss: 0.005857116658732576.
+2023-12-29 23:23:07,628 - main1_test_2.py[line:188] - -----------------------------End 1 epoch train---------------------------------
+2023-12-29 23:23:11,988 - main1_test_2.py[line:91] - -------------------------------start 2 epoch train-----------------------------------
+2023-12-30 01:01:39,028 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||2
+2023-12-30 01:01:39,050 - main1_test_2.py[line:129] - End 2 epoch train,spend time 5907.060104131699.
+The arch_parmeters is tensor([-6.7622e-01, -5.1004e-02,  9.2903e-01, -9.3803e-01,  1.6330e-01,
+         2.0789e-01, -4.2759e-01,  9.5046e-02,  3.0347e-05, -2.2646e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-30 01:14:06,169 - main1_test_2.py[line:187] - End dev,spend time 747.1198418140411.
+ F1 value is {'PER': 0.931185144729656, 'LOC': 0.8766612263930986, 'ORG': 0.7494620350445742, 'MIS': 0.6981227803145612} ,total_F1 is 0.8337001897533208,eval  epoch: 2|  loss: 0.005608921174733144.
+2023-12-30 01:14:06,170 - main1_test_2.py[line:188] - -----------------------------End 2 epoch train---------------------------------
+2023-12-30 01:14:10,994 - main1_test_2.py[line:91] - -------------------------------start 3 epoch train-----------------------------------
+2023-12-30 02:52:43,878 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||3
+2023-12-30 02:52:43,900 - main1_test_2.py[line:129] - End 3 epoch train,spend time 5912.904843091965.
+The arch_parmeters is tensor([-6.7316e-01, -4.7461e-02,  9.2571e-01, -9.3475e-01,  1.6004e-01,
+         2.0460e-01, -4.2431e-01,  9.1745e-02,  7.1986e-07, -2.2316e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-30 03:05:10,362 - main1_test_2.py[line:187] - End dev,spend time 746.4626078605652.
+ F1 value is {'PER': 0.7094133697135062, 'LOC': 0.6541295075610701, 'ORG': 0.7208672086720868, 'MIS': 0.6356589147286823} ,total_F1 is 0.6835115439624055,eval  epoch: 3|  loss: 0.021491021311508034.
+2023-12-30 03:05:10,362 - main1_test_2.py[line:188] - -----------------------------End 3 epoch train---------------------------------
+2023-12-30 03:05:10,373 - main1_test_2.py[line:91] - -------------------------------start 4 epoch train-----------------------------------
+2023-12-30 04:43:35,072 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||4
+2023-12-30 04:43:35,094 - main1_test_2.py[line:129] - End 4 epoch train,spend time 5904.719657659531.
+The arch_parmeters is tensor([-6.7019e-01, -4.3940e-02,  9.2243e-01, -9.3145e-01,  1.5674e-01,
+         2.0129e-01, -4.2101e-01,  8.8428e-02,  8.1353e-07, -2.1984e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-30 04:56:02,383 - main1_test_2.py[line:187] - End dev,spend time 747.2890908718109.
+ F1 value is {'PER': 0.889238845144357, 'LOC': 0.8605189990732159, 'ORG': 0.7726853275915103, 'MIS': 0.6758832565284177} ,total_F1 is 0.8202550637659415,eval  epoch: 4|  loss: 0.006340810712778343.
+2023-12-30 04:56:02,383 - main1_test_2.py[line:188] - -----------------------------End 4 epoch train---------------------------------
+2023-12-30 04:56:07,300 - main1_test_2.py[line:91] - -------------------------------start 5 epoch train-----------------------------------
+2023-12-30 06:34:41,606 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||5
+2023-12-30 06:34:41,630 - main1_test_2.py[line:129] - End 5 epoch train,spend time 5914.328865766525.
+The arch_parmeters is tensor([-6.6727e-01, -4.0486e-02,  9.1915e-01, -9.2812e-01,  1.5343e-01,
+         1.9796e-01, -4.1768e-01,  8.5093e-02,  7.1003e-07, -2.1651e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-30 06:47:05,444 - main1_test_2.py[line:187] - End dev,spend time 743.8141746520996.
+ F1 value is {'PER': 0.9263386789888557, 'LOC': 0.8943170488534398, 'ORG': 0.7901609474643183, 'MIS': 0.689196675900277} ,total_F1 is 0.8477597935726014,eval  epoch: 5|  loss: 0.005254114348933382.
+2023-12-30 06:47:05,444 - main1_test_2.py[line:188] - -----------------------------End 5 epoch train---------------------------------
+2023-12-30 06:47:09,771 - main1_test_2.py[line:91] - -------------------------------start 6 epoch train-----------------------------------
+2023-12-30 08:25:42,405 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||6
+2023-12-30 08:25:42,429 - main1_test_2.py[line:129] - End 6 epoch train,spend time 5912.656024694443.
+The arch_parmeters is tensor([-6.6697e-01, -4.0142e-02,  9.1882e-01, -9.2779e-01,  1.5310e-01,
+         1.9762e-01, -4.1735e-01,  8.4760e-02, -8.4536e-08, -2.1617e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-30 08:38:11,242 - main1_test_2.py[line:187] - End dev,spend time 748.8133053779602.
+ F1 value is {'PER': 0.907972027972028, 'LOC': 0.8791208791208791, 'ORG': 0.7706971677559913, 'MIS': 0.6462287104622871} ,total_F1 is 0.821377920429947,eval  epoch: 6|  loss: 0.006273887292394098.
+2023-12-30 08:38:11,242 - main1_test_2.py[line:188] - -----------------------------End 6 epoch train---------------------------------
+2023-12-30 08:38:11,256 - main1_test_2.py[line:91] - -------------------------------start 7 epoch train-----------------------------------
+2023-12-30 10:16:44,389 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||7
+2023-12-30 10:16:44,414 - main1_test_2.py[line:129] - End 7 epoch train,spend time 5913.156389474869.
+The arch_parmeters is tensor([-6.6667e-01, -3.9804e-02,  9.1849e-01, -9.2747e-01,  1.5276e-01,
+         1.9729e-01, -4.1702e-01,  8.4427e-02, -1.2853e-07, -2.1584e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-30 10:29:12,915 - main1_test_2.py[line:187] - End dev,spend time 748.5012786388397.
+ F1 value is {'PER': 0.8847352024922117, 'LOC': 0.9017517136329016, 'ORG': 0.8012952605239917, 'MIS': 0.6710929519918284} ,total_F1 is 0.8364521527460824,eval  epoch: 7|  loss: 0.005423545612479156.
+2023-12-30 10:29:12,915 - main1_test_2.py[line:188] - -----------------------------End 7 epoch train---------------------------------
+2023-12-30 10:29:17,821 - main1_test_2.py[line:91] - -------------------------------start 8 epoch train-----------------------------------
+2023-12-30 10:44:31,154 - main1.py[line:32] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:5e-05
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:5e-05
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2023-12-30 10:45:31,417 - main1.py[line:91] - -------------------------------start 0 epoch train-----------------------------------
+2023-12-30 13:58:02,750 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||8
+2023-12-30 13:58:02,842 - main1_test_2.py[line:129] - End 8 epoch train,spend time 12524.95792222023.
+The arch_parmeters is tensor([-6.6638e-01, -3.9470e-02,  9.1816e-01, -9.2714e-01,  1.5243e-01,
+         1.9696e-01, -4.1668e-01,  8.4093e-02, -1.0038e-07, -2.1551e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-30 14:27:02,271 - main1_test_2.py[line:187] - End dev,spend time 1739.4281964302063.
+ F1 value is {'PER': 0.8457286432160803, 'LOC': 0.895047472414678, 'ORG': 0.799565453557849, 'MIS': 0.6893854748603352} ,total_F1 is 0.8264289459884636,eval  epoch: 8|  loss: 0.005928340610468163.
+2023-12-30 14:27:02,271 - main1_test_2.py[line:188] - -----------------------------End 8 epoch train---------------------------------
+2023-12-30 14:27:02,288 - main1_test_2.py[line:91] - -------------------------------start 9 epoch train-----------------------------------
+2023-12-30 14:34:05,715 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||0
+2023-12-30 14:34:05,751 - main1.py[line:129] - End 0 epoch train,spend time 13714.331004858017.
+The arch_parmeters is tensor([-7.5386e-01, -1.1876e-01,  9.8156e-01, -1.0066e+00,  2.2968e-01,
+         2.7479e-01, -4.9147e-01,  1.6279e-01,  8.3259e-06, -2.9088e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-30 15:03:07,150 - main1.py[line:187] - End dev,spend time 1741.3993442058563.
+ F1 value is {'PER': 0.9134479842120101, 'LOC': 0.8325434439178515, 'ORG': 0.7095032397408207, 'MIS': 0.5919282511210762} ,total_F1 is 0.7859424920127795,eval  epoch: 0|  loss: 0.007989996840369027.
+2023-12-30 15:03:07,151 - main1.py[line:188] - -----------------------------End 0 epoch train---------------------------------
+2023-12-30 15:03:11,463 - main1.py[line:91] - -------------------------------start 1 epoch train-----------------------------------
+2023-12-30 18:08:04,574 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||9
+2023-12-30 18:08:04,608 - main1_test_2.py[line:129] - End 9 epoch train,spend time 13262.317771673203.
+The arch_parmeters is tensor([-6.6635e-01, -3.9436e-02,  9.1812e-01, -9.2710e-01,  1.5240e-01,
+         1.9693e-01, -4.1664e-01,  8.4059e-02,  2.1766e-08, -2.1548e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-30 18:35:01,862 - main1_test_2.py[line:187] - End dev,spend time 1617.254200220108.
+ F1 value is {'PER': 0.8594499116830684, 'LOC': 0.9067077872012336, 'ORG': 0.7993836671802773, 'MIS': 0.6705824767498776} ,total_F1 is 0.8292497336782834,eval  epoch: 9|  loss: 0.006368797792578643.
+2023-12-30 18:35:01,863 - main1_test_2.py[line:188] - -----------------------------End 9 epoch train---------------------------------
+2023-12-30 18:35:01,876 - main1_test_2.py[line:91] - -------------------------------start 10 epoch train-----------------------------------
+2023-12-30 18:41:22,471 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||1
+2023-12-30 18:41:22,498 - main1.py[line:129] - End 1 epoch train,spend time 13091.032643318176.
+The arch_parmeters is tensor([-7.1892e-01, -7.6261e-02,  9.4810e-01, -9.7950e-01,  1.9508e-01,
+         2.3980e-01, -4.5895e-01,  1.2751e-01, -1.7936e-05, -2.5805e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-30 19:10:30,409 - main1.py[line:187] - End dev,spend time 1747.9118447303772.
+ F1 value is {'PER': 0.9146099290780142, 'LOC': 0.8886095046517477, 'ORG': 0.788140472078296, 'MIS': 0.6384236453201971} ,total_F1 is 0.8297708749807781,eval  epoch: 1|  loss: 0.006102970073807914.
+2023-12-30 19:10:30,410 - main1.py[line:188] - -----------------------------End 1 epoch train---------------------------------
+2023-12-30 19:10:35,154 - main1.py[line:91] - -------------------------------start 2 epoch train-----------------------------------
+2023-12-30 22:33:20,882 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||10
+2023-12-30 22:33:20,975 - main1_test_2.py[line:129] - End 10 epoch train,spend time 14299.037063837051.
+The arch_parmeters is tensor([-6.6631e-01, -3.9403e-02,  9.1808e-01, -9.2706e-01,  1.5237e-01,
+         1.9690e-01, -4.1661e-01,  8.4024e-02, -2.2643e-08, -2.1545e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-30 23:03:37,010 - main1_test_2.py[line:187] - End dev,spend time 1816.0347816944122.
+ F1 value is {'PER': 0.9112264408631521, 'LOC': 0.8801169590643275, 'ORG': 0.7723601555489081, 'MIS': 0.47270261105459477} ,total_F1 is 0.7771217187166536,eval  epoch: 10|  loss: 0.009021442566277845.
+2023-12-30 23:03:37,010 - main1_test_2.py[line:188] - -----------------------------End 10 epoch train---------------------------------
+2023-12-30 23:03:37,028 - main1_test_2.py[line:91] - -------------------------------start 11 epoch train-----------------------------------
+2023-12-30 23:10:49,049 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||2
+2023-12-30 23:10:49,079 - main1.py[line:129] - End 2 epoch train,spend time 14413.921043157578.
+The arch_parmeters is tensor([-6.8597e-01, -3.7970e-02,  9.1562e-01, -9.5049e-01,  1.6107e-01,
+         2.0536e-01, -4.2654e-01,  9.2832e-02,  2.6686e-06, -2.2556e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-30 23:40:48,981 - main1.py[line:187] - End dev,spend time 1799.9018676280975.
+ F1 value is {'PER': 0.9273224043715848, 'LOC': 0.902579514149762, 'ORG': 0.792354474370113, 'MIS': 0.6956977964323189} ,total_F1 is 0.8499846295727022,eval  epoch: 2|  loss: 0.005625956463363935.
+2023-12-30 23:40:48,981 - main1.py[line:188] - -----------------------------End 2 epoch train---------------------------------
+2023-12-30 23:40:53,438 - main1.py[line:91] - -------------------------------start 3 epoch train-----------------------------------
+2023-12-31 02:49:17,369 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||11
+2023-12-31 02:49:17,436 - main1_test_2.py[line:129] - End 11 epoch train,spend time 13540.374064207077.
+The arch_parmeters is tensor([-6.6628e-01, -3.9370e-02,  9.1804e-01, -9.2702e-01,  1.5234e-01,
+         1.9687e-01, -4.1657e-01,  8.3990e-02,  1.6060e-08, -2.1542e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-31 03:16:28,079 - main1_test_2.py[line:187] - End dev,spend time 1630.6421964168549.
+ F1 value is {'PER': 0.9108799550182738, 'LOC': 0.8990640020237793, 'ORG': 0.805678793256433, 'MIS': 0.5626865671641791} ,total_F1 is 0.812467762139857,eval  epoch: 11|  loss: 0.006884320951857657.
+2023-12-31 03:16:28,080 - main1_test_2.py[line:188] - -----------------------------End 11 epoch train---------------------------------
+2023-12-31 03:16:32,326 - main1_test_2.py[line:91] - -------------------------------start 12 epoch train-----------------------------------
+2023-12-31 03:21:51,651 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||3
+2023-12-31 03:21:51,718 - main1.py[line:129] - End 3 epoch train,spend time 13258.235324144363.
+The arch_parmeters is tensor([-6.5707e-01, -1.4961e-03,  8.8256e-01, -9.2010e-01,  1.2793e-01,
+         1.7182e-01, -3.9400e-01,  5.9277e-02,  1.3247e-05, -1.9292e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-31 03:48:53,441 - main1.py[line:187] - End dev,spend time 1621.7228136062622.
+ F1 value is {'PER': 0.9180416553962674, 'LOC': 0.8817829457364341, 'ORG': 0.7975567190226877, 'MIS': 0.6789587852494577} ,total_F1 is 0.8413824673838406,eval  epoch: 3|  loss: 0.005503994957456049.
+2023-12-31 03:48:53,441 - main1.py[line:188] - -----------------------------End 3 epoch train---------------------------------
+2023-12-31 03:48:58,149 - main1.py[line:91] - -------------------------------start 4 epoch train-----------------------------------
+2023-12-31 06:57:18,255 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||12
+2023-12-31 06:57:18,289 - main1_test_2.py[line:129] - End 12 epoch train,spend time 13245.961906433105.
+The arch_parmeters is tensor([-6.6628e-01, -3.9367e-02,  9.1804e-01, -9.2702e-01,  1.5234e-01,
+         1.9687e-01, -4.1657e-01,  8.3985e-02,  3.1656e-09, -2.1542e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-31 07:24:27,314 - main1_test_2.py[line:187] - End dev,spend time 1629.0257699489594.
+ F1 value is {'PER': 0.8967406190084909, 'LOC': 0.8780244449987529, 'ORG': 0.79732868757259, 'MIS': 0.7094515752625439} ,total_F1 is 0.839132469964113,eval  epoch: 12|  loss: 0.007765479582660603.
+2023-12-31 07:24:27,314 - main1_test_2.py[line:188] - -----------------------------End 12 epoch train---------------------------------
+2023-12-31 07:24:27,326 - main1_test_2.py[line:91] - -------------------------------start 13 epoch train-----------------------------------
+2023-12-31 07:29:40,455 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3, 4, 5, 6, 7, 9]|||4
+2023-12-31 07:29:40,483 - main1.py[line:129] - End 4 epoch train,spend time 13242.33161854744.
+The arch_parmeters is tensor([-6.2921e-01, -1.5299e-05,  8.4869e-01, -8.8786e-01,  9.4036e-02,
+         1.3759e-01, -3.6055e-01,  2.5029e-02, -1.1426e-07, -1.5930e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-31 07:56:43,722 - main1.py[line:187] - End dev,spend time 1623.238981962204.
+ F1 value is {'PER': 0.9175141242937852, 'LOC': 0.8970625798212005, 'ORG': 0.7938084112149533, 'MIS': 0.6814117647058823} ,total_F1 is 0.84020301445709,eval  epoch: 4|  loss: 0.005644969445354533.
+2023-12-31 07:56:43,722 - main1.py[line:188] - -----------------------------End 4 epoch train---------------------------------
+2023-12-31 07:56:43,741 - main1.py[line:91] - -------------------------------start 5 epoch train-----------------------------------
+2023-12-31 11:02:13,436 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||13
+2023-12-31 11:02:13,484 - main1_test_2.py[line:129] - End 13 epoch train,spend time 13066.156776666641.
+The arch_parmeters is tensor([-6.6628e-01, -3.9365e-02,  9.1804e-01, -9.2702e-01,  1.5234e-01,
+         1.9687e-01, -4.1657e-01,  8.3980e-02,  2.7292e-10, -2.1542e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-31 11:32:03,965 - main1_test_2.py[line:187] - End dev,spend time 1790.4811391830444.
+ F1 value is {'PER': 0.8864265927977839, 'LOC': 0.8740399385560677, 'ORG': 0.7634377694739867, 'MIS': 0.7489035087719298} ,total_F1 is 0.8297059052968251,eval  epoch: 13|  loss: 0.007249843399479704.
+2023-12-31 11:32:03,965 - main1_test_2.py[line:188] - -----------------------------End 13 epoch train---------------------------------
+2023-12-31 11:32:08,499 - main1_test_2.py[line:91] - -------------------------------start 14 epoch train-----------------------------------
+2023-12-31 11:38:29,945 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3, 4, 5, 6, 9]|||5
+2023-12-31 11:38:29,984 - main1.py[line:129] - End 5 epoch train,spend time 13306.24031496048.
+The arch_parmeters is tensor([-6.0315e-01, -8.2004e-06,  8.1529e-01, -8.5546e-01,  6.0747e-02,
+         1.0399e-01, -3.2729e-01, -9.0340e-06, -2.4000e-05, -1.2593e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-31 12:08:36,732 - main1.py[line:187] - End dev,spend time 1806.7480285167694.
+ F1 value is {'PER': 0.8969567538707955, 'LOC': 0.8658227848101266, 'ORG': 0.794989306446685, 'MIS': 0.6574432761483121} ,total_F1 is 0.8284868271201883,eval  epoch: 5|  loss: 0.006311538309421179.
+2023-12-31 12:08:36,732 - main1.py[line:188] - -----------------------------End 5 epoch train---------------------------------
+2023-12-31 12:08:36,747 - main1.py[line:91] - -------------------------------start 6 epoch train-----------------------------------
+2023-12-31 15:32:25,644 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||14
+2023-12-31 15:32:25,698 - main1_test_2.py[line:129] - End 14 epoch train,spend time 14417.19165301323.
+The arch_parmeters is tensor([-6.6628e-01, -3.9362e-02,  9.1804e-01, -9.2702e-01,  1.5234e-01,
+         1.9687e-01, -4.1657e-01,  8.3975e-02, -3.2884e-10, -2.1542e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-31 16:02:57,087 - main1_test_2.py[line:187] - End dev,spend time 1831.3893866539001.
+ F1 value is {'PER': 0.9042102288782142, 'LOC': 0.8688921141751331, 'ORG': 0.7787610619469026, 'MIS': 0.7186836518046711} ,total_F1 is 0.8326186830015315,eval  epoch: 14|  loss: 0.0062796871617155255.
+2023-12-31 16:02:57,087 - main1_test_2.py[line:188] - -----------------------------End 14 epoch train---------------------------------
+2023-12-31 16:03:02,412 - main1_test_2.py[line:91] - -------------------------------start 15 epoch train-----------------------------------
+2023-12-31 16:08:38,297 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3, 4, 5, 6, 9]|||6
+2023-12-31 16:08:38,326 - main1.py[line:129] - End 6 epoch train,spend time 14401.576414585114.
+The arch_parmeters is tensor([-5.7851e-01,  8.5530e-06,  7.8217e-01, -8.2304e-01,  2.7512e-02,
+         7.0644e-02, -2.9409e-01,  2.7549e-05, -3.4963e-06, -9.2634e-02],
+       device='cuda:0', requires_grad=True)
+2023-12-31 16:38:44,001 - main1.py[line:187] - End dev,spend time 1805.6743640899658.
+ F1 value is {'PER': 0.8915929203539824, 'LOC': 0.8465804066543439, 'ORG': 0.7722597707904791, 'MIS': 0.6946778711484594} ,total_F1 is 0.8190679256777339,eval  epoch: 6|  loss: 0.006757795698237869.
+2023-12-31 16:38:44,002 - main1.py[line:188] - -----------------------------End 6 epoch train---------------------------------
+2023-12-31 16:38:44,022 - main1.py[line:91] - -------------------------------start 7 epoch train-----------------------------------
+2023-12-31 20:02:52,202 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||15
+2023-12-31 20:02:52,262 - main1_test_2.py[line:129] - End 15 epoch train,spend time 14389.848228931427.
+The arch_parmeters is tensor([-6.6628e-01, -3.9362e-02,  9.1804e-01, -9.2702e-01,  1.5234e-01,
+         1.9687e-01, -4.1657e-01,  8.3975e-02, -2.4010e-10, -2.1542e-01],
+       device='cuda:0', requires_grad=True)
+2023-12-31 20:32:37,605 - main1_test_2.py[line:187] - End dev,spend time 1785.3433957099915.
+ F1 value is {'PER': 0.922437673130194, 'LOC': 0.8853581031532632, 'ORG': 0.7999999999999999, 'MIS': 0.7253086419753086} ,total_F1 is 0.8498841698841698,eval  epoch: 15|  loss: 0.005931208268651423.
+2023-12-31 20:32:37,605 - main1_test_2.py[line:188] - -----------------------------End 15 epoch train---------------------------------
+2023-12-31 20:32:42,615 - main1_test_2.py[line:91] - -------------------------------start 16 epoch train-----------------------------------
+2023-12-31 20:37:49,055 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3, 5, 6, 9]|||7
+2023-12-31 20:37:49,144 - main1.py[line:129] - End 7 epoch train,spend time 14345.059373378754.
+The arch_parmeters is tensor([-5.5381e-01,  2.1723e-05,  7.4939e-01, -7.9042e-01,  9.9674e-06,
+         3.7312e-02, -2.6086e-01, -2.6465e-06,  8.4547e-06, -5.9312e-02],
+       device='cuda:0', requires_grad=True)
+2023-12-31 21:07:35,509 - main1.py[line:187] - End dev,spend time 1786.3649263381958.
+ F1 value is {'PER': 0.8776863889625897, 'LOC': 0.8566433566433567, 'ORG': 0.7845303867403315, 'MIS': 0.6779835390946501} ,total_F1 is 0.8174217087260566,eval  epoch: 7|  loss: 0.006164683598392414.
+2023-12-31 21:07:35,509 - main1.py[line:188] - -----------------------------End 7 epoch train---------------------------------
+2023-12-31 21:07:39,940 - main1.py[line:91] - -------------------------------start 8 epoch train-----------------------------------
+2024-01-01 00:30:13,247 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||16
+2024-01-01 00:30:13,309 - main1_test_2.py[line:129] - End 16 epoch train,spend time 14250.692539691925.
+The arch_parmeters is tensor([-6.6628e-01, -3.9362e-02,  9.1804e-01, -9.2702e-01,  1.5234e-01,
+         1.9687e-01, -4.1657e-01,  8.3975e-02, -1.6487e-10, -2.1542e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-01 01:01:04,741 - main1_test_2.py[line:187] - End dev,spend time 1851.4312283992767.
+ F1 value is {'PER': 0.8749348619072435, 'LOC': 0.8828323993886908, 'ORG': 0.8033987694110754, 'MIS': 0.7084233261339093} ,total_F1 is 0.8349067464886023,eval  epoch: 16|  loss: 0.006726532499745207.
+2024-01-01 01:01:04,741 - main1_test_2.py[line:188] - -----------------------------End 16 epoch train---------------------------------
+2024-01-01 01:01:04,761 - main1_test_2.py[line:91] - -------------------------------start 17 epoch train-----------------------------------
+2024-01-01 01:06:12,330 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3, 5, 6, 9]|||8
+2024-01-01 01:06:12,370 - main1.py[line:129] - End 8 epoch train,spend time 14312.42208147049.
+The arch_parmeters is tensor([-5.3107e-01,  4.5779e-06,  7.1648e-01, -7.5762e-01, -3.1458e-05,
+         4.2963e-03, -2.2759e-01,  2.8536e-06, -1.3749e-05, -2.5991e-02],
+       device='cuda:0', requires_grad=True)
+2024-01-01 01:36:51,545 - main1.py[line:187] - End dev,spend time 1839.1739444732666.
+ F1 value is {'PER': 0.8722741433021806, 'LOC': 0.850963798777621, 'ORG': 0.7573926868044515, 'MIS': 0.6698888351860802} ,total_F1 is 0.8069069069069069,eval  epoch: 8|  loss: 0.006867591502531519.
+2024-01-01 01:36:51,545 - main1.py[line:188] - -----------------------------End 8 epoch train---------------------------------
+2024-01-01 01:36:51,564 - main1.py[line:91] - -------------------------------start 9 epoch train-----------------------------------
+2024-01-01 05:05:36,294 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||17
+2024-01-01 05:05:36,370 - main1_test_2.py[line:129] - End 17 epoch train,spend time 14671.5820145607.
+The arch_parmeters is tensor([-6.6628e-01, -3.9362e-02,  9.1804e-01, -9.2702e-01,  1.5234e-01,
+         1.9687e-01, -4.1657e-01,  8.3975e-02, -7.5419e-12, -2.1542e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-01 05:36:24,852 - main1_test_2.py[line:187] - End dev,spend time 1848.4813153743744.
+ F1 value is {'PER': 0.8972015990862364, 'LOC': 0.8872033276241742, 'ORG': 0.787646898059579, 'MIS': 0.6782776971456217} ,total_F1 is 0.8300413067968457,eval  epoch: 17|  loss: 0.006125003211903122.
+2024-01-01 05:36:24,852 - main1_test_2.py[line:188] - -----------------------------End 17 epoch train---------------------------------
+2024-01-01 05:36:30,383 - main1_test_2.py[line:91] - -------------------------------start 18 epoch train-----------------------------------
+2024-01-01 05:40:51,158 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3, 6]|||9
+2024-01-01 05:40:51,245 - main1.py[line:129] - End 9 epoch train,spend time 14639.623781204224.
+The arch_parmeters is tensor([-5.0754e-01,  9.1195e-06,  6.8392e-01, -7.2513e-01,  1.8896e-05,
+         6.7333e-06, -1.9446e-01, -1.3155e-05, -3.3701e-06, -2.4601e-05],
+       device='cuda:0', requires_grad=True)
+2024-01-01 06:11:27,383 - main1.py[line:187] - End dev,spend time 1836.1361756324768.
+ F1 value is {'PER': 0.8455696202531646, 'LOC': 0.8620067062161465, 'ORG': 0.7846153846153847, 'MIS': 0.6475670759436108} ,total_F1 is 0.802304964539007,eval  epoch: 9|  loss: 0.007391591566913533.
+2024-01-01 06:11:27,383 - main1.py[line:188] - -----------------------------End 9 epoch train---------------------------------
+2024-01-01 06:11:27,401 - main1.py[line:91] - -------------------------------start 10 epoch train-----------------------------------
+2024-01-01 09:40:07,476 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||18
+2024-01-01 09:40:10,700 - main1_test_2.py[line:129] - End 18 epoch train,spend time 14620.315380811691.
+The arch_parmeters is tensor([-6.6628e-01, -3.9362e-02,  9.1804e-01, -9.2702e-01,  1.5234e-01,
+         1.9687e-01, -4.1657e-01,  8.3975e-02,  1.2085e-11, -2.1542e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-01 10:10:09,709 - main1_test_2.py[line:187] - End dev,spend time 1799.008484363556.
+ F1 value is {'PER': 0.8815340162857893, 'LOC': 0.8777219430485763, 'ORG': 0.7833176544371275, 'MIS': 0.7325702393340271} ,total_F1 is 0.8345422615866229,eval  epoch: 18|  loss: 0.0059685303355163.
+2024-01-01 10:10:09,709 - main1_test_2.py[line:188] - -----------------------------End 18 epoch train---------------------------------
+2024-01-01 10:10:14,420 - main1_test_2.py[line:91] - -------------------------------start 19 epoch train-----------------------------------
+2024-01-01 10:13:49,006 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3, 6]|||10
+2024-01-01 10:13:49,043 - main1.py[line:129] - End 10 epoch train,spend time 14541.63607954979.
+The arch_parmeters is tensor([-4.8539e-01,  2.5540e-05,  6.5082e-01, -6.9212e-01,  2.9155e-05,
+         2.2622e-05, -1.6105e-01, -2.3807e-05, -1.6601e-05,  1.4905e-05],
+       device='cuda:0', requires_grad=True)
+2024-01-01 10:43:03,836 - main1.py[line:187] - End dev,spend time 1754.7935252189636.
+ F1 value is {'PER': 0.8836158192090394, 'LOC': 0.8295640009326184, 'ORG': 0.7619346733668342, 'MIS': 0.6470842332613391} ,total_F1 is 0.7960684273709484,eval  epoch: 10|  loss: 0.007910175368470966.
+2024-01-01 10:43:03,836 - main1.py[line:188] - -----------------------------End 10 epoch train---------------------------------
+2024-01-01 10:43:03,848 - main1.py[line:91] - -------------------------------start 11 epoch train-----------------------------------
+2024-01-01 14:03:14,482 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||19
+2024-01-01 14:03:14,540 - main1_test_2.py[line:129] - End 19 epoch train,spend time 13980.113917589188.
+The arch_parmeters is tensor([-6.6628e-01, -3.9362e-02,  9.1804e-01, -9.2702e-01,  1.5234e-01,
+         1.9687e-01, -4.1657e-01,  8.3975e-02,  7.5308e-12, -2.1542e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-01 14:32:41,295 - main1_test_2.py[line:187] - End dev,spend time 1766.7541706562042.
+ F1 value is {'PER': 0.9058888277380297, 'LOC': 0.892025755324418, 'ORG': 0.7926215762996086, 'MIS': 0.7127605490594815} ,total_F1 is 0.8422486192025421,eval  epoch: 19|  loss: 0.005799488976316632.
+2024-01-01 14:32:41,295 - main1_test_2.py[line:188] - -----------------------------End 19 epoch train---------------------------------
+2024-01-01 14:32:45,796 - main1_test_2.py[line:91] - -------------------------------start 20 epoch train-----------------------------------
+2024-01-01 14:35:50,084 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3, 6]|||11
+2024-01-01 14:35:50,155 - main1.py[line:129] - End 11 epoch train,spend time 13966.274348258972.
+The arch_parmeters is tensor([-4.6477e-01, -3.9519e-05,  6.1761e-01, -6.5922e-01, -7.6643e-06,
+        -1.1715e-05, -1.2749e-01, -1.6619e-05, -7.1677e-07,  8.1334e-07],
+       device='cuda:0', requires_grad=True)
+2024-01-01 15:05:10,237 - main1.py[line:187] - End dev,spend time 1760.0824847221375.
+ F1 value is {'PER': 0.8476821192052979, 'LOC': 0.8720288115246099, 'ORG': 0.799651567944251, 'MIS': 0.6753246753246754} ,total_F1 is 0.8190988567585743,eval  epoch: 11|  loss: 0.0071621303288441785.
+2024-01-01 15:05:10,238 - main1.py[line:188] - -----------------------------End 11 epoch train---------------------------------
+2024-01-01 15:05:14,770 - main1.py[line:91] - -------------------------------start 12 epoch train-----------------------------------
+2024-01-01 18:34:27,200 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||20
+2024-01-01 18:34:27,260 - main1_test_2.py[line:129] - End 20 epoch train,spend time 14501.461891412735.
+The arch_parmeters is tensor([-6.6628e-01, -3.9362e-02,  9.1804e-01, -9.2702e-01,  1.5234e-01,
+         1.9687e-01, -4.1657e-01,  8.3975e-02,  5.8738e-12, -2.1542e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-01 19:03:58,215 - main1_test_2.py[line:187] - End dev,spend time 1770.955025434494.
+ F1 value is {'PER': 0.8968233132055657, 'LOC': 0.8653658536585366, 'ORG': 0.7889965614254453, 'MIS': 0.6821428571428572} ,total_F1 is 0.825292178603536,eval  epoch: 20|  loss: 0.006328555210581365.
+2024-01-01 19:03:58,215 - main1_test_2.py[line:188] - -----------------------------End 20 epoch train---------------------------------
+2024-01-01 19:03:58,229 - main1_test_2.py[line:91] - -------------------------------start 21 epoch train-----------------------------------
+2024-01-01 19:06:49,785 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3, 6]|||12
+2024-01-01 19:06:49,829 - main1.py[line:129] - End 12 epoch train,spend time 14495.057149410248.
+The arch_parmeters is tensor([-4.4436e-01,  4.3486e-05,  5.8463e-01, -6.2635e-01,  3.1077e-05,
+         2.0654e-05, -9.4061e-02, -2.4651e-05, -1.0311e-05,  4.5391e-06],
+       device='cuda:0', requires_grad=True)
+2024-01-01 19:35:52,054 - main1.py[line:187] - End dev,spend time 1742.2253820896149.
+ F1 value is {'PER': 0.8717812582957261, 'LOC': 0.8851638729046785, 'ORG': 0.7919010123734533, 'MIS': 0.6881720430107526} ,total_F1 is 0.8293726598914953,eval  epoch: 12|  loss: 0.0063776292890872594.
+2024-01-01 19:35:52,054 - main1.py[line:188] - -----------------------------End 12 epoch train---------------------------------
+2024-01-01 19:35:56,430 - main1.py[line:91] - -------------------------------start 13 epoch train-----------------------------------
+2024-01-01 22:55:00,559 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||21
+2024-01-01 22:55:00,668 - main1_test_2.py[line:129] - End 21 epoch train,spend time 13862.39627456665.
+The arch_parmeters is tensor([-6.6628e-01, -3.9362e-02,  9.1804e-01, -9.2702e-01,  1.5234e-01,
+         1.9687e-01, -4.1657e-01,  8.3975e-02, -1.0413e-12, -2.1542e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-01 23:33:11,843 - main1_test_2.py[line:187] - End dev,spend time 2291.173603773117.
+ F1 value is {'PER': 0.9046235138705416, 'LOC': 0.8939393939393939, 'ORG': 0.7876668785759695, 'MIS': 0.7147239263803681} ,total_F1 is 0.8442869250327452,eval  epoch: 21|  loss: 0.00569475585559629.
+2024-01-01 23:33:11,843 - main1_test_2.py[line:188] - -----------------------------End 21 epoch train---------------------------------
+2024-01-01 23:33:16,641 - main1_test_2.py[line:91] - -------------------------------start 22 epoch train-----------------------------------
+2024-01-01 23:35:23,358 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3, 6]|||13
+2024-01-01 23:35:23,413 - main1.py[line:129] - End 13 epoch train,spend time 14366.962260723114.
+The arch_parmeters is tensor([-4.2405e-01,  1.9073e-05,  5.5184e-01, -5.9362e-01, -2.6314e-05,
+        -2.9032e-05, -6.0690e-02,  1.3646e-05, -1.1632e-05, -1.7458e-05],
+       device='cuda:0', requires_grad=True)
+2024-01-02 00:24:12,265 - main1.py[line:187] - End dev,spend time 2928.851398229599.
+ F1 value is {'PER': 0.8831983276718056, 'LOC': 0.8789052414149238, 'ORG': 0.7910271546635183, 'MIS': 0.7154873824839187} ,total_F1 is 0.8322526508505607,eval  epoch: 13|  loss: 0.0068347178540139825.
+2024-01-02 00:24:12,265 - main1.py[line:188] - -----------------------------End 13 epoch train---------------------------------
+2024-01-02 00:24:12,285 - main1.py[line:91] - -------------------------------start 14 epoch train-----------------------------------
+2024-01-02 03:31:46,957 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||22
+2024-01-02 03:31:47,023 - main1_test_2.py[line:129] - End 22 epoch train,spend time 14310.372326850891.
+The arch_parmeters is tensor([-6.6628e-01, -3.9362e-02,  9.1804e-01, -9.2702e-01,  1.5234e-01,
+         1.9687e-01, -4.1657e-01,  8.3975e-02, -7.7554e-13, -2.1542e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-02 03:57:56,177 - main1_test_2.py[line:187] - End dev,spend time 1569.1546657085419.
+ F1 value is {'PER': 0.9161499056349421, 'LOC': 0.8832116788321169, 'ORG': 0.8074755265499852, 'MIS': 0.7288306451612904} ,total_F1 is 0.8498557765295278,eval  epoch: 22|  loss: 0.005774544882324506.
+2024-01-02 03:57:56,177 - main1_test_2.py[line:188] - -----------------------------End 22 epoch train---------------------------------
+2024-01-02 03:57:56,195 - main1_test_2.py[line:91] - -------------------------------start 23 epoch train-----------------------------------
+2024-01-02 04:00:28,474 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3, 6]|||14
+2024-01-02 04:00:28,511 - main1.py[line:129] - End 14 epoch train,spend time 12976.224168539047.
+The arch_parmeters is tensor([-4.0337e-01,  2.0001e-05,  5.1926e-01, -5.6092e-01,  1.6639e-05,
+        -1.5232e-05, -2.7167e-02,  3.2391e-05, -6.8651e-06, -7.2566e-06],
+       device='cuda:0', requires_grad=True)
+2024-01-02 04:26:29,403 - main1.py[line:187] - End dev,spend time 1560.8919610977173.
+ F1 value is {'PER': 0.899128968811464, 'LOC': 0.8696564384998688, 'ORG': 0.7224777675559645, 'MIS': 0.42892358258011504} ,total_F1 is 0.7307476897227668,eval  epoch: 14|  loss: 0.009871542566227463.
+2024-01-02 04:26:29,403 - main1.py[line:188] - -----------------------------End 14 epoch train---------------------------------
+2024-01-02 04:26:29,415 - main1.py[line:91] - -------------------------------start 15 epoch train-----------------------------------
+2024-01-02 07:27:10,849 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||23
+2024-01-02 07:27:10,923 - main1_test_2.py[line:129] - End 23 epoch train,spend time 12554.713762521744.
+The arch_parmeters is tensor([-6.6628e-01, -3.9362e-02,  9.1804e-01, -9.2702e-01,  1.5234e-01,
+         1.9687e-01, -4.1657e-01,  8.3975e-02,  8.9856e-13, -2.1542e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-02 07:53:22,188 - main1_test_2.py[line:187] - End dev,spend time 1571.263899564743.
+ F1 value is {'PER': 0.9190238491403216, 'LOC': 0.9132536250317985, 'ORG': 0.8364485981308412, 'MIS': 0.7711340206185566} ,total_F1 is 0.8731106115804976,eval  epoch: 23|  loss: 0.005317988260737005.
+2024-01-02 07:53:22,188 - main1_test_2.py[line:188] - -----------------------------End 23 epoch train---------------------------------
+2024-01-02 07:53:29,751 - main1_test_2.py[line:91] - -------------------------------start 24 epoch train-----------------------------------
+2024-01-02 07:55:25,385 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3]|||15
+2024-01-02 07:55:25,444 - main1.py[line:129] - End 15 epoch train,spend time 12536.027502775192.
+The arch_parmeters is tensor([-3.8442e-01, -1.4493e-05,  4.8632e-01, -5.2811e-01,  3.6560e-05,
+        -1.1865e-05,  1.9592e-05, -1.8687e-05, -2.8728e-05, -1.4896e-05],
+       device='cuda:0', requires_grad=True)
+2024-01-02 08:21:26,257 - main1.py[line:187] - End dev,spend time 1560.812359571457.
+ F1 value is {'PER': 0.8540022547914318, 'LOC': 0.8146027201145312, 'ORG': 0.7840333631218349, 'MIS': 0.5102880658436214} ,total_F1 is 0.7539252069654582,eval  epoch: 15|  loss: 0.009749719219387703.
+2024-01-02 08:21:26,257 - main1.py[line:188] - -----------------------------End 15 epoch train---------------------------------
+2024-01-02 08:21:30,954 - main1.py[line:91] - -------------------------------start 16 epoch train-----------------------------------
+2024-01-02 11:21:52,510 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||24
+2024-01-02 11:21:52,616 - main1_test_2.py[line:129] - End 24 epoch train,spend time 12502.858077764511.
+The arch_parmeters is tensor([-6.6628e-01, -3.9362e-02,  9.1804e-01, -9.2702e-01,  1.5234e-01,
+         1.9687e-01, -4.1657e-01,  8.3975e-02,  3.0985e-13, -2.1542e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-02 11:49:23,832 - main1_test_2.py[line:187] - End dev,spend time 1651.216204404831.
+ F1 value is {'PER': 0.900297216968387, 'LOC': 0.8706113429904248, 'ORG': 0.807140766754463, 'MIS': 0.6880829015544041} ,total_F1 is 0.8356070421461778,eval  epoch: 24|  loss: 0.0058673389677731495.
+2024-01-02 11:49:23,832 - main1_test_2.py[line:188] - -----------------------------End 24 epoch train---------------------------------
+2024-01-02 11:49:23,846 - main1_test_2.py[line:91] - -------------------------------start 25 epoch train-----------------------------------
+2024-01-02 11:51:53,933 - main1.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 2, 3]|||16
+2024-01-02 11:51:53,984 - main1.py[line:129] - End 16 epoch train,spend time 12623.027363300323.
+The arch_parmeters is tensor([-3.6545e-01,  5.1870e-05,  4.5375e-01, -4.9549e-01,  7.6997e-06,
+         3.2752e-05,  1.3492e-05, -2.3126e-06,  1.1501e-05, -1.1120e-05],
+       device='cuda:0', requires_grad=True)
+2024-01-02 12:20:42,262 - main1.py[line:187] - End dev,spend time 1728.2779469490051.
+ F1 value is {'PER': 0.86400873839432, 'LOC': 0.8729439809296782, 'ORG': 0.7886685552407932, 'MIS': 0.6654343807763402} ,total_F1 is 0.8154379750571914,eval  epoch: 16|  loss: 0.007028318463631396.
+2024-01-02 12:20:42,262 - main1.py[line:188] - -----------------------------End 16 epoch train---------------------------------
+2024-01-02 12:20:46,700 - main1.py[line:91] - -------------------------------start 17 epoch train-----------------------------------
+2024-01-09 12:33:42,701 - main1_test_2.py[line:32] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:1e-05
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:1e-05
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2024-01-09 12:34:23,530 - main1_test_2.py[line:91] - -------------------------------start 0 epoch train-----------------------------------
+2024-01-09 14:16:53,565 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||0
+2024-01-09 14:16:53,630 - main1_test_2.py[line:129] - End 0 epoch train,spend time 6150.097521781921.
+The arch_parmeters is tensor([-0.7598, -0.1475,  1.0176, -1.0301,  0.2548,  0.3000, -0.5198,  0.1878,
+         0.0062, -0.3196], device='cuda:0', requires_grad=True)
+2024-01-09 14:29:36,832 - main1_test_2.py[line:187] - End dev,spend time 763.2021551132202.
+ F1 value is {'PER': 0.3131565782891446, 'LOC': 0.42312072892938496, 'ORG': 0.14051325199831718, 'MIS': 0.0} ,total_F1 is 0.282560706401766,eval  epoch: 0|  loss: 0.02243418311173061.
+2024-01-09 14:29:36,832 - main1_test_2.py[line:188] - -----------------------------End 0 epoch train---------------------------------
+2024-01-09 14:29:41,568 - main1_test_2.py[line:91] - -------------------------------start 1 epoch train-----------------------------------
+2024-01-09 16:10:55,090 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||1
+2024-01-09 16:10:55,112 - main1_test_2.py[line:129] - End 1 epoch train,spend time 6073.54264831543.
+The arch_parmeters is tensor([-7.5768e-01, -1.4209e-01,  1.0109e+00, -1.0234e+00,  2.4814e-01,
+         2.9334e-01, -5.1310e-01,  1.8108e-01,  5.4348e-06, -3.1279e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-09 16:23:34,556 - main1_test_2.py[line:187] - End dev,spend time 759.443297624588.
+ F1 value is {'PER': 0.89573840793353, 'LOC': 0.6923243243243243, 'ORG': 0.6120481927710844, 'MIS': 0.2884927066450568} ,total_F1 is 0.6918667699457784,eval  epoch: 1|  loss: 0.009304769702677457.
+2024-01-09 16:23:34,556 - main1_test_2.py[line:188] - -----------------------------End 1 epoch train---------------------------------
+2024-01-09 16:23:38,701 - main1_test_2.py[line:91] - -------------------------------start 2 epoch train-----------------------------------
+2024-01-09 18:04:15,185 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||2
+2024-01-09 18:04:15,208 - main1_test_2.py[line:129] - End 2 epoch train,spend time 6036.506308794022.
+The arch_parmeters is tensor([-7.5043e-01, -1.3452e-01,  1.0041e+00, -1.0169e+00,  2.4160e-01,
+         2.8679e-01, -5.0650e-01,  1.7447e-01,  1.7502e-06, -3.0612e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-09 18:16:52,249 - main1_test_2.py[line:187] - End dev,spend time 757.0411050319672.
+ F1 value is {'PER': 0.9286300246103364, 'LOC': 0.8597896845267903, 'ORG': 0.7579545454545455, 'MIS': 0.6122448979591836} ,total_F1 is 0.8185627813130529,eval  epoch: 2|  loss: 0.006265790113862956.
+2024-01-09 18:16:52,249 - main1_test_2.py[line:188] - -----------------------------End 2 epoch train---------------------------------
+2024-01-09 18:16:56,836 - main1_test_2.py[line:91] - -------------------------------start 3 epoch train-----------------------------------
+2024-01-09 20:00:20,524 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||3
+2024-01-09 20:00:20,547 - main1_test_2.py[line:129] - End 3 epoch train,spend time 6203.7095284461975.
+The arch_parmeters is tensor([-7.4967e-01, -1.3377e-01,  1.0035e+00, -1.0162e+00,  2.4095e-01,
+         2.8613e-01, -5.0584e-01,  1.7381e-01, -1.5053e-07, -3.0546e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-09 20:13:11,812 - main1_test_2.py[line:187] - End dev,spend time 771.2643072605133.
+ F1 value is {'PER': 0.9409141583054627, 'LOC': 0.9044649538538287, 'ORG': 0.7931128723694998, 'MIS': 0.6452830188679246} ,total_F1 is 0.8508485131558463,eval  epoch: 3|  loss: 0.0051684292982209406.
+2024-01-09 20:13:11,812 - main1_test_2.py[line:188] - -----------------------------End 3 epoch train---------------------------------
+2024-01-09 20:13:16,062 - main1_test_2.py[line:91] - -------------------------------start 4 epoch train-----------------------------------
+2024-01-09 21:58:35,865 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||4
+2024-01-09 21:58:35,889 - main1_test_2.py[line:129] - End 4 epoch train,spend time 6319.824752569199.
+The arch_parmeters is tensor([-7.4892e-01, -1.3304e-01,  1.0028e+00, -1.0156e+00,  2.4029e-01,
+         2.8547e-01, -5.0518e-01,  1.7314e-01, -4.3781e-07, -3.0480e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-09 22:11:15,940 - main1_test_2.py[line:187] - End dev,spend time 760.0505583286285.
+ F1 value is {'PER': 0.9452354874041621, 'LOC': 0.9151530231400846, 'ORG': 0.8051719071407583, 'MIS': 0.6819172113289761} ,total_F1 is 0.8615027110766847,eval  epoch: 4|  loss: 0.004570548376947079.
+2024-01-09 22:11:15,940 - main1_test_2.py[line:188] - -----------------------------End 4 epoch train---------------------------------
+2024-01-09 22:11:20,145 - main1_test_2.py[line:91] - -------------------------------start 5 epoch train-----------------------------------
+2024-01-09 23:52:37,312 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||5
+2024-01-09 23:52:37,336 - main1_test_2.py[line:129] - End 5 epoch train,spend time 6077.189372301102.
+The arch_parmeters is tensor([-7.4821e-01, -1.3234e-01,  1.0021e+00, -1.0150e+00,  2.3963e-01,
+         2.8481e-01, -5.0452e-01,  1.7248e-01, -6.0898e-08, -3.0413e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-10 00:05:17,066 - main1_test_2.py[line:187] - End dev,spend time 759.7304418087006.
+ F1 value is {'PER': 0.9483465427712491, 'LOC': 0.9209932279909707, 'ORG': 0.8200589970501475, 'MIS': 0.7110389610389611} ,total_F1 is 0.8720894132257063,eval  epoch: 5|  loss: 0.004222948933547398.
+2024-01-10 00:05:17,066 - main1_test_2.py[line:188] - -----------------------------End 5 epoch train---------------------------------
+2024-01-10 00:05:21,207 - main1_test_2.py[line:91] - -------------------------------start 6 epoch train-----------------------------------
+2024-01-10 01:46:36,234 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||6
+2024-01-10 01:46:36,258 - main1_test_2.py[line:129] - End 6 epoch train,spend time 6075.050139904022.
+The arch_parmeters is tensor([-7.4814e-01, -1.3227e-01,  1.0021e+00, -1.0149e+00,  2.3956e-01,
+         2.8475e-01, -5.0444e-01,  1.7241e-01, -1.3664e-08, -3.0407e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-10 01:59:17,878 - main1_test_2.py[line:187] - End dev,spend time 761.6195650100708.
+ F1 value is {'PER': 0.9489571899012075, 'LOC': 0.928607853136155, 'ORG': 0.8386376326074818, 'MIS': 0.6960000000000001} ,total_F1 is 0.8778105132578694,eval  epoch: 6|  loss: 0.003953978700457879.
+2024-01-10 01:59:17,878 - main1_test_2.py[line:188] - -----------------------------End 6 epoch train---------------------------------
+2024-01-10 01:59:22,390 - main1_test_2.py[line:91] - -------------------------------start 7 epoch train-----------------------------------
+2024-01-10 03:40:49,072 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||7
+2024-01-10 03:40:49,099 - main1_test_2.py[line:129] - End 7 epoch train,spend time 6086.708272695541.
+The arch_parmeters is tensor([-7.4807e-01, -1.3220e-01,  1.0020e+00, -1.0148e+00,  2.3950e-01,
+         2.8469e-01, -5.0436e-01,  1.7234e-01,  3.0719e-08, -3.0401e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-10 03:53:33,162 - main1_test_2.py[line:187] - End dev,spend time 764.0621721744537.
+ F1 value is {'PER': 0.9503275109170306, 'LOC': 0.931182253592135, 'ORG': 0.8474674384949349, 'MIS': 0.7216035634743876} ,total_F1 is 0.8849557522123894,eval  epoch: 7|  loss: 0.0038442951328349563.
+2024-01-10 03:53:33,163 - main1_test_2.py[line:188] - -----------------------------End 7 epoch train---------------------------------
+2024-01-10 03:53:37,404 - main1_test_2.py[line:91] - -------------------------------start 8 epoch train-----------------------------------
+2024-01-10 05:35:04,066 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||8
+2024-01-10 05:35:04,093 - main1_test_2.py[line:129] - End 8 epoch train,spend time 6086.688364505768.
+The arch_parmeters is tensor([-7.4799e-01, -1.3213e-01,  1.0019e+00, -1.0147e+00,  2.3943e-01,
+         2.8463e-01, -5.0428e-01,  1.7227e-01,  3.5511e-08, -3.0395e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-10 05:47:44,781 - main1_test_2.py[line:187] - End dev,spend time 760.687427520752.
+ F1 value is {'PER': 0.9517353579175705, 'LOC': 0.9337349397590361, 'ORG': 0.8455988455988456, 'MIS': 0.7451843698403964} ,total_F1 is 0.888837424733673,eval  epoch: 8|  loss: 0.0036420879498967585.
+2024-01-10 05:47:44,781 - main1_test_2.py[line:188] - -----------------------------End 8 epoch train---------------------------------
+2024-01-10 05:47:49,022 - main1_test_2.py[line:91] - -------------------------------start 9 epoch train-----------------------------------
+2024-01-10 07:29:29,862 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||9
+2024-01-10 07:29:29,893 - main1_test_2.py[line:129] - End 9 epoch train,spend time 6100.869121551514.
+The arch_parmeters is tensor([-7.4799e-01, -1.3212e-01,  1.0019e+00, -1.0147e+00,  2.3942e-01,
+         2.8463e-01, -5.0428e-01,  1.7226e-01, -8.9707e-10, -3.0395e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-10 07:42:11,217 - main1_test_2.py[line:187] - End dev,spend time 761.3247680664062.
+ F1 value is {'PER': 0.9494505494505494, 'LOC': 0.9311308767471411, 'ORG': 0.8520204894706886, 'MIS': 0.7424822307271732} ,total_F1 is 0.8880631676730143,eval  epoch: 9|  loss: 0.0035409813781954206.
+2024-01-10 07:42:11,217 - main1_test_2.py[line:188] - -----------------------------End 9 epoch train---------------------------------
+2024-01-10 07:42:15,417 - main1_test_2.py[line:91] - -------------------------------start 10 epoch train-----------------------------------
+2024-01-10 09:23:35,219 - main1_test_2.py[line:125] - [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]|||[0, 1, 2, 3, 4, 5, 6, 7, 9]|||10
+2024-01-10 09:23:35,250 - main1_test_2.py[line:129] - End 10 epoch train,spend time 6079.832141160965.
+The arch_parmeters is tensor([-7.4799e-01, -1.3211e-01,  1.0019e+00, -1.0147e+00,  2.3941e-01,
+         2.8463e-01, -5.0428e-01,  1.7225e-01, -2.4591e-09, -3.0395e-01],
+       device='cuda:0', requires_grad=True)
+2024-01-10 09:36:16,666 - main1_test_2.py[line:187] - End dev,spend time 761.4150371551514.
+ F1 value is {'PER': 0.9493392070484582, 'LOC': 0.933964615001246, 'ORG': 0.8506071731149393, 'MIS': 0.7460674157303372} ,total_F1 is 0.8897115532932286,eval  epoch: 10|  loss: 0.003452731022294962.
+2024-01-10 09:36:16,666 - main1_test_2.py[line:188] - -----------------------------End 10 epoch train---------------------------------
+2024-01-10 09:36:21,145 - main1_test_2.py[line:91] - -------------------------------start 11 epoch train-----------------------------------
+2024-01-10 10:04:54,280 - main1_test_2.py[line:32] - µ±«∞…Ë÷√Œ™:label_file:data3/tag
+train_file:data3/train_t1.txt
+dev_file:data3/valid_t.txt
+test_file:data3/test_t.txt
+vocab:./data1/bert/vocab.txt
+entity_list:data3/entity_list
+max_length:100
+use_cuda:True
+gpu:0
+batch_size:16
+bert_path:data1/bert
+rnn_hidden:500
+bert_embedding:768
+dropout1:0.5
+dropout_ratio:0.5
+rnn_layer:1
+lr:5e-05
+lr_decay:0.001
+weight_decay:0.0005
+checkpoint:result/
+optim:Adam
+load_model:False
+load_path:None
+base_epoch:100
+momentum:(0.9, 0.999)
+network_weight_decay:0.001
+arch_learning_rate:5e-05
+arch_weight_decay:0.0005
+L1_weight:0.1
+unrolled:False
+choosed:False
+embedding_select:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+regular_used:True
+total_epoch:0
+all_embedding_used:False
+searching_embeddings:True
+dataset_config:{'data_folder': 'C:\\Users\\Administrator\\Desktop\\ACE-main\\datasets\\conll_03_english', 'column_format': {0: 'text', 1: 'pos', 2: 'chunk', 3: 'ner'}}
+
+2024-01-10 10:05:21,364 - main1_test_2.py[line:91] - -------------------------------start 0 epoch train-----------------------------------

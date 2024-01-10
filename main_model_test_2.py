@@ -180,7 +180,7 @@ class MixedOp(nn.Module):
         # a=time()
         if config_class.all_embedding_used==False:
             # weights = F.softmax(weights,-1)
-            weights=(weights-torch.mean(weights))/(torch.max(weights)-torch.min(weights))*2
+            weights=(1/(torch.exp(-1*weights)+1))*2-1
         else:
             weights=torch.ones_like(weights)
         weight_embedding_sentence=[]
