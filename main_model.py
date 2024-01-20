@@ -178,17 +178,24 @@ class MixedOp(nn.Module):
         sentences = [Sentence(i) for i in x]
         self.stack_embedding.embed(sentences)
         # a=time()
+        change_mask = torch.ones(len(self.embeddings_list))
         if config_class.all_embedding_used==False:
             # weights = F.softmax(weights,-1)
             weights=(weights-torch.mean(weights))/(torch.max(weights)-torch.min(weights))*2
         else:
             weights=torch.ones_like(weights)
+
+        if config_class.regular_used==False:
+            for i in config_class.embedding_select:
+                change_mask[i]=0
+            weights.masked_fill(change_mask,0)
         weight_embedding_sentence=[]
-        # print(len(self._ops),'qwerqwerq')
         for sentence in sentences:
             weight_embedding_token=[]
             for token in sentence.tokens:
                 weight_embedding_token.append(torch.cat([token._embeddings[self.embeddings_list[i].name].to(device)*weights[i] for i in range(len(self.embeddings_list))]))
+                if config_class.regular_used==False:
+                    weight_embedding_token.append(torch.cat([token._embedding[self.embeddings_list[i].name].to(device)*weights[i] for i in range(len(self.embeddings_list))]))
             weight_embedding_sentence.append(torch.stack(weight_embedding_token))
         result=torch.stack(weight_embedding_sentence).to(device)
         # result=torch.cat([result,elmo_embeddings],2)

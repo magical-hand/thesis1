@@ -84,6 +84,7 @@ def train(**kwargs):
     # 模拟训练15000步
     warmup_steps = max_steps*0.05
     init_lr = config.lr
+    delect=0
     embeddings_file=open("embeddings_select".format(datetime.now().strftime('%Y-%m-%d_%H_%M_%S')), 'w')
     for epoch in range(config.base_epoch):
         step = 0
@@ -116,6 +117,10 @@ def train(**kwargs):
             # arch_train(inputs,tags,masks,dev_loader,architect,config.unrolled,config.arch_learning_rate,optimizer_real)
             if config.all_embedding_used==False:
                 arch_train(inputs, tags, masks, dev_loader, architect, config.unrolled, config.arch_learning_rate,optimizer_real)
+            if config_class.regular_used==False:
+                val_,tuple_indices=model.arch_parameters().topk(2,largest=False)
+                for i in tuple_indices:
+                    config_class.embedding_select.remove(i)
         plt.plot(total_step_list, loss_list, '-y')
         if config.searching_embeddings:
             arch_selected = []

@@ -22,7 +22,7 @@ class Config(object):
         self.rnn_layer = 1
         self.lr = 0.00005
         self.lr_decay = 0.001
-        self.weight_decay = 0.0005
+        self.weight_decay = 0.00005
         self.checkpoint = 'result/'
         self.optim = 'Adam'
         self.load_model = False
